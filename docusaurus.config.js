@@ -3,15 +3,15 @@ const math = require('remark-math')
 const katex = require('rehype-katex')
 
 module.exports = {
-  title: 'Yearn.finance',
+  title: 'Yeeldx',
   tagline: 'DeFi made simple',
-  url: 'https://docs.yearn.finance',
+  url: 'https://docs.yeeldx.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'yearn', // Usually your GitHub org/user name.
-  projectName: 'yearn-devdocs', // Usually your repo name.
+  projectName: 'yeeldbox-devdocs', // Usually your repo name.
   themeConfig: {
     algolia: {
       apiKey: process.env.ALGOLIA_API_KEY || 'UNKNOWN',
@@ -28,16 +28,16 @@ module.exports = {
       {
         name: 'twitter:card',
         content:
-          'Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain.',
+          'Yeeldx Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain.',
       },
       {
         name: 'git-url',
-        content: 'https://github.com/yearn/yearn-devdocs'
+        content: 'https://github.com/Yeeldx/yeeldbox-devdocs'
       }
     ],
     navbar: {
       hideOnScroll: true,
-      title: 'Yearn Finance',
+      title: 'Yeeldx Finance',
       logo: {
         alt: 'YFI Logo',
         src: 'img/logo.svg',
