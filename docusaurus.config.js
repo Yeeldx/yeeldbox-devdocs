@@ -10,7 +10,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'yearn', // Usually your GitHub org/user name.
+  organizationName: 'yeeldx', // Usually your GitHub org/user name.
   projectName: 'yeeldbox-devdocs', // Usually your repo name.
   themeConfig: {
     algolia: {
@@ -93,7 +93,7 @@ module.exports = {
           items: [
             {
               label: 'Open Issues',
-              href: 'https://contribute.yearn.rocks/',
+              href: 'https://contribute.yeeldx.rocks/',
             },
             {
               label: '#strategies - Discord',
@@ -105,28 +105,28 @@ module.exports = {
           title: 'Github',
           items: [
             {
-              label: 'yearn-vaults',
-              href: 'https://github.com/yearn/yearn-vaults',
+              label: 'yeeldx-vaults',
+              href: 'https://github.com/yeeldx/yeeldx-vaults',
             },
             {
               label: 'brownie-strategy-mix',
-              href: 'https://github.com/yearn/brownie-strategy-mix',
+              href: 'https://github.com/yeeldx/brownie-strategy-mix',
             },
             {
               label: 'brownie-wrapper-mix',
-              href: 'https://github.com/yearn/brownie-wrapper-mix',
+              href: 'https://github.com/yeeldx/brownie-wrapper-mix',
             },
             {
-              label: 'yearn-watch',
-              href: 'https://github.com/yearn/yearn-watch',
+              label: 'yeeldx-watch',
+              href: 'https://github.com/yeeldx/yeeldx-watch',
             },
             {
-              label: 'yearn-finance-v3',
-              href: 'https://github.com/yearn/yearn-finance-v3',
+              label: 'yeeldx-finance-v3',
+              href: 'https://github.com/yeeldx/yeeldx-finance-v3',
             },
             {
-              label: 'yearn-security',
-              href: 'https://github.com/yearn/yearn-security',
+              label: 'yeeldx-security',
+              href: 'https://github.com/yeeldx/yeeldx-security',
             },
           ],
         },
@@ -135,7 +135,7 @@ module.exports = {
           items: [
             {
               label: 'Vaults',
-              href: 'https://yearn.finance/vaults',
+              href: 'https://yeeldx.finance/vaults',
             },
             {
               label: 'YFI Stats',
@@ -160,7 +160,7 @@ module.exports = {
             },
             {
               label: 'Telegram',
-              href: 'https://t.me/yearnfinance/',
+              href: 'https://t.me/yeeldxfinance/',
             },
             {
               label: 'Medium',
@@ -168,7 +168,7 @@ module.exports = {
             },
             {
               label: 'Forum',
-              href: 'https://gov.yearn.finance',
+              href: 'https://gov.yeeldx.finance',
             },
             {
               label: 'Snapshot voting',
@@ -190,7 +190,7 @@ module.exports = {
           routeBasePath: 'vaults',
           sidebarPath: require.resolve('./sidebars/sidebars.js'),
           editUrl:
-            'https://github.com/yearn/yearn-devdocs/edit/master/website/',
+            'https://github.com/yeeldx/yeeldx-devdocs/edit/master/website/',
           includeCurrentVersion: false,
           breadcrumbs: false,
         },
