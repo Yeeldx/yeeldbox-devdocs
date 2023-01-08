@@ -1,4 +1,4 @@
-# Using Yearn
+# Using Yeeldx
 
 Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token.
 
@@ -10,7 +10,7 @@ First, **Connect your wallet** using the button at the top right corner. Multipl
   <img width="900" height="305" src="https://i.imgur.com/XolXLi4.png" className="topRightImg"/>
 </p>
 
-## Yearn is multi-chain
+## Yeeldx is multi-chain
 
 Our products are currently on Ethereum, Fantom, and Arbitrum with more to come.
 
@@ -55,13 +55,13 @@ When you're ready to withdraw:
 
 ## If you **don't have the required token** for the vault that you would like to deposit in:
 
-This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](https://curve.fi/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool.
+This can be a common occurrence, because many of Yeeldx's vaults generate yield by using [Curve Finance](https://curve.fi/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool.
 
 So for instance, if you would rather deposit into the ibJPY vault instead of the ETH vault, and accept the additional risk that comes with the curve pool and an ETH derivative (stETH) in return for higher yield, but you only have ETH in your wallet, your ETH will need to be converted to a ibJPY token before it is accepted in the vault.
 
-Thankfully, due to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the ibJPY vault as an example:
+Thankfully, due to Yeeldx's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the ibJPY vault as an example:
 
-**NOTE:** Zapping a token into a vault will require more transactions than depositing the native token. This means you will be paying more in gas and potentially lose value to slippage when the token is swapped or deposited into a pool. Yearn limits slippage to 1% and the transaction will fail if slippage exceeds that, in which case you will have to swap or deposit the tokens manually. See our [zap](https://docs.yearn.finance/getting-started/products/yvaults/overview#zap-in-with-any-asset) section for more details.
+**NOTE:** Zapping a token into a vault will require more transactions than depositing the native token. This means you will be paying more in gas and potentially lose value to slippage when the token is swapped or deposited into a pool. Yeeldx limits slippage to 1% and the transaction will fail if slippage exceeds that, in which case you will have to swap or deposit the tokens manually. See our [zap](https://docs.Yeeldx.finance/getting-started/products/yvaults/overview#zap-in-with-any-asset) section for more details.
 
 1. Select the ibJPY vault
 2. Click the dropdown box by the 'Approve' or 'Deposit' button
@@ -91,15 +91,15 @@ When you're ready to withdraw:
 
 ## Customization
 
-Personalize your Yearn experience with customizations, in [Settings](https://yearn.finance/#/settings).
+Personalize your Yeeldx experience with customizations, in [Settings](https://Yeeldx.finance/#/settings).
 <p align="center">
   <img width="900" src="https://i.imgur.com/Ujduvty.png"/>
 </p>
 
 ### Slippage Tolerance
-Change your slippage preferences to one of three preset options listed. Learn more about slippage [here](https://docs.yearn.finance/resources/defi-glossary#slippage)
+Change your slippage preferences to one of three preset options listed. Learn more about slippage [here](https://docs.Yeeldx.finance/resources/defi-glossary#slippage)
 ### Themes
-View Yearn.Finance with community-created themes or [create a custom theme](https://github.com/yearn/yearn-finance-v3/tree/develop/src/client/themes) to suit your style.
+ViewYeeldx.Finance with community-created themes or [create a custom theme](https://github.com/Yeeldx/Yeeldx-finance-v3/tree/develop/src/client/themes) to suit your style.
 
 ## Tools to track your funds
 
