@@ -1,6 +1,6 @@
 # Vault Tokens
 
-[yVault Tokens](https://docs.yearn.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
+[yVault Tokens](https://docs.Yeeldx.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
 
 **For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
 
@@ -37,7 +37,7 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | crvLUSD | [Curve LUSD Pool](https://etherscan.io/token/0xed279fdd11ca84beef15af5d39bb4d4bee23f0ca) | [yvCurve-LUSD](https://etherscan.io/token/0x5fA5B62c8AF877CB37031e0a3B2f34A78e3C56A6) | 
 | crvSAAVE | [Curve sAave Pool](https://etherscan.io/token/0x02d341ccb60faaf662bc0554d13778015d1b285c) | [yvCurve-sAave](https://etherscan.io/token/0xb4D1Be44BfF40ad6e506edf43156577a3f8672eC) | 
 | crvBBTC | [Curve BBTC Pool](https://etherscan.io/token/0x410e3e86ef427e30b9235497143881f717d93c2a) | [yvCurve-BBTC](https://etherscan.io/token/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | 
-| yvBOOST | [Yearn Compounding veCRV](https://etherscan.io/token/0xc5bddf9843308380375a611c18b50fb9341f502a) | [yvBOOST](https://etherscan.io/token/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | 
+| yvBOOST | [Yeeldx Compounding veCRV](https://etherscan.io/token/0xc5bddf9843308380375a611c18b50fb9341f502a) | [yvBOOST](https://etherscan.io/token/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | 
 
 ## V1 yVault Tokens
 
