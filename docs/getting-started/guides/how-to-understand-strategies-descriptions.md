@@ -1,21 +1,21 @@
 # How to Understand Strategies Descriptions
 
-While reading the strategy descriptions at [yearn.watch↗](https://yearn.watch/) or [vaults.yearn.finance↗](https://vaults.yearn.finance/) you may come across unfamiliar terms. But do not fear, like a DeFi Duolingo, Yearn is here to help you navigate these strange semantic waters. So buckle in and let's learn the lingo of strategies.
+While reading the strategy descriptions at [Yeeldx.watch↗](https://Yeeldx.watch/) or [vaults.Yeeldx.finance↗](https://vaults.Yeeldx.finance/) you may come across unfamiliar terms. But do not fear, like a DeFi Duolingo, Yeeldx is here to help you navigate these strange semantic waters. So buckle in and let's learn the lingo of strategies.
 
-This guide focuses primarily on strategy descriptions, but those thirsty for more DeFi jargon can see our broader [glossary↗](https://docs.yearn.finance/resources/defi-glossary).
+This guide focuses primarily on strategy descriptions, but those thirsty for more DeFi jargon can see our broader [glossary↗](https://docs.Yeeldx.finance/resources/defi-glossary).
 
 - Regular links navigate between the glossary.
 - Links marked with ↗ go to external websites.
 
-# Yearn
+# Yeeldx
 
-### yVault / Yearn Vault
+### yVault / Yeeldx Vault
 - [Smart contract↗](https://ethereum.org/en/developers/docs/smart-contracts/) that holds user deposits and allocates into different strategies (up to 20 in the current version 2).
 ### Token
 - Token is any [ERC20-compatible↗](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) DeFi token.
 ### yvToken
-- Yearn Vault Token (yvToken) is an ERC20-compatible token that represents a [position](#position) in a Yearn Vault.
-- For example: yvDAI represents a position in the DAI Yearn Vault.
+- Yeeldx Vault Token (yvToken) is an ERC20-compatible token that represents a [position](#position) in a Yeeldx Vault.
+- For example: yvDAI represents a position in the DAI Yeeldx Vault.
 ### Strategy
 - A [smart contract↗](https://ethereum.org/en/developers/docs/smart-contracts/) that knows how to allocate funds into a specific [yield](#yield--profit)-generating automated operation.
 ### Strategist
@@ -56,7 +56,7 @@ This guide focuses primarily on strategy descriptions, but those thirsty for mor
 # DeFi
 
 ### Yield Aggregator / Yield Optimizer
-- DeFi protocols like Yearn that provides a single interface to allocate capital in different yield sources, leveraging [autocompounding](#compound--autocompound) to improve the [yield](#yield--profit).
+- DeFi protocols like Yeeldx that provides a single interface to allocate capital in different yield sources, leveraging [autocompounding](#compound--autocompound) to improve the [yield](#yield--profit).
 ### Supply / Deposit / Stake
 - Might be used interchangeably sometimes, but it often means that tokens are sent to a contract external to the current wallet.
 - Supply often means that the money is being [lent](#lend--borrow-against)
