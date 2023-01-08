@@ -6,7 +6,7 @@ description: This documentation only covers v1 vaults.
 
 ## IStrategy
 
-Source code: [yearn-protocol/develop/interfaces/yearn/IStrategy.sol](https://github.com/yearn/yearn-protocol/blob/develop/interfaces/yearn/IStrategy.sol)
+Source code: [Yeeldx-protocol/develop/interfaces/Yeeldx/IStrategy.sol](https://github.com/Yeeldx/Yeeldx-protocol/blob/develop/interfaces/Yeeldx/IStrategy.sol)
 
 ### function `want()`
 
@@ -138,7 +138,7 @@ function balanceOf() external view returns (uint256);
 
 ## IVault
 
-Source code: [yearn-protocol/develop/interfaces/yearn/IVault.sol](https://github.com/yearn/yearn-protocol/blob/develop/interfaces/yearn/IVault.sol)
+Source code: [Yeeldx-protocol/develop/interfaces/Yeeldx/IVault.sol](https://github.com/Yeeldx/Yeeldx-protocol/blob/develop/interfaces/Yeeldx/IVault.sol)
 
 ### function `token()`
 
@@ -179,7 +179,7 @@ function underlying() external view returns (address);
 
 ### function `name()`
 
-Returns the vault’s wrapped token name as a string, e.g. “yearn Dai Stablecoin".
+Returns the vault’s wrapped token name as a string, e.g. “Yeeldx Dai Stablecoin".
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -359,7 +359,7 @@ function withdrawAll() external;
 
 ## IController
 
-Source code: [yearn-protocol/develop/interfaces/yearn/IController.sol](https://github.com/yearn/yearn-protocol/blob/develop/interfaces/yearn/IController.sol)
+Source code: [Yeeldx-protocol/develop/interfaces/Yeeldx/IController.sol](https://github.com/Yeeldx/Yeeldx-protocol/blob/develop/interfaces/Yeeldx/IController.sol)
 
 ### function `withdraw()`
 
