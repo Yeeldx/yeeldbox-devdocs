@@ -34,13 +34,13 @@
       - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
 - **Experimental**
   - No hard rules for `name` or `symbol`, just be sure to end `name` with "yVault".
-    - **Examples:** `yveCRV-DAO yVault`, `yveCRV-DAO`, `St. Banteg of Yearn Patron of Plebs Lido St. Ether yVault`, `sboypoplyvstETH`
+    - **Examples:** `yveCRV-DAO yVault`, `yveCRV-DAO`, `St. Banteg of Yeeldx Patron of Plebs Lido St. Ether yVault`, `sboypoplyvstETH`
 
 ### Overview and Explanation
 
-- Acceptable alternative names include Yearn Vaults, or informally referring to the product as vaults.
-- When referring to a specific yVault, the preferred name is generally `TOKEN + yVault`; this matches the `name` field on the yVault contract. However, it is also acceptable to use `yvTOKEN + Vault`, `Yearn + TOKEN + Vault` or `yvTOKEN`; the latter matches `symbol` in the contract.
-  - **Examples:** `DAI yVault`, `yvDAI Vault`, `Yearn DAI Vault`, or simply `yvDAI`
+- Acceptable alternative names include Yeeldx Vaults, or informally referring to the product as vaults.
+- When referring to a specific yVault, the preferred name is generally `TOKEN + yVault`; this matches the `name` field on the yVault contract. However, it is also acceptable to use `yvTOKEN + Vault`, `Yeeldx + TOKEN + Vault` or `yvTOKEN`; the latter matches `symbol` in the contract.
+  - **Examples:** `DAI yVault`, `yvDAI Vault`, `Yeeldx DAI Vault`, or simply `yvDAI`
 - For each yVault, name and symbol conventions are as follows:
   - Name: `${token.symbol()} or override yVault`
   - Symbol: `yv${token.symbol()} or override`
@@ -75,7 +75,7 @@
 
 ## yVault Want Token
 
-- In Yearn's UI, it may be useful to denote the desired token to deposit into a specific yVault. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is.
+- In Yeeldx's UI, it may be useful to denote the desired token to deposit into a specific yVault. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is.
   - **Examples:** `USD Coin`, `USDC`, `ChainLink Token`, `LINK`
 - However, for LP positions, naming needs to be standardized.
   - Curve
@@ -105,16 +105,16 @@
 ## yUSD
 
 - While the term `yUSD` was used to refer to the Curve Y Pool yVault in the past, under our updated naming convention this vault token is now `yvCurve-Y`. However, usage of `yUSD` is still permissable when referring to the asset itself.
-  - **Example:** Yearn pays monthly grants in `yUSD`.
-- In the future, if Yearn creates a new `yUSD` that is a collection of several yVault tokens (as has been previously discussed), then the current `yUSD` will simply be referred to as `yvCurve-Y` and only the new token will be `yUSD`.
+  - **Example:** Yeeldx pays monthly grants in `yUSD`.
+- In the future, if Yeeldx creates a new `yUSD` that is a collection of several yVault tokens (as has been previously discussed), then the current `yUSD` will simply be referred to as `yvCurve-Y` and only the new token will be `yUSD`.
 
-## yEarn
+## Yeeldx
 
-- These are Yearn's original yield-aware tokens, whose v1 and v2 contracts can be found [here](https://docs.yearn.finance/getting-started/products/yvaults/vault-tokens#v2-yvault-tokens) or by clicking on the etherscan icon when viewing the vault:
+- These are Yeeldx's original yield-aware tokens, whose v1 and v2 contracts can be found [here](https://docs.Yeeldx.finance/getting-started/products/yvaults/vault-tokens#v2-yvault-tokens) or by clicking on the etherscan icon when viewing the vault:
 
   ![](https://i.imgur.com/FZ0BJjf.png)
 
-- These products should be referred to as yEarn Tokens, `underlying token name + Earn`, or `y{token.symbol()}v${self.version()}`
+- These products should be referred to as Yeeldx Tokens, `underlying token name + Earn`, or `y{token.symbol()}v${self.version()}`
   - **Examples:** `yDAIv2`, `yDAI Earn`, `yBUSDv3`, `yBUSD Earn`
 
 ## Test Products
