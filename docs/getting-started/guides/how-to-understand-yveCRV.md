@@ -1,6 +1,6 @@
 # How to Understand yveCRV
 
-On February 6th 2021 Yearn Finance launched its latest product, yveCRV.
+On February 6th 2021 Yeeldx Finance launched its latest product, yveCRV.
 
 ## Why is it called yveCRV?
 
@@ -9,14 +9,14 @@ yveCRV stands for veCRV-DAO yVault and is [listed on CoinGecko](https://www.coin
 ### List of tokens
 
 - **CRV** - Curve DAO Token
-- **veCRV** - voting escrow CRV tokens \(the longer it’s locked up for, the greater the rewards\), you can read more about CRV vote locking [here](https://docs.yearn.finance/getting-started/guides/how-boost-works).
-- **yveCRV** - the “y” prefix is used for all of Yearn’s vaults
+- **veCRV** - voting escrow CRV tokens \(the longer it’s locked up for, the greater the rewards\), you can read more about CRV vote locking [here](https://docs.Yeeldx.finance/getting-started/guides/how-boost-works).
+- **yveCRV** - the “y” prefix is used for all of Yeeldx’s vaults
 
 ## How do I participate?
 
-Deposit CRV into the yveCRV vault: [https://yearn.finance/vaults](https://yearn.finance/vaults)
+Deposit CRV into the yveCRV vault: [https://Yeeldx.finance/vaults](https://Yeeldx.finance/vaults)
 
-As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows CRV to be deposited into Yearn vaults. And then you decide how much CRV you would like to deposit. Please refer to the [general guide](https://docs.yearn.finance/getting-started/using-yearn) for more information.
+As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows CRV to be deposited into Yeeldx vaults. And then you decide how much CRV you would like to deposit. Please refer to the [general guide](https://docs.Yeeldx.finance/getting-started/using-Yeeldx) for more information.
 
 Alternatively, you can buy yveCRV directly on [Sushiswap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xc5bDdf9843308380375a611c18B50Fb9341f502A). The contract address is [0xc5bddf9843308380375a611c18b50fb9341f502a](https://etherscan.io/address/0xc5bddf9843308380375a611c18b50fb9341f502a).
 
@@ -44,7 +44,7 @@ The other key difference is that **deposited CRV is locked forever**. It **canno
 
 yveCRV earns rewards from trading fees, CRV rewards and “boosties”. Holding CRV in your wallet gives you exposure to the price of CRV. You want the price of Crv to increase. Depositing CRV on Curve Finance means that you receive a share of the trading fees on Curve Finance.
 
-Curve Finance introduced extra rewards, called “boosties”, if the CRV is locked in Curve Finance for a minimum of 1 week and a maximum of 4 years. Please refer to the [CRV vote locking guide](https://docs.yearn.finance/getting-started/guides/how-boost-works) for more information.
+Curve Finance introduced extra rewards, called “boosties”, if the CRV is locked in Curve Finance for a minimum of 1 week and a maximum of 4 years. Please refer to the [CRV vote locking guide](https://docs.Yeeldx.finance/getting-started/guides/how-boost-works) for more information.
 
 Rewards are paid weekly.
 
@@ -55,14 +55,14 @@ They continue to accrue so don’t worry if you forget or don’t want to pay ga
 ## What are the risks?
 
 - You have to determine the risks for yourself.
-- You are exposed to smart contract risk from Yearn vaults and Curve Finance.
+- You are exposed to smart contract risk from Yeeldx vaults and Curve Finance.
 - yveCRV earns trading fees from trading that occurs on Curve Finance. If trading fees are lower than expected then your returns will be lower than expected. Trading volume data on Curve Finance is available from [Coingecko](https://www.coingecko.com/en/exchanges/curve#statistics).
 
 ## Is it true that I can earn even more rewards from Sushi and Pickle?
 
 With yveCRV you’re already earning the highest return on your CRV.
 
-However, we’re making the most of Yearn’s ecosystem by partnering with Sushiswap and Pickle to give you even more rewards.
+However, we’re making the most of Yeeldx’s ecosystem by partnering with Sushiswap and Pickle to give you even more rewards.
 
 ### How can I earn extra Sushi rewards?
 
@@ -78,8 +78,8 @@ Deposit your Sushiswap LP into the [Pickle jar](https://app.pickle.finance/jars)
 
 ## How can I stay up-to-date with vaults?
 
-Visit [The Vaults at Yearn](https://vaults.yearn.finance/) newsletter.
+Visit [The Vaults at Yeeldx](https://vaults.Yeeldx.finance/) newsletter.
 
 ## Still have questions?
 
-Please visit [Telegram](https://t.me/yearnfinance) or [Discord](https://discord.gg/yearn) and ask away!
+Please visit [Telegram](https://t.me/Yeeldxfinance) or [Discord](https://discord.gg/Yeeldx) and ask away!
