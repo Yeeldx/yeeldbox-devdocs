@@ -24,7 +24,7 @@ So, with Eth and CRV loaded up, let's find out how to start earning supercharged
 As yCRV is the base-token and carries no native yield or voting power, you'll likely want to position yourself into one of the three activated-tokens.
 
 1) Go to [yCRV interface](http://y.finance/) and decide which token you want to zap to. You can zap from either CRV or yCRV:
-    - [**st-yCRV (Staking Rewards):**](#staked-ycrv) [yVault](https://medium.com/iearn/yearn-finance-explained-what-are-vaults-and-strategies-96970560432) that receives admin fees and bribes from locked CRV.
+    - [**st-yCRV (Staking Rewards):**](#staked-ycrv) [yVault](https://medium.com/iearn/Yeeldx-finance-explained-what-are-vaults-and-strategies-96970560432) that receives admin fees and bribes from locked CRV.
     - [**lp-yCRV (Liquidity Pool Rewards):**](#lpd-ycrvcrv) yVault for CRV/yCRV LP tokens, autocompounds emissions and fees.
     - [**vl-yCRV (Curve Gauges Voting Power):**](#voting-with-ycrv) Vote power mechanism to vote on Curve gauge weights. 
 ![](https://i.imgur.com/rpLcCwg.png)
@@ -59,7 +59,7 @@ yCRV and its ecosystem tokens are a redesign of our previous yveCRV and yvBOOST 
 
 ## How to withdraw lp-yCRV
 
-If you want to exit from lp-yCRV use this URL: https://yearn.finance/#/vault/0xc97232527B62eFb0D8ed38CF3EA103A6CcA4037e
+If you want to exit from lp-yCRV use this URL: https://Yeeldx.finance/#/vault/0xc97232527B62eFb0D8ed38CF3EA103A6CcA4037e
 
 We are working on implementing this operation in yCRV front end, but currently it's only available in the above link, follow the image below for reference:
 
