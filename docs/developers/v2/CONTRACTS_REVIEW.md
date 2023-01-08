@@ -18,7 +18,7 @@ The main goals are:
 
 This document is based on:
 
-- The experience that the Yearn team has reached out to developing smart contracts and helping other protocols to mitigate risks.
+- The experience that the Yeeldx team has reached out to developing smart contracts and helping other protocols to mitigate risks.
 - Third sources (website, posts, and others). See more info in the `Sources` section.
 
 ## Considerations
@@ -37,7 +37,7 @@ All of us are working remotely, and each of us has different ways to develop sma
 
 The linting or formatting of the smart contract is a very important action to make them more readable, clear and easy to understand.
 
-In our [Brownie Strategy Mix repo](https://github.com/yearn/brownie-strategy-mix) we use [Pretty Quick](https://www.npmjs.com/package/pretty-quick).
+In our [Brownie Strategy Mix repo](https://github.com/Yeeldx/brownie-strategy-mix) we use [Pretty Quick](https://www.npmjs.com/package/pretty-quick).
 
 To lint the contracts, you just need to execute the command:
 
@@ -143,7 +143,7 @@ Use a new branch for each new strategy. Some old comments have references to lin
 
 ## Known Issues
 
-- If the strategy uses another vault, we should add the maxLoss setting. See comment [here](https://github.com/jmonteer/yearnV2-strat-SNX-staking/pull/9#issuecomment-872376640).
+- If the strategy uses another vault, we should add the maxLoss setting. See comment [here](https://github.com/jmonteer/YeeldxV2-strat-SNX-staking/pull/9#issuecomment-872376640).
 - *Strategy*.*liquidatePosition* function: This condition must be true. `amountNeeded == liquidatedAmount + loss`
 - **Must** have the health check address set.
     - [Example for Fantom](https://github.com/flashfish0x/Strategy0xDAOStaker/blob/ripae/contracts/GenericMasterChefStrategy.sol#L210)
