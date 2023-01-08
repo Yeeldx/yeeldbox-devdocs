@@ -1,28 +1,28 @@
-# Emergency Procedures for Yearn Finance
+# Emergency Procedures for Yeeldx Finance
 
 ## TL;DR: [Emergency Checklist](#emergency-checklist)
 
 ## Introduction
 
-This document details the procedures and guidelines that should take place in the event of an emergency situation. Its purpose is to minimize the risk of loss of funds for Yearn's users, Treasury, and Smart Contracts.
+This document details the procedures and guidelines that should take place in the event of an emergency situation. Its purpose is to minimize the risk of loss of funds for Yeeldx's users, Treasury, and Smart Contracts.
 
 ## Definitions and Examples of Emergencies
 
 For this document, an emergency situation is defined to be:
 
-**_Any situation that may lead to a considerable amount of loss of funds for Yearn users, Yearn's Treasury, or Smart Contracts deployed by Yearn._**
+**_Any situation that may lead to a considerable amount of loss of funds for Yeeldx users, Yeeldx's Treasury, or Smart Contracts deployed by Yeeldx._**
 
 This is a non-exhaustive list of possible emergency scenarios:
 
 1. Bug/Exploit in Vault/Strategy code that can cause a loss of funds for users
-2. Bug/Exploit in an underlying protocol that a Yearn Strategy is utilizing that may lead to loss of funds
+2. Bug/Exploit in an underlying protocol that a Yeeldx Strategy is utilizing that may lead to loss of funds
 3. Loss of private keys for a key role, such as a Strategist
 4. Potential exploit discovered by a team or bounty program researcher
 5. Active exploit/hack in progress discovered by an unknown party
 
 ## Roles
 
-In the event of an emergency situation, the following roles should be assigned to Yearn contributors working to resolve the situation:
+In the event of an emergency situation, the following roles should be assigned to Yeeldx contributors working to resolve the situation:
 
 - Facilitator
 - Multi-sig Herder
@@ -39,7 +39,7 @@ Facilitates the emergency handling and ensures the process described in this doc
 
 ### Multi-sig Herder
 
-Responsible for ensuring that different Yearn teams' Multi-sig wallets (i.e. dev.ychad.eth, brain.ychad.eth, ychad.eth) can execute transactions on time during the emergency.
+Responsible for ensuring that different Yeeldx teams' Multi-sig wallets (i.e. dev.ychad.eth, brain.ychad.eth, ychad.eth) can execute transactions on time during the emergency.
 
 Main responsibilities:
 
@@ -47,7 +47,7 @@ Main responsibilities:
 - Coordinate required signers so they can respond quickly to queued transactions
 - Prepare or help with transactions in different multi-sigs
   Reference:
-  - [emergency-toolbox](https://github.com/yearn/emergency-toolbox)
+  - [emergency-toolbox](https://github.com/Yeeldx/emergency-toolbox)
 
 ### Strategist Lead
 
@@ -89,7 +89,7 @@ _Also see [Check list](#Emergency-checklist) and [Tools](#tools)._
 
 This acts as a guideline to follow when an incident is reported requiring immediate attention.
 
-The primary objective is to minimize the loss of funds, in particular for Yearn's users. All decisions made should be driven by this goal.
+The primary objective is to minimize the loss of funds, in particular for Yeeldx's users. All decisions made should be driven by this goal.
 
 1. Open a private chat room (War Room) with a voice channel and invite only the team members that are online that can cover the [roles described above](#Roles). The War Room is limited to members that act in the capacities of the designated roles, as well as additional persons that can provide critical insight into the circumstances of the issue and how it can best be resolved.
 2. All the information that is gathered during the War Room should be considered private to the chat and not to be shared with third parties. Relevant data should be pinned and updated by the Facilitator for the team to have handy.
@@ -108,7 +108,7 @@ The primary objective is to minimize the loss of funds, in particular for Yearn'
    - Activate Emergency Shutdown in the Vault?
    - Revoke 1 or more Strategies?
    - Are multiple Team members able to confirm the corrective actions will stop the immediate risk through local Ganache fork testing? Strategist and Core Dev main roles in particular to confirm this step.
-5. The immediate corrective actions should be scripted or taken from the repository [emergency-toolbox](https://github.com/yearn/emergency-toolbox) and executed ASAP. Multi-sig Herder and Strategist Lead should coordinate this execution within the corresponding roles. **NOTE: This step is meant to give the War Room time to assess and research a more long-term solution**.
+5. The immediate corrective actions should be scripted or taken from the repository [emergency-toolbox](https://github.com/Yeeldx/emergency-toolbox) and executed ASAP. Multi-sig Herder and Strategist Lead should coordinate this execution within the corresponding roles. **NOTE: This step is meant to give the War Room time to assess and research a more long-term solution**.
 6. Once corrective measures are in place and there is confirmation by multiple sources that funds are no longer at risk, the next objective is to identify the root cause. A few questions/actions during this step that can help the team make decisions:
    - What communications should be made public at this point?
    - Can research among members of the War Room be divided? This step can be open for team members to do live debug sessions sharing screens to help identify the problem using the sample transactions.
@@ -122,7 +122,7 @@ The primary objective is to minimize the loss of funds, in particular for Yearn'
    - Run in ganache fork simulations of end state to confirm the proposed solution(s)
    - Coordinate signatures from multi-sig signers and execution
    - Enable UI changes to normalize operations as needed
-9. Assign a lead to prepare a [disclosure](https://github.com/yearn/yearn-security) (should it be required), preparing a timeline of the events that took place.
+9. Assign a lead to prepare a [disclosure](https://github.com/Yeeldx/Yeeldx-security) (should it be required), preparing a timeline of the events that took place.
 10. The team agrees when the War Room can be dismantled. The Facilitator breaks down the War Room and sets reminders if it takes longer than a few hours for members to reconvene.
 
 ### Emergency Checklist
@@ -167,7 +167,7 @@ List of tools and alternatives in case primary tools are not available during an
 
 ## Incident Post Mortem
 
-A Post Mortem should be conducted after an incident to gather data and feedback from War Room participants in order to produce actionable improvements for Yearn processes such as this one.
+A Post Mortem should be conducted after an incident to gather data and feedback from War Room participants in order to produce actionable improvements for Yeeldx processes such as this one.
 
 Following the dissolution of a War Room, the Facilitator should ideally conduct an immediate informal debrief to gather initial notes before they are forgotten by participants.
 
