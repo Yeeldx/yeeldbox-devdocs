@@ -26,7 +26,7 @@
 | Identity               | ENS                   | Address                                    |
 | ---------------------- | --------------------- | ------------------------------------------ |
 | V2 Registry            | v2.registry.ychad.eth | [0x50c1a2eA0a861A967D9d0FFE2AE4012c2E053804](https://etherscan.io/address/0x50c1a2eA0a861A967D9d0FFE2AE4012c2E053804) |
-| Yearn multisig (daddy) | ychad.eth             | [0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) |
+| Yeeldx multisig (daddy) | ychad.eth             | [0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) |
 | Strategist multisig    | brain.ychad.eth       | [0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7](https://etherscan.io/address/0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7) |
 | Core Dev multisig      | dev.ychad.eth         | [0x846e211e8ba920B353FB717631C015cf04061Cc9](https://etherscan.io/address/0x846e211e8ba920B353FB717631C015cf04061Cc9) |
 | Treasury               | treasury.ychad.eth    | [0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde) |
@@ -116,7 +116,7 @@
 [0xE9cfF16bdac9729F18CBAC451EcCA6c50b372207](https://etherscan.io/address/0xE9cfF16bdac9729F18CBAC451EcCA6c50b372207) - CalculationsCurve  
 [0x55e9B18fefFF7E00548d54480373Fc8843De8eA4](https://etherscan.io/address/0x55e9B18fefFF7E00548d54480373Fc8843De8eA4) - CalculationsIronBank  
 [0x88dE7d7F7b9597C86b8cD195374FbF602934F334](https://etherscan.io/address/0x88dE7d7F7b9597C86b8cD195374FbF602934F334) - CalculationsSushiswap  
-[0x38477F2159638956d33E18951d98238a53b9aa3C](https://etherscan.io/address/0x38477F2159638956d33E18951d98238a53b9aa3C) - CalculationsYearnVaults  
+[0x38477F2159638956d33E18951d98238a53b9aa3C](https://etherscan.io/address/0x38477F2159638956d33E18951d98238a53b9aa3C) - CalculationsYeeldxVaults  
 
 ### Registries
 
