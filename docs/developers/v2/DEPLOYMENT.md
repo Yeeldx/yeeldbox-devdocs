@@ -1,16 +1,16 @@
 # Deploying a Vault and Strategy V2
 
-**Note**: This [private repo](https://github.com/yearn/chief-multisig-officer) is encouraged to create multiple scripts for governance and dev multisig execution of complex transactions.
+**Note**: This [private repo](https://github.com/Yeeldx/chief-multisig-officer) is encouraged to create multiple scripts for governance and dev multisig execution of complex transactions.
 
 ## Requirements
 
-Make sure you have the brownie environment set up before trying to deploy a vault. Check out the [Readme MD in Yearn Vaults Repo](https://github.com/yearn/yearn-vaults/blob/master/README.md) for instructions.
+Make sure you have the brownie environment set up before trying to deploy a vault. Check out the [Readme MD in Yeeldx Vaults Repo](https://github.com/Yeeldx/Yeeldx-vaults/blob/master/README.md) for instructions.
 
 The below instructions show some python commands that assume you are using the brownie console or a brownie script setup.
 
 ## Deploying a new Experimental Vault
 
-1. Clone the [Yearn Vaults Repo](https://github.com/yearn/yearn-vaults/) and run `brownie run scripts/deploy.py --network <network-to-deploy-vault>`
+1. Clone the [YYeeldx Vaults Repo](https://github.com/Yeeldx/Yeeldx-vaults/) and run `brownie run scripts/deploy.py --network <network-to-deploy-vault>`
 2. Choose the brownie account for deploying your vault. This account needs to have funds to pay for the deployment transaction.
 3. Confirm the script is using the latest version of registry `v2.registry.ychad.eth` against the planned new release vault to be sure it's an updated version. (Can validate on Etherscan for latest address)
 4. Select the version of the vault to deploy or press enter to use the latest release.
@@ -21,7 +21,7 @@ The below instructions show some python commands that assume you are using the b
    - Set Treasury (`treasury.ychad.eth`) as the rewards address.
    - Set Core Dev multisig (`dev.ychad.eth`) as guardian.
    - Set Strategist multisig (`brain.ychad.eth`) as management.
-   - Set name and symbol for vault or use suggested as default (can be changed on-chain later, but please check out our [naming conventions](https://docs.yearn.finance/developers/v2/naming-convention)). 
+   - Set name and symbol for vault or use suggested as default (can be changed on-chain later, but please check out our [naming conventions](https://docs.Yeeldx.finance/developers/v2/naming-convention)). 
 8. Confirm the Parameters are correct and press `y` and ENTER to deploy the vault.
 9. Check new vault has ABI setup on Etherscan (Some vault versions from older releases may have verification issues with Vyper and proxy detection on Etherscan, consider using later releases >0.3.5 to ensure verification works).
 
@@ -47,15 +47,15 @@ vault.setGovernance(ychad.eth)
 
 ## Deploying a new Strategy
 
-1. Request access to a Core Dev strategist and create a new issue using the `Strategy Review` template in the strategies [private repo](https://github.com/yearn/yearn-strategies/issues) **Complete all the fields**.
-2. If the strategy targets a new protocol/new chain not currently approved by yearn (used in production) it may also require due diligence and path to production plan documents for the strategy to be considered for endorsement.
+1. Request access to a Core Dev strategist and create a new issue using the `Strategy Review` template in the strategies [private repo](https://github.com/Yeeldx/Yeeldx-strategies/issues) **Complete all the fields**.
+2. If the strategy targets a new protocol/new chain not currently approved by Yeeldx (used in production) it may also require due diligence and path to production plan documents for the strategy to be considered for endorsement.
    Example(s) [SNX](https://hackmd.io/0w1RZh7DSc27A9EyzlHbJQ?view)
-3. Coordinate with Core Dev strategist for reviewing strategy, then follow the status on the [private board](https://github.com/orgs/yearn/projects/5).
+3. Coordinate with Core Dev strategist for reviewing strategy, then follow the status on the [private board](https://github.com/orgs/Yeeldx/projects/5).
 4. Have it peer-reviewed by at least **two** strategists.
 5. Check if `want` token has a deployed vault already (>=v0.3.0) and coordinate to use that first if possible.
 6. Coordinate with a core developer to set a proper deposit limit and other settings for the new vault. See the table below: [Limits per Stage](#limits-per-stage).
 7. Deploy strategy and upload code to Etherscan for verification.
-8. Tag GitHub review issue with deployed version and attach mainnet address(es) to the strategy item in [private board](https://github.com/orgs/yearn/projects/5).
+8. Tag GitHub review issue with deployed version and attach mainnet address(es) to the strategy item in [private board](https://github.com/orgs/Yeeldx/projects/5).
 
 ## Make the Vault and Strategy work together
 
@@ -135,7 +135,7 @@ vault.setGovernance(ychad.eth)
 
 In addition to the two strategist reviews, a Core Developer has to review the strategy before going into production.
 
-1. Create an [issue](https://github.com/yearn/yearn-finance-v3/issues) in yearn's web repo to ensure that the new vault won't create any problems with the API and that all necessary token/vault metadata is ready. Additionally, if this vault needs to go in the "labs" category, it must be manually added to the website.
+1. Create an [issue](https://github.com/Yeeldx/Yeeldx-finance-v3/issues) in Yeeldx's web repo to ensure that the new vault won't create any problems with the API and that all necessary token/vault metadata is ready. Additionally, if this vault needs to go in the "labs" category, it must be manually added to the website.
 2. Increase deposit limit according to the table [below](#Limits-per-Stage)
 3. Set management fee to production level:
 
@@ -151,14 +151,14 @@ In addition to the two strategist reviews, a Core Developer has to review the st
    - Set Strategist multisig (`brain.ychad.eth`) as management.
    - Set description and symbol for vault or use suggested as default (can be changed on-chain later)
 
-5. Yearn's governance now must accept this vault's governance and endorse it:
+5. Yeeldx's governance now must accept this vault's governance and endorse it:
 
 ```python
 strategy.acceptGovernance()
 registry.endorseVault(vault)
 ```
 
-6. If using a curve voter stategy, make sure to approve the new strategy on yearn's voterProxy:
+6. If using a curve voter stategy, make sure to approve the new strategy on Yeeldx's voterProxy:
 
 ```python
 proxy.approveStrategy(gauge, strategy)
@@ -184,7 +184,7 @@ proxy.approveStrategy(gauge, strategy)
 
 The following steps are required for all strategies. These descriptions are pulled into the v3 website and used to generate strategy diagrams.
 
-1. Create a pull request [at this link](https://github.com/yearn/yearn-meta/tree/master/data/strategies) to add a new `.json` file with your strategy description and details.
+1. Create a pull request [at this link](https://github.com/Yeeldx/Yeeldx-meta/tree/master/data/strategies) to add a new `.json` file with your strategy description and details.
 2. Using other strategy files as a reference, create a 1-2 sentence description for your strategy.
 3. The author field is optional.
 
@@ -204,7 +204,7 @@ The following steps are required for all strategies. These descriptions are pull
    strategy.setKeeper(0x736D7e3c5a6CB2CE3B764300140ABF476F6CFCCF)
    ```
 
-3. Create an add-strategy PR in Keep3r [repo](https://github.com/yearn/yearn-keeper) (TBD)
+3. Create an add-strategy PR in Keep3r [repo](https://github.com/Yeeldx/Yeeldx-keeper) (TBD)
 
 ## References
 
@@ -238,11 +238,11 @@ Vaults from release v0.4.3 and onward, support attaching an on-chain health chec
 
 The health checks are designed to be backward compatible. To target already deployed vaults, we released a patch for each tagged release of `BaseStrategy`. e.g:
 
-v0.3.5 -> [v0.3.5-1](https://github.com/yearn/yearn-vaults/tree/v0.3.5-1) (compatible version)
+v0.3.5 -> [v0.3.5-1](https://github.com/Yeeldx/Yeeldx-vaults/tree/v0.3.5-1) (compatible version)
 
 ## Adding Health Checks to your strategy
 
-1. Before deploying a strategy with [brownie-strategy-mix](https://github.com/yearn/brownie-strategy-mix) make sure your `brownie-config.yml` points to the correct patched vault version, to get a Health Check enabled `BaseStrategy` imported to your strategy.
+1. Before deploying a strategy with [brownie-strategy-mix](https://github.com/Yeeldx/brownie-strategy-mix) make sure your `brownie-config.yml` points to the correct patched vault version, to get a Health Check enabled `BaseStrategy` imported to your strategy.
 
 2. To interact with the health check contract, no change should be necessary on your extended `Strategy` logic. **IMPORTANT**: Check your contract size to see if refactoring is needed for compilation.
 
@@ -297,14 +297,14 @@ customHealthCheck = '' # custom health check address
 healthcheck.setCheck(strategy, customHealthCheck)
 ```
 
-Custom Health Check **must** follow the interface for [custom health checks](https://github.com/yearn/yearn-vaults/blob/3bea2d8c070efeb05bc02d7d0136120bc516af4b/contracts/CommonHealthCheck.sol#L5)
+Custom Health Check **must** follow the interface for [custom health checks](https://github.com/Yeeldx/Yeeldx-vaults/blob/3bea2d8c070efeb05bc02d7d0136120bc516af4b/contracts/CommonHealthCheck.sol#L5)
 
 ### Ethereum Addresses
 
 | Identity               | ENS                   | Address                                    |
 | ---------------------- | --------------------- | ------------------------------------------ |
 | V2 Registry            | v2.registry.ychad.eth | [0x50c1a2eA0a861A967D9d0FFE2AE4012c2E053804](https://etherscan.io/address/0x50c1a2eA0a861A967D9d0FFE2AE4012c2E053804) |
-| Yearn multisig (daddy) | ychad.eth             | [0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) |
+| Yeeldx multisig (daddy) | ychad.eth             | [0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) |
 | Strategist multisig    | brain.ychad.eth       | [0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7](https://etherscan.io/address/0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7) |
 | Core Dev multisig      | dev.ychad.eth         | [0x846e211e8ba920B353FB717631C015cf04061Cc9](https://etherscan.io/address/0x846e211e8ba920B353FB717631C015cf04061Cc9) |
 | Treasury               | treasury.ychad.eth    | [0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde) |
