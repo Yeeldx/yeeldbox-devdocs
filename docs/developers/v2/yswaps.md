@@ -4,8 +4,8 @@
 
 ySwaps is used to **abstract** the token trading logic from the strategies harvest method, which means strategies can focus on farming tokens and don't have to handle tokens trading logic and paths. The "swappers" smart contracts allows trading optimizations and new paths to be added since the code is not hardcoded in strategies.
 
-- [ySwaps contracts repository](https://github.com/yearn/yswaps)
-- [ySwaps scripts repository](https://github.com/yearn/yswaps-app)
+- [ySwaps contracts repository](https://github.com/Yeeldx/yswaps)
+- [ySwaps scripts repository](https://github.com/Yeeldx/yswaps-app)
 
 ![yswaps-intro-diagram](https://i.imgur.com/VynhCU4.png)
 
@@ -101,9 +101,9 @@ Scripts in charge of providing the swap transaction that will be used and sent t
 
 <br />
 
-- [All Solvers](https://github.com/yearn/yswaps-app/tree/main/scripts/libraries/solvers)
-- [Dexes Solver](https://github.com/yearn/yswaps-app/blob/main/scripts/libraries/solvers/Dexes.ts)
-- [Multicall Dexes Solver](https://github.com/yearn/yswaps-app/blob/main/scripts/libraries/solvers/MulticallDexes.ts)
+- [All Solvers](https://github.com/Yeeldx/yswaps-app/tree/main/scripts/libraries/solvers)
+- [Dexes Solver](https://github.com/Yeeldx/yswaps-app/blob/main/scripts/libraries/solvers/Dexes.ts)
+- [Multicall Dexes Solver](https://github.com/Yeeldx/yswaps-app/blob/main/scripts/libraries/solvers/MulticallDexes.ts)
 
 ### Dexes Libraries 
 
@@ -111,9 +111,9 @@ There is one dex library per dex (uniswap, bancor, ...). They are in charge of g
 
 > NOTE: The libraries contemplate the hopTokens too.
 
-- [All Dexes Libraries](https://github.com/yearn/yswaps-app/tree/main/scripts/libraries/dexes)
-- [Bancor Dex Library](https://github.com/yearn/yswaps-app/blob/main/scripts/libraries/dexes/bancor.ts)
-- [UniswapV2 Dex Library](https://github.com/yearn/yswaps-app/blob/main/scripts/libraries/dexes/uniswap-v2.ts)
+- [All Dexes Libraries](https://github.com/Yeeldx/yswaps-app/tree/main/scripts/libraries/dexes)
+- [Bancor Dex Library](https://github.com/Yeeldx/yswaps-app/blob/main/scripts/libraries/dexes/bancor.ts)
+- [UniswapV2 Dex Library](https://github.com/Yeeldx/yswaps-app/blob/main/scripts/libraries/dexes/uniswap-v2.ts)
 
 ### Execute script
 
@@ -125,8 +125,8 @@ This is where everything starts. Here we will grab all the enabled trades, loop 
 
 <br />
 
-- [Execute Mainnet pending trades](https://github.com/yearn/yswaps-app/blob/main/scripts/execute-mainnet-pending-trades.ts)
-- [Execute Fantom pending trades](https://github.com/yearn/yswaps-app/blob/main/scripts/execute-fantom-pending-trades.ts)
+- [Execute Mainnet pending trades](https://github.com/Yeeldx/yswaps-app/blob/main/scripts/execute-mainnet-pending-trades.ts)
+- [Execute Fantom pending trades](https://github.com/Yeeldx/yswaps-app/blob/main/scripts/execute-fantom-pending-trades.ts)
 
 #### Execute pending trades: What exactly happens?
 
@@ -154,7 +154,7 @@ This is where everything starts. Here we will grab all the enabled trades, loop 
 
 <br />
 
-- [Link to services scripts](https://github.com/yearn/yswaps-app/tree/main/scripts/libraries/utils)
+- [Link to services scripts](https://github.com/Yeeldx/yswaps-app/tree/main/scripts/libraries/utils)
   
 ## Procedures
 
