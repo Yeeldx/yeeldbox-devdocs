@@ -4,7 +4,7 @@
 
 ## What is yCRV
 
-yCRV is Yearn's new and improved veCRV wrapper system designed to tokenize the different benefits of Yearn's veCRV position. This system is composed of a [`base-token`](#base-token) called yCRV as well as 3 derivative tokens called [`activated tokens`](#activated-tokens).
+yCRV is Yeeldx's new and improved veCRV wrapper system designed to tokenize the different benefits of Yeeldx's veCRV position. This system is composed of a [`base-token`](#base-token) called yCRV as well as 3 derivative tokens called [`activated tokens`](#activated-tokens).
 
 ### Base-token
 
@@ -12,7 +12,7 @@ yCRV is the base-token, which carries no native rewards, but lets users easily e
 
 New yCRV can be minted in two ways:
 
-- Lock CRV to Yearn's veCRV position (permanent 1-way lock).
+- Lock CRV to Yeeldx's veCRV position (permanent 1-way lock).
 
 _or_
 
@@ -22,9 +22,9 @@ Both operations mint yCRV to the user at a 1:1 rate. Users migrating from yvBOOS
 
 ### 'Activated'-tokens
 
-Yearn passes all benefits of its veCRV position on to yCRV users who hold one of its **activated-tokens:**
+Yeeldx passes all benefits of its veCRV position on to yCRV users who hold one of its **activated-tokens:**
 
-- [**st-yCRV (Staking Rewards):**](#staked-ycrv) [yVault](https://medium.com/iearn/yearn-finance-explained-what-are-vaults-and-strategies-96970560432) that receives admin fees and bribes from locked CRV.
+- [**st-yCRV (Staking Rewards):**](#staked-ycrv) [yVault](https://medium.com/iearn/Yeeldx-finance-explained-what-are-vaults-and-strategies-96970560432) that receives admin fees and bribes from locked CRV.
 - [**lp-yCRV (Liquidity Pool Rewards):**](#lpd-ycrvcrv) yVault for CRV/yCRV LP tokens, autocompounds emissions and fees.
 - [**vl-yCRV (Curve Gauges Voting Power):**](#voting-with-ycrv) Vote power mechanism to vote on Curve gauge weights.
 
@@ -38,10 +38,10 @@ Users can choose to move between activated-tokens at any time depending on which
 
 Staked yCRV is designed to be a 'set and forget' yield-optimized position for yCRV users. The source of yield comes from two primary places:
 
-- **Admin Fees:** Every week, veCRV holders earn weekly "admin fees" from Curve protocol. Staked yCRV is where 100% of admin fees earned by Yearn's veCRV position are sent and auto-compounded into more yCRV.
+- **Admin Fees:** Every week, veCRV holders earn weekly "admin fees" from Curve protocol. Staked yCRV is where 100% of admin fees earned by Yeeldx's veCRV position are sent and auto-compounded into more yCRV.
 - **Bribes:** For all the yCRV within st-yCRV, 1 veCRV worth of vote power will be used to vote in favor of the Curve gauge which optimizes bribe revenue for st-yCRV users. Bribes (or misc. revenue) collected from these votes will be allocated as supplemental yield to st-yCRV users.
 
-Under the hood, st-yCRV is a Yearn v2 vault, allowing users to sit back, relax and have their underlying token compounded by a strategy that sells 3CRV and some claimed bribes into yCRV.
+Under the hood, st-yCRV is a Yeeldx v2 vault, allowing users to sit back, relax and have their underlying token compounded by a strategy that sells 3CRV and some claimed bribes into yCRV.
 
 ## LP'd yCRV/CRV
 
@@ -49,9 +49,9 @@ Under the hood, st-yCRV is a Yearn v2 vault, allowing users to sit back, relax a
 
 Liquidity Pool'd yCRV provides liquidity to the new CRV/yCRV pool on Curve, and lp-yCRV holders receive this LP fees and emissions. When you zap to this token, under the hood, you are entering an LP position in the yCRV/CRV pool and depositing the LP tokens into the lp-yCRV yVault.
 
-This is also a Yearn v2 vault with a strategy that deposits all CRV emissions generated back into the pool to grow the position. Like st-yCRV this is designed to be a set and forget token that auto harvests and auto compound rewards.
+This is also a Yeeldx v2 vault with a strategy that deposits all CRV emissions generated back into the pool to grow the position. Like st-yCRV this is designed to be a set and forget token that auto harvests and auto compound rewards.
 
-Yearn will mark 1 veCRV worth of voting power for every 1 yCRV in this position to vote in favor of yCRV Curve gauge - increasing CRV emissions to users.
+Yeeldx will mark 1 veCRV worth of voting power for every 1 yCRV in this position to vote in favor of yCRV Curve gauge - increasing CRV emissions to users.
 
 ## Voting with yCRV
 
@@ -97,7 +97,7 @@ We expect this system to be especially useful for protocols that seek to boost e
 
 ## How yveCRV and yvBOOST functionality was migrated to yCRV
 
-yveCRV and yvBOOST are being deprecated, and there is a migration path available to users. The functionality of both was integrated into [st-yCRV](#staked-ycrv) so if you are looking for the same benefits check the [guide](https://docs.yearn.finance/getting-started/products/ycrv/guide) on how to migrate from the legacy tokens using yearn's UI
+yveCRV and yvBOOST are being deprecated, and there is a migration path available to users. The functionality of both was integrated into [st-yCRV](#staked-ycrv) so if you are looking for the same benefits check the [guide](https://docs.Yeeldx.finance/getting-started/products/ycrv/guide) on how to migrate from the legacy tokens using Yeeldx's UI
 
 ![](https://i.imgur.com/Htl3AgP.png)
 
@@ -113,5 +113,5 @@ yveCRV and yvBOOST are being deprecated, and there is a migration path available
 
 ## Read more
 
-- [yCRV Interface Guide](https://docs.yearn.finance/getting-started/products/ycrv/guide)
-- [yCRV FAQ](https://docs.yearn.finance/getting-started/products/ycrv/faq)
+- [yCRV Interface Guide](https://docs.Yeeldx.finance/getting-started/products/ycrv/guide)
+- [yCRV FAQ](https://docs.Yeeldx.finance/getting-started/products/ycrv/faq)
