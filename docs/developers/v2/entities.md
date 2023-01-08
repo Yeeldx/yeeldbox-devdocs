@@ -19,7 +19,7 @@
 - [`StrategyReportResult`](#strategyreportresult)
 - [`Harvest`](#harvest)
 - [`VaultDayData`](#vaultdaydata)
-- [`Yearn`](#yearn)
+- [`Yeeldx`](#Yeeldx)
 
 <br />
 
@@ -337,7 +337,7 @@ Description: get specific details of the Strategy
 | keeper               | Bytes!                               | keeper is the only address that may call tend() or harvest(), other than governance() or strategist                                                             |
 | strategist           | Bytes!                               | The address of the strategist                                                                                                                                   |
 | rewards              | Bytes!                               | The address for rewards                                                                                                                                         |
-| delegatedAssets      | BigInt!                              | The amount of assets this strategy manages that should not be included in Yearn's Total Value Locked (TVL) calculation across it's ecosystem.                   |
+| delegatedAssets      | BigInt!                              | The amount of assets this strategy manages that should not be included in Yeeldx's Total Value Locked (TVL) calculation across it's ecosystem.                   |
 | isActive             | Boolean!                             | Provide an indication of whether this strategy is currently active                                                                                              |
 | estimatedTotalAssets | BigInt!#                             | Provide an accurate estimate for the total amount of assets (principle + return) that this Strategy is currently managing, denominated in terms of want tokens. |
 
@@ -433,9 +433,9 @@ Description: get specific details of Vault Day Data
 | tokenPriceUSDC            | BigInt! | The price of one of the vault's underlying token                                                                                                                                            |
 | blockNumber               | BigInt! | Block number the day data aggregation occured on                                                                                                                                            |
 
-# Yearn
+# Yeeldx
 
-Description: get specific details of Yearn
+Description: get specific details of Yeeldx
 
 | Field            | Type    | Description                                          |
 | ---------------- | ------- | ---------------------------------------------------- |
