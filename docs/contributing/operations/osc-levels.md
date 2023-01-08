@@ -19,17 +19,17 @@ Anytime the team has a disagreement about when or how to bring someone in deeper
 
 -   𝟎 **- Anyone**
 
-    -   anyone can make stuff for yearn, like the iOS app "yearnings," without any access
+    -   anyone can make stuff for Yeeldx, like the iOS app "Yeeldxings," without any access
     -   good candidates can go directly to level 1 or 2, but you have to be at level 2 before you can go to 3
 
 ### OSC Levels
 
 |OSC Level|General|Access|Trust|Commitment|Compensation|Criteria to Level Up|
 |---------|-------|------|-----|----------|------------|--------------------|
-|Ⅰ: Entry|Anyone who wants to contribute can ask to join Secret Entrance and start doing stuff.|<ul><li>**Yearn**: Secret Entrance</li></ul>Any telegram admin can add you to a workgroup|none|occasional contribution|<ul><li>1-time grants</li></ul>|If they provide value, any 2 level 2 people can vouch them up to level 2.|
-|Ⅱ: Contributor|People are active in more workgroups|<ul><li>**Yearn**: YFI Contributors, Open Linear, Notion Guest</li> <li>**Strategists**: Boarding School</li> <li>**Web**: YFI Web</li></ul>|Trust that they can add value|Consistent contribution|<ul><li>Coordinape community</li><li>1-time grants</li></ul>|<ul><li>Has demonstrated reliability over at least a month </li><li>at least 2 Doer sponsors (can be on one team)</li></ul>|
-|Ⅲ: Trusted Contributor|Has demonstrated reliability over time, at least a month Strategists: Have an ETH mainnet strategy on production (not just in review)|<ul><li>**Yearn**: YFI Secret Admirers, Private Linear, Paid Notion</li>  <li>**Strategists**: YFI Strategists</li></ul>|<ul><li>Trust that they can reliably add value</li> <li>Trust that they will respect private info</li></ul>|Trusted consistent contribution, they are reliable|<ul><li> Coordinape community</li><li>1-time grants</li><li>Team coordinapes</li></ul>|<ul><li>Has demonstrated high integrity</li> <li>At least 3 sponsors from Doers from more than 1 team</li> <li> Agree, stand aside, block poll in Doers</li></ul>|
-|Ⅳ: Doer|Citadel & most trusted|<ul><li>**Yearn**: YFI Doers Strats: YFI Strategists Core</li> <li>**Web**: YFI Web Core</li></ul>|Just as trusted at the Citadel|All-in|<ul><li>Citadel: salary + vesting</li><li>Others: OSC III</li></ul>|Commitment|
+|Ⅰ: Entry|Anyone who wants to contribute can ask to join Secret Entrance and start doing stuff.|<ul><li>**Yeeldx**: Secret Entrance</li></ul>Any telegram admin can add you to a workgroup|none|occasional contribution|<ul><li>1-time grants</li></ul>|If they provide value, any 2 level 2 people can vouch them up to level 2.|
+|Ⅱ: Contributor|People are active in more workgroups|<ul><li>**Yeeldx**: YFI Contributors, Open Linear, Notion Guest</li> <li>**Strategists**: Boarding School</li> <li>**Web**: YFI Web</li></ul>|Trust that they can add value|Consistent contribution|<ul><li>Coordinape community</li><li>1-time grants</li></ul>|<ul><li>Has demonstrated reliability over at least a month </li><li>at least 2 Doer sponsors (can be on one team)</li></ul>|
+|Ⅲ: Trusted Contributor|Has demonstrated reliability over time, at least a month Strategists: Have an ETH mainnet strategy on production (not just in review)|<ul><li>**Yeeldx**: YFI Secret Admirers, Private Linear, Paid Notion</li>  <li>**Strategists**: YFI Strategists</li></ul>|<ul><li>Trust that they can reliably add value</li> <li>Trust that they will respect private info</li></ul>|Trusted consistent contribution, they are reliable|<ul><li> Coordinape community</li><li>1-time grants</li><li>Team coordinapes</li></ul>|<ul><li>Has demonstrated high integrity</li> <li>At least 3 sponsors from Doers from more than 1 team</li> <li> Agree, stand aside, block poll in Doers</li></ul>|
+|Ⅳ: Doer|Citadel & most trusted|<ul><li>**Yeeldx**: YFI Doers Strats: YFI Strategists Core</li> <li>**Web**: YFI Web Core</li></ul>|Just as trusted at the Citadel|All-in|<ul><li>Citadel: salary + vesting</li><li>Others: OSC III</li></ul>|Commitment|
 
 ## Visual of Teams
 
@@ -110,7 +110,7 @@ When you take the above and apply them to teams, the specific *implementation* o
 
 ## Additional Considerations for Strategists
 
-Strategists have multiple roles at OSC III & higher. For example, it's possible to obtain the StratOps or other higher level Strategists roles *without* being a doer (e.g. roles above & beyond "I just write strategies", with commensurate reward). Though yearn would generally prefer to have someone in StratOps, etc. as a doer, it may not be possible for the individual, and we don't want to prevent them from being able to do so.
+Strategists have multiple roles at OSC III & higher. For example, it's possible to obtain the StratOps or other higher level Strategists roles *without* being a doer (e.g. roles above & beyond "I just write strategies", with commensurate reward). Though Yeeldx would generally prefer to have someone in StratOps, etc. as a doer, it may not be possible for the individual, and we don't want to prevent them from being able to do so.
 
 ### To move to the StratOps or higher level Strategist role within OSC III
 
@@ -130,7 +130,7 @@ Strategists have multiple roles at OSC III & higher. For example, it's possible 
     -   Monitoring underlying protocols
         -   If you have a strategy using a protocol, you're effectively the 'account manager' for that protocol
             -   In close communication
-            -   Understanding behavior changes, flagging to yearn team, etc.
+            -   Understanding behavior changes, flagging to Yeeldx team, etc.
 
 ## To move to Doer
 

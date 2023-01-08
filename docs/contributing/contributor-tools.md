@@ -2,15 +2,15 @@
 
 ---
 
-This Guide introduces the tools used by the Yearn Community team and its contributors.
+This Guide introduces the tools used by the Yeeldx Community team and its contributors.
 
-Yearn contributors work with tools geared towards promoting open-source feedback, communication, transparency, and clarity. While there is no sophisticated software stack, contributors should be comfortable with the more heavily used tools and how they function within Yearn contribution workflows.
+Yeeldx contributors work with tools geared towards promoting open-source feedback, communication, transparency, and clarity. While there is no sophisticated software stack, contributors should be comfortable with the more heavily used tools and how they function within Yeeldx contribution workflows.
 
 ## Discussion Platforms
 
 ### Discord
 
-Various Yearn teams (documentation, development, etc.) host AMAs, ideation, discussions, and follow-ups on Yearn's Discord Channel, an open-source platform geared towards improving team communication. The [Yearn Discord](https://discord.gg/yearn/) lists all channels and users.
+Various Yeeldx teams (documentation, development, etc.) host AMAs, ideation, discussions, and follow-ups on Yeeldx's Discord Channel, an open-source platform geared towards improving team communication. The [Yeeldx Discord](https://discord.gg/Yeeldx/) lists all channels and users.
 
 Start participating in public discussions by joining the recommended channels below.
 
@@ -31,7 +31,7 @@ Start participating in public discussions by joining the recommended channels be
 
 ### Meetings
 
-Yearn contributors host meetings when necessary on Google Hangouts. These are not centrally organized and arise organically within discussions between contributors or teams, as such, invitations are up to the individuals organizing these discussions. Invitations are sent to contributors by Discord or Telegram and Google Calendar automatically schedules the event and sends reminders.
+Yeeldx contributors host meetings when necessary on Google Hangouts. These are not centrally organized and arise organically within discussions between contributors or teams, as such, invitations are up to the individuals organizing these discussions. Invitations are sent to contributors by Discord or Telegram and Google Calendar automatically schedules the event and sends reminders.
 
 - [Jitsi Meet](https://meet.jit.si)
 - [Google Meet](https://meet.google.com/_meet)
@@ -40,7 +40,7 @@ Yearn contributors host meetings when necessary on Google Hangouts. These are no
 
 ### HackMD
 
-Many Yearn Doc contributors prepare their long-form documentation in [HackMD](https://hackmd.io/), a collaborative Markdown editor. HackMD also tracks versions, enables commenting, and allows multiple users to work on a document simultaneously.
+Many Yeeldx Doc contributors prepare their long-form documentation in [HackMD](https://hackmd.io/), a collaborative Markdown editor. HackMD also tracks versions, enables commenting, and allows multiple users to work on a document simultaneously.
 
 **Note:** Run all drafts through [Grammarly](https://app.grammarly.com/) regularly, and before final submissions.
 
@@ -81,7 +81,7 @@ Google Docs is a collaborative writing platform, with features like suggestion e
 
 ### Markdown
 
-Yearn documents hosted on GitHub are written in Markdown, a plaintext formatting syntax. Markdown allows for easy conversion to HTML and various other outputs, making documents easy to read on the web.
+Yeeldx documents hosted on GitHub are written in Markdown, a plaintext formatting syntax. Markdown allows for easy conversion to HTML and various other outputs, making documents easy to read on the web.
 
 - Learn the basics of Markdown:
   - [Daring Fireball](https://daringfireball.net/projects/markdown/)
@@ -173,7 +173,7 @@ For a document's final draft, name it "Final draft, moving to GitHub." Post a li
 #### Wallets and 3rd Party Services
 
 - [Metamask](https://metamask.io/): Wallet for sending and receiving YFI
-- [Zerion](https://zerion.io/): For checking Yearn Treasury statistics.
+- [Zerion](https://zerion.io/): For checking Yeeldx Treasury statistics.
 
 #### Keyboard Shortcuts
 

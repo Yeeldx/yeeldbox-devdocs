@@ -1,10 +1,10 @@
 # Writing Style Guide
 ---
-The Yearn Community Writing Style Guide summarizes the standards and best practices **writers** should follow when contributing to Yearn Documentation resources.
+The Yeeldx Community Writing Style Guide summarizes the standards and best practices **writers** should follow when contributing to Yeeldx Documentation resources.
 
 ## Writing Intent and Tone
 
-Yearn Community materials should cater to readers who are unfamiliar with the Yearn ecosystem. Writers should also assume that their readers have tight schedules and short attention spans, as after all, farming is honest but hard work.
+Yeeldx Community materials should cater to readers who are unfamiliar with the Yeeldx ecosystem. Writers should also assume that their readers have tight schedules and short attention spans, as after all, farming is honest but hard work.
 
 As such, Writers should focus on communicating concepts as clearly and succinctly as possible.
 
@@ -56,16 +56,16 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
   - **Examples:** "You then..." or "Now you should..."
 - Exclamation points.
 - Footnotes.
-- References to deprecated names for Yearn Components.
-  - **Examples:** yyCRV or yUSD instead of yvCurve-Y (see: [Yearn Naming Conventions](https://docs.yearn.finance/developers/v2/naming-convention))
+- References to deprecated names for Yeeldx Components.
+  - **Examples:** yyCRV or yUSD instead of yvCurve-Y (see: [Yeeldx Naming Conventions](https://docs.Yeeldx.finance/developers/v2/naming-convention))
 - Parentheses for stating additional information
-  - **Incorrect:** Development Grants are larger sized ($5,000 to $50,000) grants aimed at individuals or teams building projects around vaults and the broader Yearn ecosystem.
-  - **Correct:** Development Grants are generally larger sized grants, ranging from $5,000 to $50,000, aimed at individuals or teams building projects around vaults and the broader Yearn ecosystem.
+  - **Incorrect:** Development Grants are larger sized ($5,000 to $50,000) grants aimed at individuals or teams building projects around vaults and the broader Yeeldx ecosystem.
+  - **Correct:** Development Grants are generally larger sized grants, ranging from $5,000 to $50,000, aimed at individuals or teams building projects around vaults and the broader Yeeldx ecosystem.
 
 ### Abbreviations
 
 - Use parentheses to define abbreviated terms the first time they appear in a given document.
-  - **Example:** A Yearn Improvement Proposal (YIP) is a proposal framework to support new initiatives and to expand the scope of existing ones.
+  - **Example:** A Yeeldx Improvement Proposal (YIP) is a proposal framework to support new initiatives and to expand the scope of existing ones.
 
 ### Acronyms, Decades and Cases
 
@@ -87,7 +87,7 @@ Do not use apostrophes to pluralize acronyms or indicate decades. Add an "s" at 
 
 - Names and proper nouns.
 - Cities, countries, nationalities, and languages.
-- Terms with definitions provided by Yearn.
+- Terms with definitions provided by Yeeldx.
 
 #### Title Case
 
@@ -118,18 +118,18 @@ The examples below use dollars, but the same rules apply to all global currencie
 - Similarly, when referring to exchange pairs:
   - Use: `wETH/DAI`
 
-#### Yearn Products
+#### Yeeldx Products
 
-Please see [Yearn Naming Conventions](https://docs.yearn.finance/developers/v2/naming-convention).
+Please see [Yeeldx Naming Conventions](https://docs.Yeeldx.finance/developers/v2/naming-convention).
 
-#### Yearn
+#### Yeeldx
 
-- When referring to Yearn as a smart contract system, use "The Yearn Protocol."
-  - **Example:** “The Yearn Protocol is a set of contracts for yield optimization."
-- When referring to Yearn as a body of YFI voters and the general stakeholder community, use "Yearn Community" or simply "Yearn."
-  - **Example:** "Yearn passed a vote to decrease the yCRV vault performance fee."
-  - **Example:** "The Yearn Community passed a vote to add an additional vault."
-- Use "Yearn" for casual references to Yearn and the Yearn Protocol as a whole.
+- When referring to Yeeldx as a smart contract system, use "The Yeeldx Protocol."
+  - **Example:** “The Yeeldx Protocol is a set of contracts for yield optimization."
+- When referring to Yeeldx as a body of YFI voters and the general stakeholder community, use "Yeeldx Community" or simply "Yeeldx."
+  - **Example:** "Yeeldx passed a vote to decrease the yCRV vault performance fee."
+  - **Example:** "The YeeldxCommunity passed a vote to add an additional vault."
+- Use "Yeeldx" for casual references to Yeeldx and the Yeeldx Protocol as a whole.
 - When referring to an audit assessment report follow the [Audit Citation Guidelines](https://github.com/trailofbits/publications/blob/master/citation_guidelines.pdf)
 
 ### Numbers
@@ -152,8 +152,8 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 - Use the same [voice](https://en.wikipedia.org/wiki/Voice_%28grammar%29) for each item.
 - Use the same sentence type (statement, question, exclamation) for each item.
 - List items that include definitions should look like this:
-  - **Team:** Yearn Protocol Developers and Contributors
-  - **Community**: General participants in Yearn forums and chat
+  - **Team:** Yeeldx Protocol Developers and Contributors
+  - **Community**: General participants in Yeeldx forums and chat
 - Use dashes rather than asterisks for unordered lists.
   - **Correct:** `-`
   - **Incorrect:** `*`
@@ -176,8 +176,8 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 
 - Use [absolute links](https://docs.microsoft.com/en-us/contribute/how-to-write-links) and standard web URLs when referencing external resources.
 - Create descriptive hyperlinks and avoid generic language.
-  - **Correct - Descriptive:** Learn more at [Yearn Documentation](https://docs.yearn.finance/)
-  - **Incorrect - Generic:** Learn more [here](https://docs.yearn.finance/).
+  - **Correct - Descriptive:** Learn more at [Yeeldx Documentation](https://docs.Yeeldx.finance/)
+  - **Incorrect - Generic:** Learn more [here](https://docs.Yeeldx.finance/).
 - Include a `.`outside the link for sentences that end with a link.
 - When creating links for parallel translated documents, make sure to update relative links to reflect the correct heading.
 
@@ -190,7 +190,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 
 ## Markdown Guide
 
-Yearn documents posted on GitHub are written in Markdown, a text-to-HTML conversion tool for web writers.
+Yeeldx documents posted on GitHub are written in Markdown, a text-to-HTML conversion tool for web writers.
 
 - Include line breaks above and below headings.
 - Use top-level headers (`#`) only once per document.
@@ -215,9 +215,9 @@ Yearn documents posted on GitHub are written in Markdown, a text-to-HTML convers
 
 ## Best Practices and Resources
 
-Writers and contributors familiar with Yearn and cryptocurrency basics will have a better sense of where to apply their skills best.
+Writers and contributors familiar with Yeeldx and cryptocurrency basics will have a better sense of where to apply their skills best.
 
-- Spend some time learning about Yearn's function, history, and any recent events before contributing.
+- Spend some time learning about Yeeldx's function, history, and any recent events before contributing.
 - In-depth knowledge is appreciated but not required.
 
 ### Learn the Basics of Markdown
@@ -243,26 +243,26 @@ Make use of any writing tools that help improve workflow and writing quality. Se
 
 ### Review Community Guides
 
-Review the respective Contribute.md for each repository where pertinent before starting work on any Yearn project.
+Review the respective Contribute.md for each repository where pertinent before starting work on any Yeeldx project.
 
-- Yearn contributor guides outline writing standards and help simplify the writing process.
+- Yeeldx contributor guides outline writing standards and help simplify the writing process.
 
 #### Document-Specific Maintenance Guides
 
 - Check for an associated maintenance guide before starting work on a given document if applicable.
 - A document maintenance guide outlines standards to help Reviewers and contributors when maintaining a given resource.
   - The rules described within a document-specific maintenance guide supersede other guides.
-  - If a discrepancy is glaring or unreasonable, bring the issue to an admin in the [#documentation](https://discord.gg/freT6YRNSX) channel on Yearn's discord.
+  - If a discrepancy is glaring or unreasonable, bring the issue to an admin in the [#documentation](https://discord.gg/freT6YRNSX) channel on Yeeldx's discord.
 
 #### Contributor Tools
 
-- The [Contributor Tools Guide](https://docs.yearn.finance/contributing/contributor-tools) guide introduces the tools regularly used by Yearn contributors.
+- The [Contributor Tools Guide](https://docs.Yeeldx.finance/contributing/contributor-tools) guide introduces the tools regularly used by Yeeldx contributors.
 
 ### Express Interest
 
 - Check out the Getting Started guide for contributing to Documentation.
-- Join the [#documentation](https://discord.gg/freT6YRNSX) channel on Yearn's Discord, read the pinned messages, and reach out to a channel admin.
-- Yearn community team members and senior contributors help onboard new contributors via Discord or Telegram chats where applicable.
+- Join the [#documentation](https://discord.gg/freT6YRNSX) channel on Yeeldx's Discord, read the pinned messages, and reach out to a channel admin.
+- Yeeldx community team members and senior contributors help onboard new contributors via Discord or Telegram chats where applicable.
 - Feel free to discuss personal interests and relevant skills to help determine a well-suited project/issue and jump right in.
 - To understand strengths you can also provide relevant examples of past projects, work, and experience.
   - Demonstrate a reliable work ethic and offer quality work that speaks for itself.
@@ -284,7 +284,7 @@ Review the respective Contribute.md for each repository where pertinent before s
 
 #### Track Progress
 
-- Track projects and progress with [GitHub Issues.](https://github.com/orgs/yearn/projects/2)
+- Track projects and progress with [GitHub Issues.](https://github.com/orgs/Yeeldx/projects/2)
   - Keep GitHub issues updated with comments and feedback.
 - Take advantage of version history when working in HackMD or Google Docs.
 

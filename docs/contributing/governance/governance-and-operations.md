@@ -2,7 +2,7 @@
 
 ---
 
-Since [YIP-61: Governance 2.0](https://gov.yearn.finance/t/yip-61-governance-2-0/10460) passed on April 25th, 2021, yearn began the transition into a **multi-DAO** structure, managed by **constrained delegation**. This approach allows protocol development not to be stiffened by bureaucracy while maintaining a sufficient level of decentralization.
+Since [YIP-61: Governance 2.0](https://gov.Yeeldx.finance/t/yip-61-governance-2-0/10460) passed on April 25th, 2021, Yeeldx began the transition into a **multi-DAO** structure, managed by **constrained delegation**. This approach allows protocol development not to be stiffened by bureaucracy while maintaining a sufficient level of decentralization.
 
 Multi-DAO refers to the fluid number of decentralized autonomous organizations (DAOs) that contribute to the protocol in some unique way. These independent groups consist of YFI holders, yTeams and the Multisig.
 
@@ -10,7 +10,7 @@ Multi-DAO refers to the fluid number of decentralized autonomous organizations (
 - **yTeams** focus on specific aspects of the protocol or relevant operations
 - **Multisig** members execute or veto any on-chain decisions
 
-Token holders have an ultimate say over what yTeams exist, who is part of the Multisig, and the limitations of each group's operational control. The term 'constrained delgation' originates from token holders delegating specific powers to various groups building and managing yearn.
+Token holders have an ultimate say over what yTeams exist, who is part of the Multisig, and the limitations of each group's operational control. The term 'constrained delgation' originates from token holders delegating specific powers to various groups building and managing Yeeldx.
 
 A simplified flow of governance would look like this:
 
@@ -19,7 +19,7 @@ A simplified flow of governance would look like this:
     3. yTx creates a delegated transaction and send it to the Multisig
     4. Multisig executes or vetos the transaction
 
-With [veYFI](https://docs.yearn.finance/contributing/governance/veyfi) launch, governance moved from using YFI to veYFI as voting power.
+With [veYFI](https://docs.Yeeldx.finance/contributing/governance/veyfi) launch, governance moved from using YFI to veYFI as voting power.
 
 ## DAO Responsibilities
 
@@ -27,14 +27,14 @@ With [veYFI](https://docs.yearn.finance/contributing/governance/veyfi) launch, g
 
 ### Token Holders
 
-[YFI](https://docs.yearn.finance/contributing/governance/yfi) token-holders duty is to create and vote for proposals that improve the protocol.
+[YFI](https://docs.Yeeldx.finance/contributing/governance/yfi) token-holders duty is to create and vote for proposals that improve the protocol.
 
 
 | Proposals                        | Descriptions                                                                                          |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Yearn Improvement Proposal (YIP) | A proposal to execute on any power delegated to YFI holders or outside the scope of enumerated powers |
-| Yearn Delegation Proposal (YDP)  | A proposal to change where any discrete decision-making power is delegated                            |
-| Yearn Signaling Proposal (YSP)   | A non-binding proposal to signal community feelings or intent on any issue                            |
+| Yeeldx Improvement Proposal (YIP) | A proposal to execute on any power delegated to YFI holders or outside the scope of enumerated powers |
+| Yeeldx Delegation Proposal (YDP)  | A proposal to change where any discrete decision-making power is delegated                            |
+| Yeeldx Signaling Proposal (YSP)   | A non-binding proposal to signal community feelings or intent on any issue                            |
 
 Specifically, these proposals allow token holders to make the following decisions:
 
@@ -42,7 +42,7 @@ Specifically, these proposals allow token holders to make the following decision
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Manage Powers             | YFI holders can vote to create, assign, or revoke discrete powers to or from yTeams                                                  |
 | Change YFI Token Contract | Any interaction with the YFI token contract, such as to mint YFI or burn the minting keys, remains under the control of YFI holders. |
-| Set Fees                  | Set the standard fee structures in the Yearn Protocol                                                                                |
+| Set Fees                  | Set the standard fee structures in the Yeeldx Protocol                                                                                |
 | Change Multisig Signers   | As the Multisig will continue to hold critical powers over the near term, only YFI holders can vote to change its signers            |
 | Ratify yTeams             | Formally ratify or deratify yTeams to control which yTeams can hold delegated powers                                                 |
 | Change yOps Signers       | As yOps has the power to change signers of other yTeams, this is a special power to change the signers of yOps                       |
@@ -70,18 +70,18 @@ Each yTeam is assigned specific decision-making powers, defined by YIP-61:
 | ------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | yGuard  | Emergency Powers      | Immediately intervene in case of attack or bug to shutdown or rollback strategies or vaults |
 | yBrain  | Manage Strategies     | Activate, deactivate, tune, and maintain strategies                                         |
-| yDev    | Define Yearn Protocol | Decide what code is considered part of yearn and what isn’t                                 |
-| yDev    | Manage Protocol       | Maintain and improve the Yearn Protocol                                                     |
+| yDev    | Define Yeeldx Protocol | Decide what code is considered part of Yeeldx and what isn’t                                 |
+| yDev    | Manage Protocol       | Maintain and improve the Yeeldx Protocol                                                     |
 | yDev    | Add Strategies        | Add new strategies to vaults                                                                |
 | yTx     | Delegate Transactions | Create delegated transactions for the multisig to sign and execute                          |
-| yPeople | Pay Team              | Create, deploy, modify, or terminate Yearn compensation packages                            |
+| yPeople | Pay Team              | Create, deploy, modify, or terminate Yeeldx compensation packages                            |
 | yBudget | Set Budgets           | Create budgets for coordinape, grants, hiring, operations, or other workstreams             |
 | yFarm   | Farm Treasury         | Farm with the treasury and make decisions on airdrops                                       |
 | yOps    | Ratify yTeam Signers  | Formally approve or remove signers for each yTeam                                           |
 
 ### Multisig
 
-Decisions issued by yTeams will be executed on-chain by the Multisig until a more decentralized system is approved for implementation. In the meantime, the [Multisig](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) controls the following:
+Decisions issued by yTeams will be executed on-chain by the Multisig until a more decentralized system is approved for implementation. In the meantime, the [Multisig](https://docs.Yeeldx.finance/resources/faq#who-is-on-the-multisig) controls the following:
 
 | Power               | Description                                                                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ Decisions issued by yTeams will be executed on-chain by the Multisig until a mor
 
 ## Future Implementations
 
-Yearn continuously paves the way towards an ideal balance of DAO decentralization and productivity. The current phase of efforts implements changes mainly on the social layer. In the future, we will be moving towards software implementations such as:
+Yeeldx continuously paves the way towards an ideal balance of DAO decentralization and productivity. The current phase of efforts implements changes mainly on the social layer. In the future, we will be moving towards software implementations such as:
 
 - Multisig consensus mechanisms that allow each yTeam to have execution power
 - Move from proxy voting to on-chain voting
@@ -100,4 +100,4 @@ Yearn continuously paves the way towards an ideal balance of DAO decentralizatio
 
 ## Read More
 
-- [Article](https://medium.com/iearn/yearn-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f) about yearn governance process and YFI token role in it
+- [Article](https://medium.com/iearn/Yeeldx-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f) about Yeeldx governance process and YFI token role in it
