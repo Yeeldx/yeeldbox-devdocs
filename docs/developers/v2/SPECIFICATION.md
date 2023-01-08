@@ -1,9 +1,9 @@
-# Yearn System Specification
+# Yeeldx System Specification
 
 ## Definitions
 
 - Governance: YFI token governance system
-- Treasury: Yearn rewards mechanism/protocol dev fund
+- Treasury: Yeeldx rewards mechanism/protocol dev fund
 - Vault: Only user touch-point, manages funds
 - Strategy: Complex external interactions w/ limited access to Vault
 - Strategist: original creator of strategy, is in charge of monitoring its position for adverse effects.
@@ -49,7 +49,7 @@ This is to prevent sandwich attacks of an account depositing tokens right before
 
 ### Oracle
 
-Yearn vaults aren't using any oracles.
+Yeeldx vaults aren't using any oracles.
 The vault doesn’t rely on oracle because it doesn’t require a price information, it’s not lending, exchanging assets, 
 
 ### Emergency Shutdown Mode
@@ -111,7 +111,7 @@ NOTE: Governance is expected to manage each deployed Vault and the strategies co
 
 NOTE: Rewards are given as shares of each Vault, which are redeemable for the underlying token that the Vault is wrapping.
 
-NOTE: It is up to the design of the Treasury to unwrap and further account for the share of the underlying awarded to governance participants, and the other parties in the Yearn ecosystem (including keeper gas fees, protocol development and maintenance costs, etc.)
+NOTE: It is up to the design of the Treasury to unwrap and further account for the share of the underlying awarded to governance participants, and the other parties in the Yeeldx ecosystem (including keeper gas fees, protocol development and maintenance costs, etc.)
 
 NOTE: The Treasury system could leverage the Vault design, with strategies that just market sell the rewards for YFI.
 
