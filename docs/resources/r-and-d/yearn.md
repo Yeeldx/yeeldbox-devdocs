@@ -2,11 +2,11 @@
 description: Deprecated
 ---
 
-# yEarn (deprecated)
+# Yeeldx (deprecated)
 
 Earn is a lending aggregator that strives to attain the highest yield for supported coins \(DAI, USDC, USDT, TUSD, sUSD, or wBTC\) at all times. It does this by programmatically shifting these coins between several lending protocols \([AAVE](https://aave.com), [dYdX](https://dydx.exchange/), and [Compound](https://compound.finance)\) operating on the Ethereum blockchain.
 
-For example, a user can deposit DAI into the Earn yDAI pool. Yearn will programmatically deposit DAI into one of three lending protocols \(AAVE, dYdX, Compound\). Yearn will withdraw from one protocol and deposit to another automatically as interest rates change between protocols. As a result, the user will receive the optimal interest rate on his or her DAI deposit at all times.
+For example, a user can deposit DAI into the Earn yDAI pool. Yeeldx will programmatically deposit DAI into one of three lending protocols \(AAVE, dYdX, Compound\). Yeeldx will withdraw from one protocol and deposit to another automatically as interest rates change between protocols. As a result, the user will receive the optimal interest rate on his or her DAI deposit at all times.
 
 ![](https://i.imgur.com/jLlg0WU.png)
 
@@ -18,4 +18,4 @@ As of September 2020, the YTD annualized return for yPool liquidity providers is
 
 ## Resources
 
-- [Earn Homepage](https://v1.yearn.finance/earn)
+- [Earn Homepage](https://v1.Yeeldx.finance/earn)
