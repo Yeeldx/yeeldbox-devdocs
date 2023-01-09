@@ -2,7 +2,7 @@
 title: Submit a Pull Request
 ---
 
-The final step to be added to the partnership program is to submit a pull request to be added to the list of partners. You should submit a request to add yourself to [partners.py](https://github.com/yearn/yearn-exporter/blob/master/yearn/partners/partners.py)
+The final step to be added to the partnership program is to submit a pull request to be added to the list of partners. You should submit a request to add yourself to [partners.py](https://github.com/Yeeldx/Yeeldx-exporter/blob/master/Yeeldx/partners/partners.py)
 
 First, you have to fork the repository into your account, make the modifications to update the file, and then submit the pull request to the main repo.
 
