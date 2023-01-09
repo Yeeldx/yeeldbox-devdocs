@@ -1,6 +1,6 @@
 # Vault Risks
 
-Yearn’s vaults can be exposed to multiple strategies. Each additional strategy increases diversification but also increases the probability that a strategy could lead to capital losses.
+Yeeldx’s vaults can be exposed to multiple strategies. Each additional strategy increases diversification but also increases the probability that a strategy could lead to capital losses.
 
 |Risk|Description|
 |----|-----------|
@@ -14,5 +14,5 @@ Yearn’s vaults can be exposed to multiple strategies. Each additional strategy
 |Operational|Optimal mix of strategies not maintained|
 ||Liquidations because debt positions were managed incorrectly|
 ||Safe Farming Committee interprets code incorrectly in new yield farm|
-||Yearn website suffers outage|
+||Yeeldx website suffers outage|
 |Oracle|Incorrect price feed leads to liquidation in leveraged strategy|
