@@ -1,6 +1,6 @@
 # Risk Scores
 
-Yearn works with risk scores to quantify and assess the amount of risk of each strategy and vault, this document describes how we define risk vectors and work with them to reach a good balance between secure and innovative strategies
+Yeeldx works with risk scores to quantify and assess the amount of risk of each strategy and vault, this document describes how we define risk vectors and work with them to reach a good balance between secure and innovative strategies
 
 * [**Strategy Risk Score**](#strategy-risk-score) defines each dimension of risk for a strategy and how we quantify them
 * [**Vault Risk Score Proposal**](#vault-risk-score-proposal) aggregates all strategies scores for a vault averaging by TVL **(this is in draft stage)**
@@ -8,7 +8,7 @@ Yearn works with risk scores to quantify and assess the amount of risk of each s
 
 ## Strategy Risk Score
 
-Risk for different strategies is measured using a point scoring system developed internally from yearn’s strategy deployment process. The higher the risk score number, the more riskier the strategy is. Calculating the risk assesses eight dimensions:
+Risk for different strategies is measured using a point scoring system developed internally from Yeeldx’s strategy deployment process. The higher the risk score number, the more riskier the strategy is. Calculating the risk assesses eight dimensions:
 
 * [Audit](#audit)
 * [Code Review](#code-review)
@@ -19,9 +19,9 @@ Risk for different strategies is measured using a point scoring system developed
 * [Testing Score](#testing-score)
 * [TVL Impact](#tvl-impact)
 
-This risk framework is an ongoing process regarding the security of yearn’s strategies. The security team realized that given yearn’s unique approach to deploying strategies constantly, it couldn’t rely on a waterfall process (heavy analysis/design, testing, several audits before a release, etc.) to deploy contracts. The strategies are deployed and capped by their risk score, and as we mitigate each dimension and improve something in the scoring, the strategy can grow its TVL. Think of it as calculated bets based on our internal security process. This allows yearn to compare the risk score of two strategies and prioritize mitigations/preventive actions like forming a committee to spread knowledge on the code, get more audits, migrate current code for improved versions of the strat, etc. 
+This risk framework is an ongoing process regarding the security of Yeeldx’s strategies. The security team realized that given Yeeldx’s unique approach to deploying strategies constantly, it couldn’t rely on a waterfall process (heavy analysis/design, testing, several audits before a release, etc.) to deploy contracts. The strategies are deployed and capped by their risk score, and as we mitigate each dimension and improve something in the scoring, the strategy can grow its TVL. Think of it as calculated bets based on our internal security process. This allows Yeeldx to compare the risk score of two strategies and prioritize mitigations/preventive actions like forming a committee to spread knowledge on the code, get more audits, migrate current code for improved versions of the strat, etc. 
  
-The current version works for yearn’s current needs. Still, we are always looking to improve and extend this scoring system to the vaults to be able to get a weighted average risk score that makes reasonable assumptions. We want to help our users know what’s going on behind the scenes in the vaults. Vault risk scoring is still under development at the moment!
+The current version works for Yeeldx’s current needs. Still, we are always looking to improve and extend this scoring system to the vaults to be able to get a weighted average risk score that makes reasonable assumptions. We want to help our users know what’s going on behind the scenes in the vaults. Vault risk scoring is still under development at the moment!
 
 ### Audit
 
@@ -60,7 +60,7 @@ This is the process that reviews strategy code going to production. It is done i
 
 **Phase 1:** Two internal peers (strategists) review the strategy for any potential issues regarding handling accounts, profits, losses, etc. After this phase is completed, the strategy can go to ape.tax for live testing and validation.
 
-**Phase 2:** An internal security reviewer from yearn will review the code focusing on security concerns. Once phase 2 is completed, the strategy gets a risk score in all dimensions and is usually deemed enough for a strategy to go to production with limited TVL based on scoring.
+**Phase 2:** An internal security reviewer from Yeeldx will review the code focusing on security concerns. Once phase 2 is completed, the strategy gets a risk score in all dimensions and is usually deemed enough for a strategy to go to production with limited TVL based on scoring.
 
 After these steps a recurring review is scheduled, where either a second either internal or external security reviewer will have another look at the code:
 
@@ -124,7 +124,7 @@ This is how the strategy earns its returns: is it a simple strategy like a maste
 
 ### Longevity
 
-How long the strategy has been running live on yearn.finance:
+How long the strategy has been running live on Yeeldx.finance:
 
 <table>
   <tr>
@@ -133,7 +133,7 @@ How long the strategy has been running live on yearn.finance:
   </tr>
   <tr>
    <td>5</td>
-   <td>New code. Did not go to ape tax before going live on yearn.finance</td>
+   <td>New code. Did not go to ape tax before going live on Yeeldx.finance</td>
   </tr>
   <tr>
    <td>4</td>
@@ -155,7 +155,7 @@ How long the strategy has been running live on yearn.finance:
 
 ### Protocol Safety
 
-Internal evaluation from yearn’s point-of-view of how resilient are the protocols that the strategy works with. It regards safety measures given the current DeFi security standards, it's heavily based on informed opinions regarding our internal assessments and due diligence compared to the top projects in DeFI. Accounts for multisig health, decentralization, bounty programs, audits, etc. 
+Internal evaluation from Yeeldx’s point-of-view of how resilient are the protocols that the strategy works with. It regards safety measures given the current DeFi security standards, it's heavily based on informed opinions regarding our internal assessments and due diligence compared to the top projects in DeFI. Accounts for multisig health, decentralization, bounty programs, audits, etc. 
 
 We hope to improve this dimension with the help of the DeFI community to potentially use a standard scoring system that is widely accepted in the ecosystem to replace our current scoring table:
 
@@ -188,7 +188,7 @@ We hope to improve this dimension with the help of the DeFI community to potenti
 
 ### Team knowledge
 
-Measures how much expertise on a strategy is shared amongst Yearn contributors. How many contributors can manage the strategy and respond in an emergency? The less people can manage and respond during an emergency the riskier the strategy assessment in this dimension:
+Measures how much expertise on a strategy is shared amongst Yeeldx contributors. How many contributors can manage the strategy and respond in an emergency? The less people can manage and respond during an emergency the riskier the strategy assessment in this dimension:
 
 <table>
   <tr>
@@ -250,7 +250,7 @@ Testing score is a metric of how much of the codebase for the strategy has been 
 
 ### TVL Impact
 
-The TVL (total value locked) impact is a figure between 1 and 5 as well, where 5 is the highest impact labeled “extreme” (above 100MM) and 1 is the lowest impact in TVL less than 1MM. This table measures how to allocate to new riskier strategies without having a catastrophic event in case of a hack or issue. The lower the impact, the more likely yearn’s treasury can recover from an incident. The TVL is measured in USD and grows dynamically based on strategies allocations onchain. Through [yearn.watch](https://yearn.watch/) we keep track of the TVL and risk score to make fund allocation decisions and mitigations if a strategy group has fallen into the “red” high-risk zone:
+The TVL (total value locked) impact is a figure between 1 and 5 as well, where 5 is the highest impact labeled “extreme” (above 100MM) and 1 is the lowest impact in TVL less than 1MM. This table measures how to allocate to new riskier strategies without having a catastrophic event in case of a hack or issue. The lower the impact, the more likely Yeeldx’s treasury can recover from an incident. The TVL is measured in USD and grows dynamically based on strategies allocations onchain. Through [Yeeldx.watch](https://Yeeldx.watch/) we keep track of the TVL and risk score to make fund allocation decisions and mitigations if a strategy group has fallen into the “red” high-risk zone:
 
 <table>
   <tr>
