@@ -4,51 +4,51 @@
 
 ### Community
 
-- [Discord](https://discord.gg/yearn)
-- [Reddit](https://www.reddit.com/r/yearn_finance/)
-- [Github](https://github.com/yearn)
-- [Telegram](https://t.me/yearnfinance)
-- [Telegram Price Chat](https://t.me/yearncommunity)
-- [Telegram Announcements](https://t.me/yearnupdates)
-- [Press Kit](https://presskit.yearn.finance/)
-- [Yearn Projects](https://world.yearn.finance/)
+- [Discord](https://discord.gg/Yeeldx)
+- [Reddit](https://www.reddit.com/r/Yeeldx_finance/)
+- [Github](https://github.com/Yeeldx)
+- [Telegram](https://t.me/Yeeldxfinance)
+- [Telegram Price Chat](https://t.me/Yeeldxcommunity)
+- [Telegram Announcements](https://t.me/Yeeldxupdates)
+- [Press Kit](https://presskit.Yeeldx.finance/)
+- [Yeeldx Projects](https://world.Yeeldx.finance/)
 
 ### Updates
 
 - [Twitter](https://twitter.com/iearnfinance)
 - [Medium](https://medium.com/iearn)
-- [Yearn Newsletter](https://yearn.substack.com/)
-- [Weekly Governance Newsletter](https://medium.com/yearn-governance-roundup)
-- [The Vaults at Yearn](https://vaults.yearn.finance/)
+- [Yeeldx Newsletter](https://Yeeldx.substack.com/)
+- [Weekly Governance Newsletter](https://medium.com/Yeeldx-governance-roundup)
+- [The Vaults at Yeeldx](https://vaults.Yeeldx.finance/)
 
 ### Collaborate
 
-- [Github](https://github.com/yearn)
-- [Governance Forum](https://gov.yearn.finance)
-- [Yearn Contribute](https://contribute.yearn.rocks/)
+- [Github](https://github.com/Yeeldx)
+- [Governance Forum](https://gov.Yeeldx.finance)
+- [Yeeldx Contribute](https://contribute.Yeeldx.rocks/)
 
 ### Vaults Detail Reference
 
-- [Vaults at Yearn](https://vaults.yearn.finance/)
-- [yVaults v2 Strategies](https://yearn.watch/)
-- [Risk Dashboard](https://yearn.watch/risk)
+- [Vaults at Yeeldx](https://vaults.Yeeldx.finance/)
+- [yVaults v2 Strategies](https://Yeeldx.watch/)
+- [Risk Dashboard](https://Yeeldx.watch/risk)
 
 ### Statistics
 
-- [Yearn Dashboard](https://yearn.vision)
-- [Initial Distribution Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
+- [Yeeldx Dashboard](https://Yeeldx.vision)
+- [Initial Distribution Dashboard](https://explore.duneanalytics.com/dashboard/Yeeldx)
 - [Voting Stats Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
 - [Vaults Stats Dashboard](https://thegraph.com/explorer/subgraph?id=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0&view=Overview)
-- [Yearn Vaults V2 Subgraph](https://api.yearn.finance/v1/chains/1/vaults/all)
-- [Yearn API](https://api.yearn.finance/v1/chains/1/vaults/all)
-- [Yearn on TokenTerminal](https://www.tokenterminal.com/terminal/projects/yearn-finance)
-- [Yearn Articles and Guides](https://medium.com/iearn)
+- [Yeeldx Vaults V2 Subgraph](https://api.Yeeldx.finance/v1/chains/1/vaults/all)
+- [Yeeldx API](https://api.Yeeldx.finance/v1/chains/1/vaults/all)
+- [Yeeldx on TokenTerminal](https://www.tokenterminal.com/terminal/projects/Yeeldx-finance)
+- [Yeeldx Articles and Guides](https://medium.com/iearn)
 
 ### General Websites
 
-- [Dune Analytics](https://duneanalytics.com/projects/yearn)
-- [CoinGecko](https://www.coingecko.com/en/coins/yearn-finance)
-- [Defi Market Cap](https://defimarketcap.io/protocol/yearn-vault)
+- [Dune Analytics](https://duneanalytics.com/projects/Yeeldx)
+- [CoinGecko](https://www.coingecko.com/en/coins/Yeeldx-finance)
+- [Defi Market Cap](https://defimarketcap.io/protocol/Yeeldx-vault)
 
 ### Community Calculators
 
