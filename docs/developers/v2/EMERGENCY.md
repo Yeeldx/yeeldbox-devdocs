@@ -14,7 +14,7 @@ For this document, an emergency situation is defined to be:
 
 This is a non-exhaustive list of possible emergency scenarios:
 
-1. Bug/Exploit in Vault/Strategy code that can cause a loss of funds for users
+1. Bug/Exploit in YeeldBox/Strategy code that can cause a loss of funds for users
 2. Bug/Exploit in an underlying protocol that a Yeeldx Strategy is utilizing that may lead to loss of funds
 3. Loss of private keys for a key role, such as a Strategist
 4. Potential exploit discovered by a team or bounty program researcher
@@ -65,7 +65,7 @@ Coordinates quick changes to Governance and Guardian roles during the emergency,
 
 - Prepare and Execute Core Dev Multi-sig transactions and operations
 - Revoke a Strategy
-- Set vault in emergency shutdown mode
+- Set YeeldBox in emergency shutdown mode
 
 ### Web Lead
 
@@ -97,15 +97,15 @@ The primary objective is to minimize the loss of funds, in particular for Yeeldx
    - Is there confirmation from several team members/sources that the issue is valid? Are there example transactions that show the incident occurring? (Pin these in the War Room)
    - Is the Strategist that knows the most about the code in the War Room? Can the Strategist in question be reached? If not, can we reach the backup Strategist?
    - Are funds presently at risk? Is immediate action required?
-   - Is the issue isolated or does it affect several vaults/strategies? Can the affected contracts be identified? (Pin these in the War Room)
+   - Is the issue isolated or does it affect several YeeldBoxes/strategies? Can the affected contracts be identified? (Pin these in the War Room)
    - Which Multi-sig will require signing to address the issue? The Multi-sig Herder should begin to notify signers and clear the queue in preparation for emergency transactions.
    - If there is no immediate risk of loss of funds, does the team still need to take preventive action or some other mitigation?
    - Is there agreement in the team that the situation is under control and that the War Room can be closed?
 4. Once the issue has been confirmed as valid, the next step is to take immediate corrective action to prevent further loss of funds. If the root cause requires further research, the team must err on the side of caution and take emergency preventive actions while the situation continues to be assessed. A few questions to guide the decisions of the team:
-   - Disable deposits to the affected Vaults? Should migrations and deposits be removed from the UI?
+   - Disable deposits to the affected YeeldBoxes? Should migrations and deposits be removed from the UI?
    - Activate Emergency Exit on the affected Strategies?
-   - Remove one or more strategies from the withdrawal queue from the affected vaults?
-   - Activate Emergency Shutdown in the Vault?
+   - Remove one or more strategies from the withdrawal queue from the affected YeeldBoxes?
+   - Activate Emergency Shutdown in the YeeldBox?
    - Revoke 1 or more Strategies?
    - Are multiple Team members able to confirm the corrective actions will stop the immediate risk through local Ganache fork testing? Strategist and Core Dev main roles in particular to confirm this step.
 5. The immediate corrective actions should be scripted or taken from the repository [emergency-toolbox](https://github.com/Yeeldx/emergency-toolbox) and executed ASAP. Multi-sig Herder and Strategist Lead should coordinate this execution within the corresponding roles. **NOTE: This step is meant to give the War Room time to assess and research a more long-term solution**.
@@ -134,7 +134,7 @@ This checklist should be complemented with the [steps](#emergency-steps)
 - [ ] Add Strategist or other Expert (or their backup) to the War Room
 - [ ] Clear related Multi-sig queues
 - [ ] Disable deposits and/or withdrawals as needed in the web UI
-- [ ] If share price has been artificially lowered, then call `vault.setDepositLimit(0)` from governance
+- [ ] If share price has been artificially lowered, then call `YeeldBox.setDepositLimit(0)` from governance
 - [ ] Confirm and identify Issue
 - [ ] Take immediate corrective/preventive actions to prevent (further) loss of funds
 - [ ] Communicate the current situation internally and externally (as appropriate)
