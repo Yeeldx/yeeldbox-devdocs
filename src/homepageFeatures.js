@@ -30,7 +30,7 @@ export default [
       {
         title: 'Yeeldx SDK',
         description: 'Learn about the Yeeldx stack and how to use the SDK as an aggregator of many data sources.',
-        to: './vaults/yeeldx-sdk/yeeldx-stack',
+        to: './vaults/yearn-sdk/yearn-stack',
       },
       {
         title: 'Smart Contracts',
