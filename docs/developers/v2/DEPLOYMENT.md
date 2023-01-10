@@ -1,48 +1,48 @@
-# Deploying a Vault and Strategy V2
+# Deploying a YeeldBox and Strategy V2
 
 **Note**: This [private repo](https://github.com/Yeeldx/chief-multisig-officer) is encouraged to create multiple scripts for governance and dev multisig execution of complex transactions.
 
 ## Requirements
 
-Make sure you have the brownie environment set up before trying to deploy a vault. Check out the [Readme MD in Yeeldx Vaults Repo](https://github.com/Yeeldx/Yeeldx-vaults/blob/master/README.md) for instructions.
+Make sure you have the brownie environment set up before trying to deploy a YeeldBox. Check out the [Readme MD in Yeeldx YeeldBoxes Repo](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/blob/master/README.md) for instructions.
 
 The below instructions show some python commands that assume you are using the brownie console or a brownie script setup.
 
-## Deploying a new Experimental Vault
+## Deploying a new Experimental YeeldBox
 
-1. Clone the [YYeeldx Vaults Repo](https://github.com/Yeeldx/Yeeldx-vaults/) and run `brownie run scripts/deploy.py --network <network-to-deploy-vault>`
-2. Choose the brownie account for deploying your vault. This account needs to have funds to pay for the deployment transaction.
-3. Confirm the script is using the latest version of registry `v2.registry.ychad.eth` against the planned new release vault to be sure it's an updated version. (Can validate on Etherscan for latest address)
-4. Select the version of the vault to deploy or press enter to use the latest release.
-5. Enter `Y` when prompt to deploy Proxy Vault
-6. Enter the checksummed address of the ERC20 token the vault will use.
-7. Enter the vault Parameters (Below are some suggested values):
+1. Clone the [YYeeldx YeeldBoxes Repo](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/) and run `brownie run scripts/deploy.py --network <network-to-deploy-YeeldBox>`
+2. Choose the brownie account for deploying your YeeldBox. This account needs to have funds to pay for the deployment transaction.
+3. Confirm the script is using the latest version of registry `v2.registry.ychad.eth` against the planned new release YeeldBox to be sure it's an updated version. (Can validate on Etherscan for latest address)
+4. Select the version of the YeeldBox to deploy or press enter to use the latest release.
+5. Enter `Y` when prompt to deploy Proxy YeeldBox
+6. Enter the checksummed address of the ERC20 token the YeeldBox will use.
+7. Enter the YeeldBox Parameters (Below are some suggested values):
    - Set your address or an address you control as governance.
    - Set Treasury (`treasury.ychad.eth`) as the rewards address.
    - Set Core Dev multisig (`dev.ychad.eth`) as guardian.
    - Set Strategist multisig (`brain.ychad.eth`) as management.
-   - Set name and symbol for vault or use suggested as default (can be changed on-chain later, but please check out our [naming conventions](https://docs.Yeeldx.finance/developers/v2/naming-convention)). 
-8. Confirm the Parameters are correct and press `y` and ENTER to deploy the vault.
-9. Check new vault has ABI setup on Etherscan (Some vault versions from older releases may have verification issues with Vyper and proxy detection on Etherscan, consider using later releases >0.3.5 to ensure verification works).
+   - Set name and symbol for YeeldBox or use suggested as default (can be changed on-chain later, but please check out our [naming conventions](https://docs.Yeeldx.finance/developers/v2/naming-convention)). 
+8. Confirm the Parameters are correct and press `y` and ENTER to deploy the YeeldBox.
+9. Check new YeeldBox has ABI setup on Etherscan (Some YeeldBox versions from older releases may have verification issues with Vyper and proxy detection on Etherscan, consider using later releases >0.3.5 to ensure verification works).
 
 10. Set deposit limit according to the table [below](#Limits-per-Stage)
 
    ```python
-   vault.setDepositLimit(limit)
+   YeeldBox.setDepositLimit(limit)
    ```
 
 11. Set management fee to 0:
 
    ```python
-   vault.setManagementFee(0)
+   YeeldBox.setManagementFee(0)
    ```
 
-12. (Optional) Set governance to ychad.eth (`0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52`) if vault is planned to be endorsed soon:
+12. (Optional) Set governance to ychad.eth (`0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52`) if YeeldBox is planned to be endorsed soon:
 
-- Note you can still make changes to the vault after setting governance up until governance is accepted
+- Note you can still make changes to the YeeldBox after setting governance up until governance is accepted
 
 ```python
-vault.setGovernance(ychad.eth)
+YeeldBox.setGovernance(ychad.eth)
 ```
 
 ## Deploying a new Strategy
@@ -52,14 +52,14 @@ vault.setGovernance(ychad.eth)
    Example(s) [SNX](https://hackmd.io/0w1RZh7DSc27A9EyzlHbJQ?view)
 3. Coordinate with Core Dev strategist for reviewing strategy, then follow the status on the [private board](https://github.com/orgs/Yeeldx/projects/5).
 4. Have it peer-reviewed by at least **two** strategists.
-5. Check if `want` token has a deployed vault already (>=v0.3.0) and coordinate to use that first if possible.
-6. Coordinate with a core developer to set a proper deposit limit and other settings for the new vault. See the table below: [Limits per Stage](#limits-per-stage).
+5. Check if `want` token has a deployed YeeldBox already (>=v0.3.0) and coordinate to use that first if possible.
+6. Coordinate with a core developer to set a proper deposit limit and other settings for the new YeeldBox. See the table below: [Limits per Stage](#limits-per-stage).
 7. Deploy strategy and upload code to Etherscan for verification.
 8. Tag GitHub review issue with deployed version and attach mainnet address(es) to the strategy item in [private board](https://github.com/orgs/Yeeldx/projects/5).
 
-## Make the Vault and Strategy work together
+## Make the YeeldBox and Strategy work together
 
-1. Add strategy to vault (for vault code v0.3.3+):
+1. Add strategy to YeeldBox (for YeeldBox code v0.3.3+):
 
    ```python
    strategy = ''                     # Your strategy address
@@ -68,7 +68,7 @@ vault.setGovernance(ychad.eth)
    maxDebtPerHarvest = 2 ** 256 - 1  # Upper limit on debt add
    performance_fee = 1000            # Strategist perf fee: 10%
 
-   vault.addStrategy(
+   YeeldBox.addStrategy(
      strategy,
      debt_ratio,
      minDebtPerHarvest,
@@ -77,7 +77,7 @@ vault.setGovernance(ychad.eth)
    )
    ```
 
-   - `debt_ratio` should be `9800` if first strategy on vault.
+   - `debt_ratio` should be `9800` if first strategy on YeeldBox.
    - `rate_limit` is `0` unless there is reason for it to be different.
 
 2. Set keeper:
@@ -106,11 +106,11 @@ vault.setGovernance(ychad.eth)
 
    - Read [below](<#sharer-contract>) if you want to use the sharer contract.
 
-2. Run tests against "live" vault and strategy in mainnet-fork:
+2. Run tests against "live" YeeldBox and strategy in mainnet-fork:
 
    - Harvest.
    - Profitable harvest.
-   - Revoke strategy and check that funds return to the vault.
+   - Revoke strategy and check that funds return to the YeeldBox.
    - Increase/decrease debt + harvest, and check that the strategy is working well.
    - Migration.
    - Check that tokens in the strategy cannot be sweeped by dust collection.
@@ -121,7 +121,7 @@ vault.setGovernance(ychad.eth)
 
 > You can coordinate with the strategists if you need a UI to test.
 
-1. Deposit some `want` tokens into the vault.
+1. Deposit some `want` tokens into the YeeldBox.
 2. Do first `harvest` and make sure it worked correctly.
 
    ```python
@@ -129,33 +129,33 @@ vault.setGovernance(ychad.eth)
    ```
 
 3. Monitor `harvest` and `tend` triggers for first few days. Call `harvest`/`tend` manually.
-4. If this is a new vault deployment, test deposit, withdraw, and transfer to ensure functionality is as expected.
+4. If this is a new YeeldBox deployment, test deposit, withdraw, and transfer to ensure functionality is as expected.
 
 ## Scaling up / Moving to Endorse
 
 In addition to the two strategist reviews, a Core Developer has to review the strategy before going into production.
 
-1. Create an [issue](https://github.com/Yeeldx/Yeeldx-finance-v3/issues) in Yeeldx's web repo to ensure that the new vault won't create any problems with the API and that all necessary token/vault metadata is ready. Additionally, if this vault needs to go in the "labs" category, it must be manually added to the website.
+1. Create an [issue](https://github.com/Yeeldx/Yeeldx-finance-v3/issues) in Yeeldx's web repo to ensure that the new YeeldBox won't create any problems with the API and that all necessary token/YeeldBox metadata is ready. Additionally, if this YeeldBox needs to go in the "labs" category, it must be manually added to the website.
 2. Increase deposit limit according to the table [below](#Limits-per-Stage)
 3. Set management fee to production level:
 
    ```python
-   vault.setManagementFee(200)
+   YeeldBox.setManagementFee(200)
    ```
 
-4. Set parameters for vault correctly before endorsement:
+4. Set parameters for YeeldBox correctly before endorsement:
 
    - Set Governance to (`ychad.eth`)
    - Set Treasury (`treasury.ychad.eth`) as the rewards address.
    - Set Core Dev multisig (`dev.ychad.eth`) as guardian.
    - Set Strategist multisig (`brain.ychad.eth`) as management.
-   - Set description and symbol for vault or use suggested as default (can be changed on-chain later)
+   - Set description and symbol for YeeldBox or use suggested as default (can be changed on-chain later)
 
-5. Yeeldx's governance now must accept this vault's governance and endorse it:
+5. Yeeldx's governance now must accept this YeeldBox's governance and endorse it:
 
 ```python
 strategy.acceptGovernance()
-registry.endorseVault(vault)
+registry.endorseYeeldBox(YeeldBox)
 ```
 
 6. If using a curve voter stategy, make sure to approve the new strategy on Yeeldx's voterProxy:
@@ -164,20 +164,20 @@ registry.endorseVault(vault)
 proxy.approveStrategy(gauge, strategy)
 ```
 
-### Endorsing a vault from a previous release
+### Endorsing a YeeldBox from a previous release
 
 1. Check for the latest release number in the registry contract
-2. Check the apiVersion of the vault you want to endorse to identify the target release
-3. Calculate the releaseDelta from your target release. (see registry endorseVault param details)
-   E.g: latestRelease = 0.3.3 and numReleases = 5. New vault apiVersion is 0.3.2
+2. Check the apiVersion of the YeeldBox you want to endorse to identify the target release
+3. Calculate the releaseDelta from your target release. (see registry endorseYeeldBox param details)
+   E.g: latestRelease = 0.3.3 and numReleases = 5. New YeeldBox apiVersion is 0.3.2
    `releaseDelta = numReleases - 1 - releaseTarget`
-4. Confirm using `registry.releases(uint256)` that your `targetRelease` has the same apiVersion as your vault.
+4. Confirm using `registry.releases(uint256)` that your `targetRelease` has the same apiVersion as your YeeldBox.
 
    ```python
-   releaseTarget = 3 # e.g vault api version 0.3.2
+   releaseTarget = 3 # e.g YeeldBox api version 0.3.2
    releaseDelta = registry.numReleases() - 1 - releaseTarget # (5-1-3) = 1
    strategy.acceptGovernance() # from ychad.eth
-   registry.endorseVault(vault, releaseDelta) # from ychad.eth.
+   registry.endorseYeeldBox(YeeldBox, releaseDelta) # from ychad.eth.
    ```
 
 ## Publishing Your Strategy Description
@@ -228,21 +228,21 @@ These are the standard deposit limits per stage, and they can be adjusted on a c
 
 ### Health Checks
 
-Since the v0.4.3 release, we have introduced the concept of Health Checks contracts to vaults and strategies. These are helper contracts that can validate the end state of a harvest, or critical transaction, to ensure the accounting stays within established safe parameters.
+Since the v0.4.3 release, we have introduced the concept of Health Checks contracts to YeeldBoxes and strategies. These are helper contracts that can validate the end state of a harvest, or critical transaction, to ensure the accounting stays within established safe parameters.
 
-You can think of these contracts as on-chain unit tests, or "self asserts", ensuring that the end state of a critical transaction matches an expected condition. The design allows health checks to be configured per individual vault or strategy. If the "assert" doesn't match expectations, the entire transaction will revert and require manual intervention by strategists or core devs.
+You can think of these contracts as on-chain unit tests, or "self asserts", ensuring that the end state of a critical transaction matches an expected condition. The design allows health checks to be configured per individual YeeldBox or strategy. If the "assert" doesn't match expectations, the entire transaction will revert and require manual intervention by strategists or core devs.
 
-Vaults from release v0.4.3 and onward, support attaching an on-chain health check contract to be called after every harvest report.
+YeeldBoxes from release v0.4.3 and onward, support attaching an on-chain health check contract to be called after every harvest report.
 
 ## Note on Health Checks Backward Compatibility
 
-The health checks are designed to be backward compatible. To target already deployed vaults, we released a patch for each tagged release of `BaseStrategy`. e.g:
+The health checks are designed to be backward compatible. To target already deployed YeeldBoxes, we released a patch for each tagged release of `BaseStrategy`. e.g:
 
-v0.3.5 -> [v0.3.5-1](https://github.com/Yeeldx/Yeeldx-vaults/tree/v0.3.5-1) (compatible version)
+v0.3.5 -> [v0.3.5-1](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/tree/v0.3.5-1) (compatible version)
 
 ## Adding Health Checks to your strategy
 
-1. Before deploying a strategy with [brownie-strategy-mix](https://github.com/Yeeldx/brownie-strategy-mix) make sure your `brownie-config.yml` points to the correct patched vault version, to get a Health Check enabled `BaseStrategy` imported to your strategy.
+1. Before deploying a strategy with [brownie-strategy-mix](https://github.com/Yeeldx/brownie-strategy-mix) make sure your `brownie-config.yml` points to the correct patched YeeldBox version, to get a Health Check enabled `BaseStrategy` imported to your strategy.
 
 2. To interact with the health check contract, no change should be necessary on your extended `Strategy` logic. **IMPORTANT**: Check your contract size to see if refactoring is needed for compilation.
 
@@ -259,7 +259,7 @@ strategy.setHealthCheck(commonHealthCheck)
 
 A global setting check against deviations in reported profit and losses within a safe interval. Any report/harvest that falls outside this global safe interval will report.
 
-If a harvest/report revert transaction is detected on-chain, manual intervention is required to debug and accept the transaction into the vaults accounting. This should be done after proper validation by the strategist's multi-sig and Core Devs group.
+If a harvest/report revert transaction is detected on-chain, manual intervention is required to debug and accept the transaction into the YeeldBoxes accounting. This should be done after proper validation by the strategist's multi-sig and Core Devs group.
 
 Disabling health checks is meant to be a one-time special event using the following steps:
 
@@ -297,7 +297,7 @@ customHealthCheck = '' # custom health check address
 healthcheck.setCheck(strategy, customHealthCheck)
 ```
 
-Custom Health Check **must** follow the interface for [custom health checks](https://github.com/Yeeldx/Yeeldx-vaults/blob/3bea2d8c070efeb05bc02d7d0136120bc516af4b/contracts/CommonHealthCheck.sol#L5)
+Custom Health Check **must** follow the interface for [custom health checks](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/blob/3bea2d8c070efeb05bc02d7d0136120bc516af4b/contracts/CommonHealthCheck.sol#L5)
 
 ### Ethereum Addresses
 
