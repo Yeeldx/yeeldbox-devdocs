@@ -1,8 +1,8 @@
 ---
-description: This documentation only covers v1 vaults. 
+description: This documentation only covers v1 YeeldBoxs. 
 ---
 
-# v1 yVault Interfaces
+# v1 yYeeldBox Interfaces
 
 ## IStrategy
 
@@ -64,7 +64,7 @@ function withdraw(address) external;
 
 ### function `withdraw(uint256)`
 
-Partially withdraws funds (denominated in `want()` token) from the Strategy, and should always only be sending these to the Vault. In case the Strategy implements `harvest()`, a withdrawal fee may be applied. This function should have access control enforcing the Controller only to be its allowed caller.
+Partially withdraws funds (denominated in `want()` token) from the Strategy, and should always only be sending these to the YeeldBox. In case the Strategy implements `harvest()`, a withdrawal fee may be applied. This function should have access control enforcing the Controller only to be its allowed caller.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -96,11 +96,11 @@ function skim() external;
 
 ### function `withdrawAll()`
 
-Withdraws the entire amount of `want()` tokens available, and should always only be sending these to the Vault. This function should have access control enforcing the Controller only to be its allowed caller. Typically used when migrating strategies.
+Withdraws the entire amount of `want()` tokens available, and should always only be sending these to the YeeldBox. This function should have access control enforcing the Controller only to be its allowed caller. Typically used when migrating strategies.
 
 The function typically uses `withdraw()` and performs a set of sequential function calls depending on the Strategy.
 
-If the Strategy implements liquidity pools or lending platforms, then withdrawal from these platforms should be performed until the Vault’s unwrapped token is delivered back to the vault.
+If the Strategy implements liquidity pools or lending platforms, then withdrawal from these platforms should be performed until the YeeldBox’s unwrapped token is delivered back to the YeeldBox.
 
 Returns a `uint256` of the total amount withdrawn.
 
@@ -136,13 +136,13 @@ function balanceOf() external view returns (uint256);
 | ------ | --- | ------- | --------------------------------- |
 | Output | 0   | uint256 | Strategy's `want()` token balance |
 
-## IVault
+## IYeeldBox
 
-Source code: [Yeeldx-protocol/develop/interfaces/Yeeldx/IVault.sol](https://github.com/Yeeldx/Yeeldx-protocol/blob/develop/interfaces/Yeeldx/IVault.sol)
+Source code: [Yeeldx-protocol/develop/interfaces/Yeeldx/IYeeldBox.sol](https://github.com/Yeeldx/Yeeldx-protocol/blob/develop/interfaces/Yeeldx/IYeeldBox.sol)
 
 ### function `token()`
 
-Returns the unwrapped native token address that the Vault takes as deposit.
+Returns the unwrapped native token address that the YeeldBox takes as deposit.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -156,17 +156,17 @@ function token() external view returns (address);
 
 |        |     | type    | desc                                   |
 | ------ | --- | ------- | -------------------------------------- |
-| Output | 0   | address | Vault’s unwrapped native token address |
+| Output | 0   | address | YeeldBox’s unwrapped native token address |
 
 ### function `underlying()`
 
-Returns the native underlying token address in Delegated Vaults. For example, in case of aLINK delegated vault, `underlying()` returns the address of the LINK token.
+Returns the native underlying token address in Delegated YeeldBoxs. For example, in case of aLINK delegated YeeldBox, `underlying()` returns the address of the LINK token.
 
 {% tabs %}
 {% tab title="Solidity" %}
 
 ```javascript
-// This is only implemented in Delegated Vaults.
+// This is only implemented in Delegated YeeldBoxs.
 function underlying() external view returns (address);
 ```
 
@@ -175,11 +175,11 @@ function underlying() external view returns (address);
 
 |        |     | type    | desc                                              |
 | ------ | --- | ------- | ------------------------------------------------- |
-| Output | 0   | address | Delegated Vault’s underlying native token address |
+| Output | 0   | address | Delegated YeeldBox’s underlying native token address |
 
 ### function `name()`
 
-Returns the vault’s wrapped token name as a string, e.g. “Yeeldx Dai Stablecoin".
+Returns the YeeldBox’s wrapped token name as a string, e.g. “Yeeldx Dai Stablecoin".
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -193,11 +193,11 @@ function name() external view returns (string memory);
 
 |        |     | type   | desc                       |
 | ------ | --- | ------ | -------------------------- |
-| Output | 0   | string | Vault’s wrapped token name |
+| Output | 0   | string | YeeldBox’s wrapped token name |
 
 ### function `symbol()`
 
-Returns the vault’s wrapped token symbol as a string, e.g. “yDai”.
+Returns the YeeldBox’s wrapped token symbol as a string, e.g. “yDai”.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -211,11 +211,11 @@ function symbol() external view returns (string memory);
 
 |        |     | type   | desc                         |
 | ------ | --- | ------ | ---------------------------- |
-| Output | 0   | string | Vault’s wrapped token symbol |
+| Output | 0   | string | YeeldBox’s wrapped token symbol |
 
 ### function `decimals()`
 
-Returns the amount of decimals for this vault’s wrapped token as a `uint8`.
+Returns the amount of decimals for this YeeldBox’s wrapped token as a `uint8`.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -229,11 +229,11 @@ function decimals() external view returns (uint8);
 
 |        |     | type  | desc                                         |
 | ------ | --- | ----- | -------------------------------------------- |
-| Output | 0   | uint8 | No of decimals of the vault's wrapped token. |
+| Output | 0   | uint8 | No of decimals of the YeeldBox's wrapped token. |
 
 ### func `controller()`
 
-Returns the address of the Vault's Controller.
+Returns the address of the YeeldBox's Controller.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -247,11 +247,11 @@ function controller() external view returns (address);
 
 |        |     | type    | desc                        |
 | ------ | --- | ------- | --------------------------- |
-| Output | 0   | address | Vault’s Controller contract |
+| Output | 0   | address | YeeldBox’s Controller contract |
 
 ### function `governance()`
 
-Returns the address of the Vault’s governance contract.
+Returns the address of the YeeldBox’s governance contract.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -265,11 +265,11 @@ function governance() external view returns (address);
 
 |        |     | type    | desc                        |
 | ------ | --- | ------- | --------------------------- |
-| Output | 0   | address | Vault’s Governance contract |
+| Output | 0   | address | YeeldBox’s Governance contract |
 
 ### function `getPricePerFullShare()`
 
-Returns the price of the Vault’s wrapped token, denominated in the unwrapped native token.
+Returns the price of the VYeeldBox’s wrapped token, denominated in the unwrapped native token.
 
 The calculation is:
 
@@ -277,7 +277,7 @@ $$
 {nativeTokenBalance \over yTokenTotalSupply}
 $$
 
-Where `nativeTokenBalance` is the current balance of native token \(e.g. DAI\) in the Vault, Controller and Strategy contracts. And `yTokenTotalSupply` is the total supply of the Vault's wrapped Token \(e.g. yDAI\).
+Where `nativeTokenBalance` is the current balance of native token \(e.g. DAI\) in the YeeldBox, Controller and Strategy contracts. And `yTokenTotalSupply` is the total supply of the YeeldBox's wrapped Token \(e.g. yDAI\).
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -291,11 +291,11 @@ function getPricePerFullShare() external view returns (uint256);
 
 |        |     | type    | desc                                                                         |
 | ------ | --- | ------- | ---------------------------------------------------------------------------- |
-| Output | 0   | uint256 | Price of the Vault’s wrapped token denominated in the unwrapped native token |
+| Output | 0   | uint256 | Price of the YeeldBox’s wrapped token denominated in the unwrapped native token |
 
 ### function `deposit()`
 
-Deposits the specified amount of the native unwrapped token (same as `token()` returns) into the Vault.
+Deposits the specified amount of the native unwrapped token (same as `token()` returns) into the YeeldBox.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -309,11 +309,11 @@ function deposit(uint256) external;
 
 |       |     | type    | desc                              |
 | ----- | --- | ------- | --------------------------------- |
-| Input | 0   | uint256 | Amount to deposit into the Vault. |
+| Input | 0   | uint256 | Amount to deposit into the YeeldBox. |
 
 ### function `depositAll()`
 
-Deposits the maximum available amount of the native unwrapped token (same as `token()` returns) into the Vault.
+Deposits the maximum available amount of the native unwrapped token (same as `token()` returns) into the YeeldBox.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -327,7 +327,7 @@ function depositAll() external;
 
 ### function `withdraw()`
 
-Withdraws the specified amount of the native unwrapped token (same as `token()` returns) from the Vault.
+Withdraws the specified amount of the native unwrapped token (same as `token()` returns) from the YeeldBox.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -341,11 +341,11 @@ function withdraw(uint256) external;
 
 |       |     | type    | desc                               |
 | ----- | --- | ------- | ---------------------------------- |
-| Input | 0   | uint256 | Amount to withdraw from the Vault. |
+| Input | 0   | uint256 | Amount to withdraw from the YeeldBox. |
 
 ### function `withdrawAll()`
 
-Withdraws the maximum available amount of the native unwrapped token (same as `token()` returns) from the Vault.
+Withdraws the maximum available amount of the native unwrapped token (same as `token()` returns) from the YeeldBox.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -363,7 +363,7 @@ Source code: [Yeeldx-protocol/develop/interfaces/Yeeldx/IController.sol](https:/
 
 ### function `withdraw()`
 
-Calls `Strategy.withdraw()` function for the amount defined in `unit256` in the Strategy of the specified address. This function should have access control enforcing the Vault to be its only allowed caller.
+Calls `Strategy.withdraw()` function for the amount defined in `unit256` in the Strategy of the specified address. This function should have access control enforcing the YeeldBox to be its only allowed caller.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -401,7 +401,7 @@ function balanceOf(address) external view returns (uint256);
 
 ### function `earn()`
 
-Transfers the profits earned from the yield generating activities of the Strategy to the Vault. Takes an address of a token to withdraw and an amount.
+Transfers the profits earned from the yield generating activities of the Strategy to the YeeldBox. Takes an address of a token to withdraw and an amount.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -415,7 +415,7 @@ function earn(address, uint256) external;
 
 |       |     | type    | desc                                                 |
 | ----- | --- | ------- | ---------------------------------------------------- |
-| Input | 0   | address | Token to be withdrawn to the Vault from the Strategy |
+| Input | 0   | address | Token to be withdrawn to the YeeldBox from the Strategy |
 | Input | 1   | uint256 | Amount to be withdrawn                               |
 
 ### function `want()`
@@ -452,15 +452,15 @@ function rewards() external view returns (address);
 | ------ | --- | ------- | ----------------- |
 | Output | 0   | address | Treasury contract |
 
-### function `vaults()`
+### function `YeeldBoxes()`
 
-Takes a token address and returns the corresponding Vault address.
+Takes a token address and returns the corresponding YeeldBox address.
 
 {% tabs %}
 {% tab title="Solidity" %}
 
 ```javascript
-function vaults(address) external view returns (address);
+function YeeldBoxes(address) external view returns (address);
 ```
 
 {% endtab %}
@@ -468,8 +468,8 @@ function vaults(address) external view returns (address);
 
 |        |     | type    | desc                                                      |
 | ------ | --- | ------- | --------------------------------------------------------- |
-| Input  | 0   | address | Token to find a Vault address for                         |
-| Output | 0   | address | Vault address that is associated with the specified token |
+| Input  | 0   | address | Token to find a YeeldBox address for                         |
+| Output | 0   | address | YeeldBox address that is associated with the specified token |
 
 ### function `strategies()`
 
