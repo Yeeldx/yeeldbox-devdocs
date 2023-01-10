@@ -143,7 +143,7 @@ Use a new branch for each new strategy. Some old comments have references to lin
 
 ## Known Issues
 
-- If the strategy uses another vault, we should add the maxLoss setting. See comment [here](https://github.com/jmonteer/YeeldxV2-strat-SNX-staking/pull/9#issuecomment-872376640).
+- If the strategy uses another YeeldBox, we should add the maxLoss setting. See comment [here](https://github.com/jmonteer/YeeldxV2-strat-SNX-staking/pull/9#issuecomment-872376640).
 - *Strategy*.*liquidatePosition* function: This condition must be true. `amountNeeded == liquidatedAmount + loss`
 - **Must** have the health check address set.
     - [Example for Fantom](https://github.com/flashfish0x/Strategy0xDAOStaker/blob/ripae/contracts/GenericMasterChefStrategy.sol#L210)
