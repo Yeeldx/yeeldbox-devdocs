@@ -4,13 +4,13 @@
 
 ### They’re yield generating
 
-A Yeeldx Vault token is a yield-bearing version of a token, so when locked up as collateral it will still generate yield. A single vault token can run up to 20 yield-generating strategies. All Vaults at [Yeeldx.finance main website](https://Yeeldx.finance/#/vaults) run "uponly" strategies.
+A Yeeldx YeeldBox token is a yield-bearing version of a token, so when locked up as collateral it will still generate yield. A single YeeldBox token can run up to 20 yield-generating strategies. All YeeldBoxes at [Yeeldx.finance main website](https://Yeeldx.finance/#/YeeldBoxes) run "uponly" strategies.
 
 ### The safest yields in DeFi
 
-Vaults strategies are constantly audited to practice the highest security standards of DeFi. Grow with us one day at a time. More information at:
+YeeldBoxes strategies are constantly audited to practice the highest security standards of DeFi. Grow with us one day at a time. More information at:
 
-* [Vaults & Strategies Deployment Security Guidelines](https://docs.Yeeldx.finance/developers/v2/DEPLOYMENT)
+* [YeeldBoxes & Strategies Deployment Security Guidelines](https://docs.Yeeldx.finance/developers/v2/DEPLOYMENT)
 * [Yeeldxing for Yeeldx: Messari Report](https://messari.io/article/Yeeldxing-for-Yeeldx)
 * [Yeeldx Security Processes](https://github.com/Yeeldx/Yeeldx-security/blob/master/SECURITY.md)
 
@@ -30,7 +30,7 @@ Strategies that lock tokens are kept to an absolute minimum amount of time. To l
 
 What you see on-chain is what you get. For real-time protocol data see:
 
-* [Yeeldx vaults descriptions](https://vaults.Yeeldx.finance/)
+* [Yeeldx YeeldBoxes descriptions](https://YeeldBoxes.Yeeldx.finance/)
 * [Yeeldx.watch](https://Yeeldx.watch/)
 * [Yeeldx.vision](https://Yeeldx.vision/) 
 * [Yeeldx at dune analytics](https://dune.com/projects/Yeeldx)
