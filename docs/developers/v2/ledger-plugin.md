@@ -2,9 +2,9 @@
 
 The plugin allows you to interact with the Yeeldx website directly from your Ledger Live application, and to be able to see what you sign on your device. 
 
-Every addition, deletion, and modification of a Vault should be reflected in this plugin and will require a verification by the Ledger's Team based on a new pull request on the [LedgerHQ/app-plugin-Yeeldx](https://github.com/LedgerHQ/app-plugin-Yeeldx) repository.
+Every addition, deletion, and modification of a YeeldBox should be reflected in this plugin and will require a verification by the Ledger's Team based on a new pull request on the [LedgerHQ/app-plugin-Yeeldx](https://github.com/LedgerHQ/app-plugin-Yeeldx) repository.
 
-This guide provides an easy step by step to add a new vault.
+This guide provides an easy step by step to add a new YeeldBox.
 
 ## Setup your environment 
 
@@ -20,8 +20,8 @@ Then, you should clone the [plugin](https://github.com/LedgerHQ/app-plugin-Yeeld
 
 Here are the modifications you should do :
 
-- In [src/Yeeldx_plugin.h](https://github.com/LedgerHQ/app-plugin-Yeeldx/blob/main/src/Yeeldx_plugin.h#L51) which contains a `NUM_YEELDX_VAULTS` parameter that defines the number of vaults in the plugin mapping. You should just increment that by the number of vaults you want to add.  
-- In [src/main.c](https://github.com/LedgerHQ/app-plugin-Yeeldx/blob/main/src/main.c#L57) which contains a `YEELDX_VAULTS` mapping with the details of all the vaults. You should add a new line with the corresponding details of the new vault. Params are, in order: [`vault_address`, `underlying_token_symbol`, `vault_symbol`, `number_of_decimals`].
+- In [src/Yeeldx_plugin.h](https://github.com/LedgerHQ/app-plugin-Yeeldx/blob/main/src/Yeeldx_plugin.h#L51) which contains a `NUM_YEELDX_YEELDBOXES` parameter that defines the number of YeeldBoxes in the plugin mapping. You should just increment that by the number of YeeldBoxes you want to add.  
+- In [src/main.c](https://github.com/LedgerHQ/app-plugin-Yeeldx/blob/main/src/main.c#L57) which contains a `YEELDX_YEELDXBOXES` mapping with the details of all the YeeldBoxes. You should add a new line with the corresponding details of the new YeeldBox. Params are, in order: [`YeeldBox_address`, `underlying_token_symbol`, `YeeldBox_symbol`, `number_of_decimals`].
 
 ```c
     // For the address `0xbfa4d8aa6d8a379abfe7793399d3ddacc5bbecbb`, just add `0x` every 2 characters.
@@ -32,12 +32,12 @@ Here are the modifications you should do :
      18},
 ```
 
-- In [tests/Yeeldx/b2c.json](https://github.com/LedgerHQ/app-plugin-Yeeldx/blob/main/tests/Yeeldx/b2c.json) you should add a new element in the JSON file, with the vault address **in lowercase**, the vault name, and an array of selectors. For V0.4.3, you should copy the selectors in the example below.
+- In [tests/Yeeldx/b2c.json](https://github.com/LedgerHQ/app-plugin-Yeeldx/blob/main/tests/Yeeldx/b2c.json) you should add a new element in the JSON file, with the YeeldBox address **in lowercase**, the YeeldBox name, and an array of selectors. For V0.4.3, you should copy the selectors in the example below.
 
 ```json
 {
-	"address": "address_of_the_new_vault_in_lowercase",
-	"contractName": "name_of_the_vault",
+	"address": "address_of_the_new_YeeldBox_in_lowercase",
+	"contractName": "name_of_the_YeeldBox",
 	"selectors": {
 		"0xd0e30db0": {"erc20OfInterest": [], "method": "deposit_all", "plugin": "Yeeldx"},
 		"0xb6b55f25": {"erc20OfInterest": [], "method": "deposit", "plugin": "Yeeldx"},
@@ -50,7 +50,7 @@ Here are the modifications you should do :
 }
 ```
 
-- In [tests/Yeeldx/abis/](https://github.com/LedgerHQ/app-plugin-Yeeldx/tree/main/tests/Yeeldx/abis) add a new file in the format `address_of_the_new_vault_in_lowercase.json` with the abi of the new vault in it.
+- In [tests/Yeeldx/abis/](https://github.com/LedgerHQ/app-plugin-Yeeldx/tree/main/tests/Yeeldx/abis) add a new file in the format `address_of_the_new_YeeldBox_in_lowercase.json` with the abi of the new YeeldBox in it.
 
 ## Testing
 As there is no change in the plugin itself, tests may not be updated.  
