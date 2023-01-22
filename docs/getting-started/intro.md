@@ -4,9 +4,9 @@ Yeeldx Finance is DeFi’s premier yield aggregator. Giving individuals, DAOs an
 
 The protocol is maintained by various independent developers and is governed by YFI holders. You can find brief descriptions of Yeeldx's core products, the governance process, and links to active communication channels below.
 
-## Vaults
+## YeeldBoxes
 
-Yeeldx Vaults are capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
+Yeeldx YeeldBoxes are capital pools that automatically generate yield based on opportunities present in the market. YeeldBoxes benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have proficient knowledge of the underlying protocols involved or DeFi, thus the YeeldBoxes represent a passive-investing strategy.
 
 ## Governance
 
