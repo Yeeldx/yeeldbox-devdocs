@@ -29,7 +29,7 @@ Because the intention behind YFI was to completely decentralize control, there w
 
 Starting with [YIP-36](https://yips.Yeeldx.finance/YIPS/yip-36), a portion of staking rewards were redirected to the multisig wallet in order to fund operational expenses. When the multisig wallet had a buffer of $500,000, rewards were distributed to token holders. 
 
-[YIP-56](https://snapshot.org/#/Yeeldx/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ) disbanded the staking system all-together and opted for a buyback system. This directed more capital to Yeeldx's treasury while benefiting token holders by taking YFI off of the open market. With this, the YFI Governance Vault was retired, and holders were allowed to participate in governance while holding YFI elsewhere.
+[YIP-56](https://snapshot.org/#/Yeeldx/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ) disbanded the staking system all-together and opted for a buyback system. This directed more capital to Yeeldx's treasury while benefiting token holders by taking YFI off of the open market. With this, the YFI Governance YeeldBox was retired, and holders were allowed to participate in governance while holding YFI elsewhere.
 
 ### Minting YFI
 

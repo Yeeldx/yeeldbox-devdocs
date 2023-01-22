@@ -1,5 +1,5 @@
 ---
-description: This documentation only covers v1 YeeldBoxs. 
+description: This documentation only covers v1 YeeldBoxes. 
 ---
 
 # v1 yYeeldBox Interfaces
@@ -160,13 +160,13 @@ function token() external view returns (address);
 
 ### function `underlying()`
 
-Returns the native underlying token address in Delegated YeeldBoxs. For example, in case of aLINK delegated YeeldBox, `underlying()` returns the address of the LINK token.
+Returns the native underlying token address in Delegated YeeldBoxes. For example, in case of aLINK delegated YeeldBox, `underlying()` returns the address of the LINK token.
 
 {% tabs %}
 {% tab title="Solidity" %}
 
 ```javascript
-// This is only implemented in Delegated YeeldBoxs.
+// This is only implemented in Delegated YeeldBoxes.
 function underlying() external view returns (address);
 ```
 
