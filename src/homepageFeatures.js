@@ -3,18 +3,18 @@ export default [
     title: 'Learn',
     rows: [
       {
-        title: 'Use Yearn',
-        description: 'Learn how to use Yearn user interface step by step',
-        to: './getting-started/using-yearn',
+        title: 'Use Yeeldx',
+        description: 'Learn how to use Yeeldx user interface step by step',
+        to: './getting-started/using-yeeldx',
       },
       {
         title: 'Vaults & Strategies',
-        description: 'An overview on how Yearn Vaults and its strategies work',
+        description: 'An overview on how Yeeldbox and its strategies work',
         to: './getting-started/products/yvaults/overview',
       },
       {
         title: 'Partnership Program',
-        description: `Yearn's partnership program incentivize builders to easily integrate yield into their products and services`,
+        description: `Yeeldx's partnership program incentivize builders to easily integrate yield into their products and services`,
         to: './partners/introduction',
       },
     ],
@@ -28,13 +28,13 @@ export default [
         to: './developers/v2/getting-started',
       },
       {
-        title: 'Yearn SDK',
-        description: 'Learn about the Yearn stack and how to use the SDK as an aggregator of many data sources.',
+        title: 'Yeeldx SDK',
+        description: 'Learn about the Yeeldx stack and how to use the SDK as an aggregator of many data sources.',
         to: './vaults/yearn-sdk/yearn-stack',
       },
       {
         title: 'Smart Contracts',
-        description: 'Find references to our smart contracts and several utilities part of the Yearn architecture',
+        description: 'Find references to our smart contracts and several utilities part of the Yeeldx architecture',
         to: './vaults/smart-contracts/vault',
       },
     ],

@@ -1,7 +1,7 @@
 module.exports = {
   mySidebar: [
     'intro',
-    'using-yearn',
+    'using-yeeldx',
     {
       type: 'category',
       label: 'Products',
