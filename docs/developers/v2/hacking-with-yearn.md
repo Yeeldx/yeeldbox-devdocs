@@ -11,32 +11,32 @@ This page is for the hackers and buidlers who are currently building, or plannin
 - [Ganache](https://trufflesuite.com/ganache/) 
 - [Foundry](https://github.com/nicolasgarcia214/damn-vulnerable-defi-foundry)
 
-# Yeeldx Vaults & Smart Contract Integrations
-Yeeldx’s core product is the Vault (also known as yVault) — a set-it-and-forget-it yield aggregator running on top of DeFi’s yield-generating protocols like Compound, Aave, Curve, and Convex. Most of the core functionality such as deposit, withdraw, borrow, repay, or flashloan occurs in the XX contract ().
+# Yeeldx YeeldBoxes & Smart Contract Integrations
+Yeeldx’s core product is the YeeldBox (also known as yYeeldBox) — a set-it-and-forget-it yield aggregator running on top of DeFi’s yield-generating protocols like Compound, Aave, Curve, and Convex. Most of the core functionality such as deposit, withdraw, borrow, repay, or flashloan occurs in the XX contract ().
 For a breakdown of V2 features see the contract overview or dive even deeper with the V2 Technical Paper.
 
 ## Getting Started
 
 #### Starter Kit
 
-Here's an example for integrating V2 vaults and ERC-4626. 
+Here's an example for integrating V2 YeeldBoxes and ERC-4626. 
 
 https://github.com/storming0x/ystarter-foundry-kit
 
 What you'll find:
-- Basic example Solidity Smart Contracts for integrating with Yeeldx Vaults for both V2 and ERC4626 interfaces.
-- ERC4626 adapter to wrap Yeeldx vaults.
+- Basic example Solidity Smart Contracts for integrating with Yeeldx YeeldBoxes for both V2 and ERC4626 interfaces.
+- ERC4626 adapter to wrap Yeeldx YeeldBoxes.
 - Example Contracts
 - Sample test suite.
 
-**Yeeldx Vaults**
+**Yeeldx YeeldBoxes**
 
-[This repository](https://github.com/Yeeldx/Yeeldx-vaults#readme) includes the set of smart contracts that are used for the Yeeldx Vaults. It contains the requirements, code, deployment scripts, and tests necessary for the core protocol, including a inheritable template strategy for use with Solidity-based strategies that interact with Yeeldx Vaults. These contracts are used to create a simple way to generate high risk-adjusted returns for depositors of various assets via best- in-class lending protocols, liquidity pools, and community-made yield farming strategies on Ethereum.
+[This repository](https://github.com/Yeeldx/Yeeldx-YeeldBoxes#readme) includes the set of smart contracts that are used for the Yeeldx YeeldBoxes. It contains the requirements, code, deployment scripts, and tests necessary for the core protocol, including a inheritable template strategy for use with Solidity-based strategies that interact with Yeeldx YeeldBoxes. These contracts are used to create a simple way to generate high risk-adjusted returns for depositors of various assets via best- in-class lending protocols, liquidity pools, and community-made yield farming strategies on Ethereum.
 
 ## Testing
 
 ### Introduction
-You are able to test Yeeldx vaults without spending cryptoassets  on the available testnet for each network. 
+You are able to test Yeeldx YeeldBoxes without spending cryptoassets  on the available testnet for each network. 
 
 To get started, head to the Yeeldx testnet client which is available at: https://hack.Yeeldx.finance/
 
@@ -47,7 +47,7 @@ Testnet networks are different environments from mainnet and simulate real use c
 Testing is possible through Ethereum Rinkeby  
 
 **Steps**:
-- Deploy your vault with your own token
+- Deploy your YeeldBox with your own token
 - Mint your own tokens 
 - Hack!
 
@@ -67,9 +67,9 @@ Make sure to select the correct market in the top right corner. You can find thi
 First, be sure to check your wallet provider allows you to switch to testnet.  Some providers, such as the Metamask extension, display the network selection on top of the menu over the extension and, in the case of mobile Metamask, above of the wallet section. It’s important to always do your research for compatible wallets with compatible networks.
 
 #### Additional Resources
-* Workshop: Building and Integrating with Yeeldx Vaults: https://www.youtube.com/watch?v=urC35PMbpJ4
---> Learn how to leverage the power of Yeeldx by creating a money making integration on top of v2 vaults by taking advantage of the brand new EIP-4626: Tokenized Vault Standard! This workshop will guide you through creating a B2B/business router forYeeldx v2 vaults, which complies with the new EIP-4626. You'll be able to choose from multiple fee strategies for your users to maximize your profit.
-* Smart Contract parameters: https://docs.Yeeldx.finance/vaults/smart-contracts/vault
+* Workshop: Building and Integrating with Yeeldx YeeldBoxes: https://www.youtube.com/watch?v=urC35PMbpJ4
+--> Learn how to leverage the power of Yeeldx by creating a money making integration on top of v2 YeeldBoxes by taking advantage of the brand new EIP-4626: Tokenized YeeldBox Standard! This workshop will guide you through creating a B2B/business router forYeeldx v2 YeeldBoxes, which complies with the new EIP-4626. You'll be able to choose from multiple fee strategies for your users to maximize your profit.
+* Smart Contract parameters: https://docs.Yeeldx.finance/YeeldBoxes/smart-contracts/YeeldBox
 * https://hackmd.io/t8HlcedLQeCu2l7RG-5Vbw?view
 * https://twitter.com/storming0x/status/1436851219864059906?s=20
 
@@ -86,11 +86,11 @@ https://github.com/turtlemoji/Yeeldx-sdk-examples
 
 # Strategy Development
 
-AYeeldx Strategy is a set of smart contracts that implement different farming strategies that utilize the deposited assets to generate the best yields for users. 
+A Yeeldx Strategy is a set of smart contracts that implement different farming strategies that utilize the deposited assets to generate the best yields for users. 
 
 The implementation of the strategies basically moves assets from one farming application to another one with higher interest. This will be mostly be done automatically , which automatically monitors and tracks the best farming applications with high yield and low risks.
 
-Rewards/profits generated by strategies are regularly updated, harvested, swapped for the original vault asset, and deposited again for compound farming. Each vault has a unique strategy and the strategy will be improved constantly based on the observations of our AI-based monitoring engines. 
+Rewards/profits generated by strategies are regularly updated, harvested, swapped for the original YeeldBox asset, and deposited again for compound farming. Each YeeldBox has a unique strategy and the strategy will be improved constantly based on the observations of our AI-based monitoring engines. 
 
 By having a strategy, users only need to deposit single assets and let the strategies generate profits from the funds. Yeeldx automates the whole compounding process, making it as close to optimal as possible. 
 
@@ -123,14 +123,14 @@ GraphQL is the underlying query language used in The Graph.
 
 What is the difference between standard RESTFUL API calls and GraphQL calls? The difference is that traditional APIs require the developers to create specific endpoints for users that return specific data. If the user requires more information, they may need to make multiple API calls, sometimes hundreds of API calls, to get the information they require. With The Graph (which uses GraphQL), only one call is needed to a subgraph, as long as the developer has created a flexible schema.
 
- - https://thegraph.com/hosted-service/subgraph/rareweasel/Yeeldx-vaults-v2-mainnet
- - https://api.thegraph.com/subgraphs/name/rareweasel/Yeeldx-vaults-v2-mainnet/graphql
+ - https://thegraph.com/hosted-service/subgraph/rareweasel/Yeeldx-YeeldBoxes-v2-mainnet
+ - https://api.thegraph.com/subgraphs/name/rareweasel/Yeeldx-YeeldBoxes-v2-mainnet/graphql
 
 ## Some of the research questions that we are interested in:
 * Screening profitable liquidity pools for our strategies
 * Assessing the impact of TVL on the impermanent loss
 * Screening the volume of various pools
-* Providing risk metrics to our vaults
+* Providing risk metrics to our YeeldBoxes
 * Price volatility of the underlying token
 * Addressing the protocol risks
 * Optimizing our strategies according to the change in gas fees
@@ -143,44 +143,44 @@ More details on these topics can be seen in our issues tab.
 **Data Sources**
 
 [**Yeeldx SDK**](https://github.com/Yeeldx/Yeeldx-sdk) [[Docs](https://Yeeldx.github.io/Yeeldx-sdk/)]
-https://docs.Yeeldx.finance/vaults/Yeeldx-sdk/Yeeldx-stack
+https://docs.Yeeldx.finance/YeeldBoxes/Yeeldx-sdk/Yeeldx-stack
 If you are not sure about which service you should first look into, Yeeldx SDK can provide you with addresses of contracts and endpoints of Yeeldx’s services.
 
-[**Yeeldx API**](https://github.com/Yeeldx/Yeeldx-caching-api) [[Docs](https://docs.Yeeldx.finance/vaults/Yeeldx-api)]
-Yeeldx API can provide non-user specific metadata, including the tvl of vaults, apys, fees, and strategy metadata through REST API, without the need to make web3 calls.
+[**Yeeldx API**](https://github.com/Yeeldx/Yeeldx-caching-api) [[Docs](https://docs.Yeeldx.finance/YeeldBoxes/Yeeldx-api)]
+Yeeldx API can provide non-user specific metadata, including the tvl of YeeldBoxes, apys, fees, and strategy metadata through REST API, without the need to make web3 calls.
 
 [**Yeeldx Vision**](https://Yeeldx.vision)
-Yeeldx Vision is the Grafana dashboard of the hosted version of [Yeeldx Exporter](https://github.com/Yeeldx/Yeeldx-exporter). You can download the historical metrics related to our vaults and strategies as json or csv files through the dashboard. For instructions on downloading, please see [Downloading query results as csv](https://grafana.com/docs/grafana/latest/explore/explore-inspector/#download-raw-query-results-as-csv).
+Yeeldx Vision is the Grafana dashboard of the hosted version of [Yeeldx Exporter](https://github.com/Yeeldx/Yeeldx-exporter). You can download the historical metrics related to our YeeldBoxes and strategies as json or csv files through the dashboard. For instructions on downloading, please see [Downloading query results as csv](https://grafana.com/docs/grafana/latest/explore/explore-inspector/#download-raw-query-results-as-csv).
 
 # Inspiration
 
-Common use-cases for vaults include:
-* Using Vaults as collateral for lending/borrowing
-* Using Vaults to generate yield with user funds
+Common use-cases for YeeldBoxes include:
+* Using YeeldBoxes as collateral for lending/borrowing
+* Using YeeldBoxes to generate yield with user funds
 
-*In both cases, the protocol integrating with Yeeldx is rewarded with performance fees taken from the vault’s overall profits, the more total volume that a partner contributes to a vault, the bigger share of the profit they receive.*
+*In both cases, the protocol integrating with Yeeldx is rewarded with performance fees taken from the YeeldBox’s overall profits, the more total volume that a partner contributes to a YeeldBox, the bigger share of the profit they receive.*
 
 Hundreds of protocols have built exciting functionalities using Yeeldx’s integration methods. These include:
-* Alchemix provides self-repaying loans using vault yields
-* Abracadabra provided the first yVault leveraging system that allows users to take loans and keep the yield rolling
-* QiDao provides 0% interest loans if you use yVaults as collateral
+* Alchemix provides self-repaying loans using YeeldBox yields
+* Abracadabra provided the first yYeeldBox leveraging system that allows users to take loans and keep the yield rolling
+* QiDao provides 0% interest loans if you use yYeeldBoxes as collateral
 
 Here are some ideas on what you can build:
 
-1. Use the Vaults as collateral to borrow money and probably get some leverage. (e.g. Abracadabra)
+1. Use the YeeldBoxes as collateral to borrow money and probably get some leverage. (e.g. Abracadabra)
 2. Build a product that allows you to use yield to do cool stuff:
 donate yield to an NGO
 invest the yield in more risky stuff or directional bets
 paying bills and subscriptions
-3. Create a metavault on top of multiple vaults. One idea that comes to my mind is having a USD metavault that deposits into multiple dollar pegged vaults based on some strategy and abstracts the complexity from the user.
+3. Create a metaYeeldBox on top of multiple YeeldBoxes. One idea that comes to my mind is having a USD metaYeeldBox that deposits into multiple dollar pegged YeeldBoxes based on some strategy and abstracts the complexity from the user.
 4. Build a UI that accepts deposits and allows you to move assets across chains.
-5. Use the vaults as a place to earn interest on funds that are not currently actively being used by the user.
+5. Use the YeeldBoxes as a place to earn interest on funds that are not currently actively being used by the user.
 
 # Examples
 
-[**Bunker Finance**](https://bunker.finance/): Bunker.finance is a decentralized protocol for NFT-backed loans. They integrated with Yeeldx v3’s USDC and WETH vaults and use them as a place to earn interest on funds that are currently not being supplied to borrowers.
+[**Bunker Finance**](https://bunker.finance/): Bunker.finance is a decentralized protocol for NFT-backed loans. They integrated with Yeeldx v3’s USDC and WETH YeeldBoxes and use them as a place to earn interest on funds that are currently not being supplied to borrowers.
 
-[**Skew You**](https://github.com/Tburm/tracer-vault): Users can borrow against their options collateral, unlocking a whole new world of capital efficiency.
+[**Skew You**](https://github.com/Tburm/tracer-YeeldBox): Users can borrow against their options collateral, unlocking a whole new world of capital efficiency.
 
 [**Possum**](https://github.com/Possum-ONE): Fixed-income product that can turn every farm into two fix/variable pools. Based on the game model, fixed pool users can have guaranteed APY while the variable user gets higher APY with higher risk.
 
@@ -203,4 +203,4 @@ Here are some guidelines on how to maximise your chances of 'winning':
 
 Yeeldx GitHub Organization: https://github.com/Yeeldx/
 
-Yeeldx V2 Documentation: https://github.com/Yeeldx-vaults
+Yeeldx V2 Documentation: https://github.com/Yeeldx-YeeldBoxes
