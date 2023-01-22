@@ -1,6 +1,6 @@
-# Vault Risks
+# YeeldBox Risks
 
-Yeeldx’s vaults can be exposed to multiple strategies. Each additional strategy increases diversification but also increases the probability that a strategy could lead to capital losses.
+Yeeldx’s YeeldBoxes can be exposed to multiple strategies. Each additional strategy increases diversification but also increases the probability that a strategy could lead to capital losses.
 
 |Risk|Description|
 |----|-----------|
