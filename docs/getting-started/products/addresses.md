@@ -54,12 +54,12 @@
 
 ## Optimism Contracts
 
-> Registry is made up of 2 contracts: "Release Registry" and "Vault Registry"
+> Registry is made up of 2 contracts: "Release Registry" and "YeeldBox Registry"
 
 | Identity               | Address                                    |
 | ---------------------- | ------------------------------------------ |
 | Release Registry       | [0x81291ceb9bB265185A9D07b91B5b50Df94f005BF](https://optimistic.etherscan.io/address/0x81291ceb9bB265185A9D07b91B5b50Df94f005BF) |
-| Vault Registry         | [0x79286Dd38C9017E5423073bAc11F53357Fc5C128](https://optimistic.etherscan.io/address/0x79286Dd38C9017E5423073bAc11F53357Fc5C128) |
+| YeeldBox Registry         | [0x79286Dd38C9017E5423073bAc11F53357Fc5C128](https://optimistic.etherscan.io/address/0x79286Dd38C9017E5423073bAc11F53357Fc5C128) |
 | Strategist multisig    | [0xea3a15df68fCdBE44Fdb0DB675B2b3A14a148b26](https://optimistic.etherscan.io/address/0xea3a15df68fCdBE44Fdb0DB675B2b3A14a148b26) |
 | Governance multisig    | [0xF5d9D6133b698cE29567a90Ab35CfB874204B3A7](https://optimistic.etherscan.io/address/0xF5d9D6133b698cE29567a90Ab35CfB874204B3A7) |
 | Treasury               | [0x84654e35E504452769757AAe5a8C7C6599cBf954](https://optimistic.etherscan.io/address/0x84654e35E504452769757AAe5a8C7C6599cBf954) |
@@ -102,8 +102,8 @@
 
 ### Generators
 
-[0xce29d34C8e88A2E1eDde10AD4eEE4f3e379fc041](https://etherscan.io/address/0xce29d34C8e88A2E1eDde10AD4eEE4f3e379fc041) - AddressesGeneratorV1Vaults  
-[0x437758D475F70249e03EDa6bE23684aD1FC375F0](https://etherscan.io/address/0x437758D475F70249e03EDa6bE23684aD1FC375F0) - AddressesGeneratorV2Vaults  
+[0xce29d34C8e88A2E1eDde10AD4eEE4f3e379fc041](https://etherscan.io/address/0xce29d34C8e88A2E1eDde10AD4eEE4f3e379fc041) - AddressesGeneratorV1YeeldBoxes  
+[0x437758D475F70249e03EDa6bE23684aD1FC375F0](https://etherscan.io/address/0x437758D475F70249e03EDa6bE23684aD1FC375F0) - AddressesGeneratorV2YeeldBoxes  
 [0xF536399c04683D7ab0BCb1308C245b4bbb539344](https://etherscan.io/address/0xF536399c04683D7ab0BCb1308C245b4bbb539344) - AddressesGeneratorEarn  
 [0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46](https://etherscan.io/address/0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46) - AddressesGeneratorIronBank  
 
@@ -116,7 +116,7 @@
 [0xE9cfF16bdac9729F18CBAC451EcCA6c50b372207](https://etherscan.io/address/0xE9cfF16bdac9729F18CBAC451EcCA6c50b372207) - CalculationsCurve  
 [0x55e9B18fefFF7E00548d54480373Fc8843De8eA4](https://etherscan.io/address/0x55e9B18fefFF7E00548d54480373Fc8843De8eA4) - CalculationsIronBank  
 [0x88dE7d7F7b9597C86b8cD195374FbF602934F334](https://etherscan.io/address/0x88dE7d7F7b9597C86b8cD195374FbF602934F334) - CalculationsSushiswap  
-[0x38477F2159638956d33E18951d98238a53b9aa3C](https://etherscan.io/address/0x38477F2159638956d33E18951d98238a53b9aa3C) - CalculationsYeeldxVaults  
+[0x38477F2159638956d33E18951d98238a53b9aa3C](https://etherscan.io/address/0x38477F2159638956d33E18951d98238a53b9aa3C) - CalculationsYeeldxYeeldBoxes  
 
 ### Registries
 
@@ -139,7 +139,7 @@
 
 ### Registry Adapters
 
-[0xF628Fb7436fFC382e2af8E63DD7ccbaa142E3cd1](https://ftmscan.com/address/0xF628Fb7436fFC382e2af8E63DD7ccbaa142E3cd1) - RegisteryAdapterV2Vault  
+[0xF628Fb7436fFC382e2af8E63DD7ccbaa142E3cd1](https://ftmscan.com/address/0xF628Fb7436fFC382e2af8E63DD7ccbaa142E3cd1) - RegisteryAdapterV2YeeldBox  
 [0x1164587b49ff7aCE303962cC7A7E0841C1b34986](https://ftmscan.com/address/0x1164587b49ff7aCE303962cC7A7E0841C1b34986) - RegistryAdapterIronBank  
 
 ### Helpers
@@ -161,7 +161,7 @@
 
 [0x727fe1759430df13655ddb0731dE0D0FDE929b04](https://ftmscan.com/address/0x727fe1759430df13655ddb0731dE0D0FDE929b04) - Registry  
 [0x7f462B92F92114A2D57A03e5Ae2DB5DA28b77d73](https://ftmscan.com/address/0x7f462B92F92114A2D57A03e5Ae2DB5DA28b77d73) - Mechanics Registry  
-[0x8CC45f739104b3Bdb98BFfFaF2423cC0f817ccc1](https://ftmscan.com/address/0x8CC45f739104b3Bdb98BFfFaF2423cC0f817ccc1) - VaultsRegistryHelper  
+[0x8CC45f739104b3Bdb98BFfFaF2423cC0f817ccc1](https://ftmscan.com/address/0x8CC45f739104b3Bdb98BFfFaF2423cC0f817ccc1) - YeeldBoxesRegistryHelper  
 
 ## Arbitrum Lens Contracts
 
@@ -178,7 +178,7 @@
 
 ### Registry Adapters
 
-[0x57AA88A0810dfe3f9b71a9b179Dd8bF5F956C46A](https://arbiscan.io/address/0x57AA88A0810dfe3f9b71a9b179Dd8bF5F956C46A) - RegistryAdapterV2Vault  
+[0x57AA88A0810dfe3f9b71a9b179Dd8bF5F956C46A](https://arbiscan.io/address/0x57AA88A0810dfe3f9b71a9b179Dd8bF5F956C46A) - RegistryAdapterV2YeeldBox  
 [0x7AAd416eB4e16a27b85e7076dD56742A44E9d25B](https://arbiscan.io/address/0x7AAd416eB4e16a27b85e7076dD56742A44E9d25B) - RegistryAdapterIronBank  
 
 ### Helpers
@@ -191,7 +191,7 @@
 
 ### Generators
 
-[0x3A8efa2D87d60c0289f19B44A0928F4269c0f094](https://arbiscan.io/address/0x3A8efa2D87d60c0289f19B44A0928F4269c0f094) - AddressesGeneratorV2Vaults  
+[0x3A8efa2D87d60c0289f19B44A0928F4269c0f094](https://arbiscan.io/address/0x3A8efa2D87d60c0289f19B44A0928F4269c0f094) - AddressesGeneratorV2YeeldBoxes  
 
 ### Calculations
 
@@ -211,7 +211,7 @@
 
 ### Registry Adapters
 
-[0xBcfCA75fF12E2C1bB404c2C216DBF901BE047690](https://optimistic.etherscan.io/address/0xBcfCA75fF12E2C1bB404c2C216DBF901BE047690) - RegistryAdapterV2Vault  
+[0xBcfCA75fF12E2C1bB404c2C216DBF901BE047690](https://optimistic.etherscan.io/address/0xBcfCA75fF12E2C1bB404c2C216DBF901BE047690) - RegistryAdapterV2YeeldBox  
 
 ### Helpers
 
@@ -223,7 +223,7 @@
 
 ### Generators
 
-[0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032](https://optimistic.etherscan.io/address/0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032) - Vault v2 Addresses Generator  
+[0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032](https://optimistic.etherscan.io/address/0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032) - YeeldBox v2 Addresses Generator  
 
 ### Calculations
 
