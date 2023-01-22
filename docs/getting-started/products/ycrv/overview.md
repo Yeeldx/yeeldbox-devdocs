@@ -24,8 +24,8 @@ Both operations mint yCRV to the user at a 1:1 rate. Users migrating from yvBOOS
 
 Yeeldx passes all benefits of its veCRV position on to yCRV users who hold one of its **activated-tokens:**
 
-- [**st-yCRV (Staking Rewards):**](#staked-ycrv) [yVault](https://medium.com/iearn/Yeeldx-finance-explained-what-are-vaults-and-strategies-96970560432) that receives admin fees and bribes from locked CRV.
-- [**lp-yCRV (Liquidity Pool Rewards):**](#lpd-ycrvcrv) yVault for CRV/yCRV LP tokens, autocompounds emissions and fees.
+- [**st-yCRV (Staking Rewards):**](#staked-ycrv) [yYeeldBox](https://medium.com/iearn/Yeeldx-finance-explained-what-are-YeeldBoxes-and-strategies-96970560432) that receives admin fees and bribes from locked CRV.
+- [**lp-yCRV (Liquidity Pool Rewards):**](#lpd-ycrvcrv) yYeeldBox for CRV/yCRV LP tokens, autocompounds emissions and fees.
 - [**vl-yCRV (Curve Gauges Voting Power):**](#voting-with-ycrv) Vote power mechanism to vote on Curve gauge weights.
 
 Users can choose to move between activated-tokens at any time depending on which benefits they want, except for vl-yCRV which has time lock [restrictions](#voting-with-ycrv) varying from 14 to 28 days.
@@ -41,15 +41,15 @@ Staked yCRV is designed to be a 'set and forget' yield-optimized position for yC
 - **Admin Fees:** Every week, veCRV holders earn weekly "admin fees" from Curve protocol. Staked yCRV is where 100% of admin fees earned by Yeeldx's veCRV position are sent and auto-compounded into more yCRV.
 - **Bribes:** For all the yCRV within st-yCRV, 1 veCRV worth of vote power will be used to vote in favor of the Curve gauge which optimizes bribe revenue for st-yCRV users. Bribes (or misc. revenue) collected from these votes will be allocated as supplemental yield to st-yCRV users.
 
-Under the hood, st-yCRV is a Yeeldx v2 vault, allowing users to sit back, relax and have their underlying token compounded by a strategy that sells 3CRV and some claimed bribes into yCRV.
+Under the hood, st-yCRV is a Yeeldx v2 YeeldBox, allowing users to sit back, relax and have their underlying token compounded by a strategy that sells 3CRV and some claimed bribes into yCRV.
 
 ## LP'd yCRV/CRV
 
 ![](https://i.imgur.com/3JNhzWR.png)
 
-Liquidity Pool'd yCRV provides liquidity to the new CRV/yCRV pool on Curve, and lp-yCRV holders receive this LP fees and emissions. When you zap to this token, under the hood, you are entering an LP position in the yCRV/CRV pool and depositing the LP tokens into the lp-yCRV yVault.
+Liquidity Pool'd yCRV provides liquidity to the new CRV/yCRV pool on Curve, and lp-yCRV holders receive this LP fees and emissions. When you zap to this token, under the hood, you are entering an LP position in the yCRV/CRV pool and depositing the LP tokens into the lp-yCRV yYeeldBox.
 
-This is also a Yeeldx v2 vault with a strategy that deposits all CRV emissions generated back into the pool to grow the position. Like st-yCRV this is designed to be a set and forget token that auto harvests and auto compound rewards.
+This is also a Yeeldx v2 YeeldBox with a strategy that deposits all CRV emissions generated back into the pool to grow the position. Like st-yCRV this is designed to be a set and forget token that auto harvests and auto compound rewards.
 
 Yeeldx will mark 1 veCRV worth of voting power for every 1 yCRV in this position to vote in favor of yCRV Curve gauge - increasing CRV emissions to users.
 
@@ -104,8 +104,8 @@ yveCRV and yvBOOST are being deprecated, and there is a migration path available
 ## Addresses
 
 - **yCRV:** [0xFCc5c47bE19d06BF83eB04298b026F81069ff65b](https://etherscan.io/token/0xFCc5c47bE19d06BF83eB04298b026F81069ff65b)
-- **st-yCRV (vault):** [0x27B5739e22ad9033bcBf192059122d163b60349D](https://etherscan.io/token/0x27B5739e22ad9033bcBf192059122d163b60349D)
-- **lp-yCRV (vault):** [0xc97232527B62eFb0D8ed38CF3EA103A6CcA4037e](https://etherscan.io/token/0xc97232527B62eFb0D8ed38CF3EA103A6CcA4037e)
+- **st-yCRV (YeeldBox):** [0x27B5739e22ad9033bcBf192059122d163b60349D](https://etherscan.io/token/0x27B5739e22ad9033bcBf192059122d163b60349D)
+- **lp-yCRV (YeeldBox):** [0xc97232527B62eFb0D8ed38CF3EA103A6CcA4037e](https://etherscan.io/token/0xc97232527B62eFb0D8ed38CF3EA103A6CcA4037e)
 - **vl-yCRV:** in audit
 - **CRV/yCRV Curve Pool:** [0x453D92C7d4263201C69aACfaf589Ed14202d83a4](https://etherscan.io/token/0x453D92C7d4263201C69aACfaf589Ed14202d83a4)
 - **ZapYCRV.vy :** [0x01D7f32B6E463c96c00575fA97B8224326C6A6B9](https://etherscan.io/token/0x01D7f32B6E463c96c00575fA97B8224326C6A6B9)
