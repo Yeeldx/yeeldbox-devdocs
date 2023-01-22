@@ -13,7 +13,7 @@ You can build your own queries using a [GraphQL Explorer](https://graphiql-onlin
     withdrawals {
       id
       timestamp
-      vault {
+      YeeldBox {
         shareToken {
           symbol
         }
@@ -28,11 +28,11 @@ You can build your own queries using a [GraphQL Explorer](https://graphiql-onlin
 }
 ```
 
-# Get Account Vault Positions by ID
+# Get Account YeeldBox Positions by ID
 
 ```graphql
 {
-  accountVaultPositions(
+  accountYeeldBoxPositions(
     where: { account: "0x05f9e07afccd4ea69310e316f4c5ef81ed3ed9c8" }
   ) {
     token {
@@ -41,7 +41,7 @@ You can build your own queries using a [GraphQL Explorer](https://graphiql-onlin
     shareToken {
       symbol
     }
-    vault {
+    YeeldBox {
       id
       token {
         symbol
@@ -82,13 +82,13 @@ You can build your own queries using a [GraphQL Explorer](https://graphiql-onlin
 }
 ```
 
-# Get Account Vault Position Updates
+# Get Account YeeldBox Position Updates
 
 ```graphql
 {
   accounts(where: { id: "0xfddb9ea284e486579c010a75b551614525ad014f" }) {
     id
-    vaultPositions {
+    YeeldBoxPositions {
       id
       token {
         symbol
@@ -96,7 +96,7 @@ You can build your own queries using a [GraphQL Explorer](https://graphiql-onlin
       shareToken {
         symbol
       }
-      vault {
+      YeeldBox {
         id
       }
       balanceShares
