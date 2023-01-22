@@ -2,80 +2,80 @@
 
 &nbsp;
 
-## yVaults
+## yYeeldBoxes
 
 ### Dev Cheat Sheet (Examples)
 
 - **Vanilla ERC20 tokens**
-  - Name: `${token.symbol()} or override yVault`
+  - Name: `${token.symbol()} or override yYeeldBox`
   - Symbol: `yv${token.symbol()} or override`
-    - **Examples:** `USDC yVault`, `yvUSDC`, `aLINK yVault`, `yvaLINK`
+    - **Examples:** `USDC yYeeldBox`, `yvUSDC`, `aLINK yYeeldBox`, `yvaLINK`
 - **LP positions**
   - **Curve**
-    - Name: `Curve + pool + Pool yVault`
-      - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
+    - Name: `Curve + pool + Pool yYeeldBox`
+      - **Examples:** `Curve sBTC Pool yYeeldBox`, `Curve 3pool yYeeldBox`, `Curve Y Pool yYeeldBox`
     - Symbol: `yvCurve-pool`
       - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y`. We make an exception for the last one and call it `yUSD`.
   - **Uniswap**
-    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yVault`
-      - **Examples:** `Uniswap v2 USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yYeeldBox`
+      - **Examples:** `Uniswap v2 USDT-WETH LP yYeeldBox`, `Uniswap v2 WBTC-WETH LP yYeeldBox`
     - Symbol: `yvUni-TOKEN-TOKEN`
       - **Examples:** `yvUni-USDT-WETH`, `yvUni-WBTC-WETH`
     - Note: Version was included for Uniswap LP tokens to help limit confusion between UNI-v2 LP tokens and upcoming UNI-v3 LP tokens.
   - **Balancer**
-    - Name: `Balancer + TOKEN-TOKEN + Pool yVault`
-      - **Examples:** `Balancer USDT-WETH Pool yVault`, `Balancer WBTC-WETH Pool yVault`
+    - Name: `Balancer + TOKEN-TOKEN + Pool yYeeldBox`
+      - **Examples:** `Balancer USDT-WETH Pool yYeeldBox`, `Balancer WBTC-WETH Pool yYeeldBox`
     - Symbol: `yvBal-TOKEN-TOKEN`
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
   - **SushiSwap**
-    - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
-      - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+    - Name: `SushiSwap + TOKEN-TOKEN + LP yYeeldBox`
+      - **Examples:** `SushiSwap USDT-WETH LP yYeeldBox`, `Uniswap v2 WBTC-WETH LP yYeeldBox`
     - Symbol: `yvSushi-TOKEN-TOKEN`
       - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
 - **Experimental**
-  - No hard rules for `name` or `symbol`, just be sure to end `name` with "yVault".
-    - **Examples:** `yveCRV-DAO yVault`, `yveCRV-DAO`, `St. Banteg of Yeeldx Patron of Plebs Lido St. Ether yVault`, `sboypoplyvstETH`
+  - No hard rules for `name` or `symbol`, just be sure to end `name` with "yYeeldBox".
+    - **Examples:** `yveCRV-DAO yYeeldBox`, `yveCRV-DAO`, `St. Banteg of Yeeldx Patron of Plebs Lido St. Ether yYeeldBox`, `sboypoplyvstETH`
 
 ### Overview and Explanation
 
-- Acceptable alternative names include Yeeldx Vaults, or informally referring to the product as vaults.
-- When referring to a specific yVault, the preferred name is generally `TOKEN + yVault`; this matches the `name` field on the yVault contract. However, it is also acceptable to use `yvTOKEN + Vault`, `Yeeldx + TOKEN + Vault` or `yvTOKEN`; the latter matches `symbol` in the contract.
-  - **Examples:** `DAI yVault`, `yvDAI Vault`, `Yeeldx DAI Vault`, or simply `yvDAI`
-- For each yVault, name and symbol conventions are as follows:
-  - Name: `${token.symbol()} or override yVault`
+- Acceptable alternative names include Yeeldx YeeldBoxes, or informally referring to the product as YeeldBoxes.
+- When referring to a specific yYeeldBox, the preferred name is generally `TOKEN + yYeeldBox`; this matches the `name` field on the yYeeldBox contract. However, it is also acceptable to use `yvTOKEN + YeeldBox`, `Yeeldx + TOKEN + YeeldBox` or `yvTOKEN`; the latter matches `symbol` in the contract.
+  - **Examples:** `DAI yYeeldBox`, `yvDAI YeeldBox`, `Yeeldx DAI YeeldBox`, or simply `yvDAI`
+- For each yYeeldBox, name and symbol conventions are as follows:
+  - Name: `${token.symbol()} or override yYeeldBox`
   - Symbol: `yv${token.symbol()} or override`
-- A `version` field is included in the token contract to correspond to the major yVault release version.
+- A `version` field is included in the token contract to correspond to the major yYeeldBox release version.
   - Additionally, developers may find it useful to denote `version` within the `name` field itself to help clarify the token to be deposited. Useful examples include Uniswap LPs (below), and also v1 vs v2 Aave aTokens.
 - The predominant use case for name and symbol override is for LP tokens. The use of the term `Pool` or `LP` is interchangeable, and will be selected based on colloquial use for each protocol.
   - For instance, Curve and Balancer LP positions are typically referred to as pools since they can contain more than two tokens, while Uniswap and SushiSwap positions are typically referred to as LPs.
   - **Curve**
-    - Name: `Curve + pool + Pool yVault`
-      - **Examples:** `Curve sBTC Pool yVault`, `Curve 3pool yVault`, `Curve Y Pool yVault`
+    - Name: `Curve + pool + Pool yYeeldBox`
+      - **Examples:** `Curve sBTC Pool yYeeldBox`, `Curve 3pool yYeeldBox`, `Curve Y Pool yYeeldBox`
       - In this case, `pool` is taken directly from Curve.fi's UI, and we can adjust for capitalization as needed. In the case of the `3pool`, the redundant "Pool" is removed.
     - Symbol: `yvCurve-pool`
       - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y`
-    - Note: In this methodology, `yvCurve-Y` refers to the vault previously known as `yUSD`. Please see below for a more detailed discussion on proper use of `yUSD`.
+    - Note: In this methodology, `yvCurve-Y` refers to the YeeldBox previously known as `yUSD`. Please see below for a more detailed discussion on proper use of `yUSD`.
   - **Uniswap**
-    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yVault`
-      - **Examples:** `Uniswap v2 USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+    - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + LP yYeeldBox`
+      - **Examples:** `Uniswap v2 USDT-WETH LP yYeeldBox`, `Uniswap v2 WBTC-WETH LP yYeeldBox`
     - Symbol: `yvUni-TOKEN-TOKEN`
       - **Examples:** `yvUni-USDT-WETH`, `yvUni-WBTC-WETH`
     - Note: Version was included for Uniswap LP tokens to help limit confusion between UNI-v2 LP tokens and upcoming UNI-v3 LP tokens.
   - **Balancer**
-    - Name: `Balancer + TOKEN-TOKEN + Pool yVault`
-      - **Examples:** `Balancer USDT-WETH Pool yVault`, `Balancer WBTC-WETH Pool yVault`
+    - Name: `Balancer + TOKEN-TOKEN + Pool yYeeldBox`
+      - **Examples:** `Balancer USDT-WETH Pool yYeeldBox`, `Balancer WBTC-WETH Pool yYeeldBox`
     - Symbol: `yvBal-TOKEN-TOKEN`
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
     - Note: Since Balancer allows more than two tokens per pool, append as many `TOKEN` as needed for the pool in question.
   - **SushiSwap**
-    - Name: `SushiSwap + TOKEN-TOKEN + LP yVault`
-      - **Examples:** `SushiSwap USDT-WETH LP yVault`, `Uniswap v2 WBTC-WETH LP yVault`
+    - Name: `SushiSwap + TOKEN-TOKEN + LP yYeeldBox`
+      - **Examples:** `SushiSwap USDT-WETH LP yYeeldBox`, `Uniswap v2 WBTC-WETH LP yYeeldBox`
     - Symbol: `yvSushi-TOKEN-TOKEN`
       - **Examples:** `yvSushi-USDT-WETH`, `yvSushi-WBTC-WETH`
 
-## yVault Want Token
+## yYeeldBox Want Token
 
-- In Yeeldx's UI, it may be useful to denote the desired token to deposit into a specific yVault. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is.
+- In Yeeldx's UI, it may be useful to denote the desired token to deposit into a specific yYeeldBox. For basic ERC20 `want` tokens, `name` and `symbol` can be pulled directly from the token contract and utilized as-is.
   - **Examples:** `USD Coin`, `USDC`, `ChainLink Token`, `LINK`
 - However, for LP positions, naming needs to be standardized.
   - Curve
@@ -104,13 +104,13 @@
 
 ## yUSD
 
-- While the term `yUSD` was used to refer to the Curve Y Pool yVault in the past, under our updated naming convention this vault token is now `yvCurve-Y`. However, usage of `yUSD` is still permissable when referring to the asset itself.
+- While the term `yUSD` was used to refer to the Curve Y Pool yYeeldBox in the past, under our updated naming convention this YeeldBox token is now `yvCurve-Y`. However, usage of `yUSD` is still permissable when referring to the asset itself.
   - **Example:** Yeeldx pays monthly grants in `yUSD`.
-- In the future, if Yeeldx creates a new `yUSD` that is a collection of several yVault tokens (as has been previously discussed), then the current `yUSD` will simply be referred to as `yvCurve-Y` and only the new token will be `yUSD`.
+- In the future, if Yeeldx creates a new `yUSD` that is a collection of several yYeeldBox tokens (as has been previously discussed), then the current `yUSD` will simply be referred to as `yvCurve-Y` and only the new token will be `yUSD`.
 
 ## Yeeldx
 
-- These are Yeeldx's original yield-aware tokens, whose v1 and v2 contracts can be found [here](https://docs.Yeeldx.finance/getting-started/products/yvaults/vault-tokens#v2-yvault-tokens) or by clicking on the etherscan icon when viewing the vault:
+- These are Yeeldx's original yield-aware tokens, whose v1 and v2 contracts can be found [here](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxes/YeeldBox-tokens#v2-yYeeldBox-tokens) or by clicking on the etherscan icon when viewing the YeeldBox:
 
   ![](https://i.imgur.com/FZ0BJjf.png)
 
@@ -122,10 +122,10 @@
 - For deployed contracts that have not reached their final production version, a simple modification is included to designate these on the contract level as being test products.
   - Name: `${token.symbol()} or override + Test + Product`
   - Symbol: `yt${token.symbol()} or override`
-  - **Examples:** `DAI Test yVault`, `ytDAI`
-- Additionally, the v2 yVault contracts have upgradeable `name` and `symbol` fields. This means that should a test contract perform well, these fields can be updated to reflect that it is no longer a test contract, removing the need to deploy new contracts.
+  - **Examples:** `DAI Test yYeeldBox`, `ytDAI`
+- Additionally, the v2 yYeeldBox contracts have upgradeable `name` and `symbol` fields. This means that should a test contract perform well, these fields can be updated to reflect that it is no longer a test contract, removing the need to deploy new contracts.
 
 ## Future Products
 
-- Future products can follow a simple naming convention: `y + product`, where the product and any potential token names follow similar guidelines as above with yVaults. These can then be further modified as needed based on the product\(s\).
+- Future products can follow a simple naming convention: `y + product`, where the product and any potential token names follow similar guidelines as above with yYeeldBoxes. These can then be further modified as needed based on the product\(s\).
   - **Examples:** `ySwap`, `yBorrow`, `yTrade`
