@@ -1,4 +1,4 @@
-# Getting Started with Vaults and Strategies
+# Getting Started with YeeldBoxes and Strategies
 
 ## Requirements
 
@@ -14,10 +14,10 @@ If you are focusing on a strategy, you have the choice of brownie and foundry te
 - [brownie-strategy-mix](https://github.com/Yeeldx/brownie-strategy-mix) repository.
 - [foundry-strategy-mix](https://github.com/storming0x/foundry_strategy_mix) repository.
 
-If you want to integrate with our vaults:
+If you want to integrate with our YeeldBoxes:
 
-- [BaseRouter](https://github.com/Yeeldx/Yeeldx-vaults/blob/main/contracts/BaseRouter.sol)
-- [BaseWrapper](https://github.com/Yeeldx/Yeeldx-vaults/blob/main/contracts/BaseWrapper.sol)
+- [BaseRouter](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/blob/main/contracts/BaseRouter.sol)
+- [BaseWrapper](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/blob/main/contracts/BaseWrapper.sol)
 
 ## Overview of our vetting process
 
