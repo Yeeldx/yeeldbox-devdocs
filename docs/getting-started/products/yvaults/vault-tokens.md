@@ -1,21 +1,21 @@
-# Vault Tokens
+# YeeldBox Tokens
 
-[yVault Tokens](https://docs.Yeeldx.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
+[yYeeldBox Tokens](https://docs.Yeeldx.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yYeeldBox that they are participating in.
 
-**For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
+**For example**, if you deposit YFI in a yYeeldBox you will receive yvYFI in return. yvYFI would be the yYeeldBox Token.
 
-If your yVault generates profit, the share price of your yVault tokens will increase. This happens because there are more underlying tokens in the yVault to redeem upon withdrawal.
+If your yYeeldBox generates profit, the share price of your yYeeldBox tokens will increase. This happens because there are more underlying tokens in the yYeeldBox to redeem upon withdrawal.
 
 ![](https://i.imgur.com/3zkSnoE.png)
 ![](https://i.imgur.com/yrGEVCr.png)
 
 _The yvYFI token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share._
 
-Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
+Once a user's liquidity is withdrawn from the yYeeldBox, their yYeeldBox Token will be burned. yYeeldBox Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
 
-## V2 yVault Tokens
+## V2 yYeeldBox Tokens
 
-| Vault | Input Token | Output Token | 
+| YeeldBox | Input Token | Output Token | 
 | :--- | :--- | :--- | 
 | YFI | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e) | [yvYFI](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1) |
 | 1INCH | [1INCH](https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302) | [yv1INCH](https://etherscan.io/token/0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67) |
@@ -23,7 +23,7 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | USDC | [USDC](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) | [yvUSDC](https://etherscan.io/token/0x5f18c75abdae578b483e5f43f12a39cf75b973a9) |
 | HEGIC | [HEGIC](https://etherscan.io/token/0x584bC13c7D411c00c01A62e8019472dE68768430) | [HEGIC](https://etherscan.io/token/0x584bC13c7D411c00c01A62e8019472dE68768430) |
 | DAI | [DAI](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) | [yvDAI](https://etherscan.io/token/0xdA816459F1AB5631232FE5e97a05BBBb94970c95) |
-| WBTC | [WBTC](https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599) | [WBTC yVault](https://etherscan.io/token/0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5) |
+| WBTC | [WBTC](https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599) | [WBTC yYeeldBox](https://etherscan.io/token/0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5) |
 | USDT | [USDT](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) | [yvUDST](https://etherscan.io/token/0x7Da96a3891Add058AdA2E826306D812C638D87a7) |
 | crvIB | [Curve Iron Bank Pool](https://etherscan.io/token/0x5282a4ef67d9c33135340fb3289cc1711c13638c) | [yCurve-IronBank](https://etherscan.io/token/0x27b7b1ad7288079A66d12350c828D3C00A6F07d7) |
 | crvSETH | [Curve sETH Pool](https://etherscan.io/token/0xa3d87fffce63b53e0d54faa1cc983b7eb0b74a9c) | [yvCurve-sETH](https://etherscan.io/token/0x986b4AFF588a109c09B50A03f42E4110E29D353F) |
@@ -39,9 +39,9 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | crvBBTC | [Curve BBTC Pool](https://etherscan.io/token/0x410e3e86ef427e30b9235497143881f717d93c2a) | [yvCurve-BBTC](https://etherscan.io/token/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | 
 | yvBOOST | [Yeeldx Compounding veCRV](https://etherscan.io/token/0xc5bddf9843308380375a611c18b50fb9341f502a) | [yvBOOST](https://etherscan.io/token/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | 
 
-## V1 yVault Tokens
+## V1 yYeeldBox Tokens
 
-| Vault        | Input Token                                                                                              | Output Token                                                                                     |
+| YeeldBox        | Input Token                                                                                              | Output Token                                                                                     |
 | :----------- | :------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
 | crvLINK      | [linkCRV](https://etherscan.io/token/0xcee60cfa923170e4f8204ae08b4fa6a3f5656f3a)                         | [yvlinkCRV](https://etherscan.io/token/0x96Ea6AF74Af09522fCB4c28C269C26F59a31ced6)               |
 | crvUSDP      | [usdp3CRV](https://etherscan.io/token/0x7Eb40E450b9655f4B3cC4259BCC731c63ff55ae6)                        | [yvusdp3CRV](https://etherscan.io/token/0x1B5eb1173D2Bf770e50F10410C9a96F7a8eB6e75)              |
