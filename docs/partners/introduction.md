@@ -4,30 +4,30 @@ title: Partnership Program
 
 Yeeldx's partnership program allows developers to easily integrate yield-generation into their own services.
 
-To make yVaults accessible from virtually anywhere, any protocol that integrates yVaults can earn up to a 50% profit share from their contributed TVL. The partnership program launched in early 2021 and has been battle tested by our wide range of partners. 
+To make yYeeldBoxes accessible from virtually anywhere, any protocol that integrates yYeeldBoxes can earn up to a 50% profit share from their contributed TVL. The partnership program launched in early 2021 and has been battle tested by our wide range of partners. 
 
 If you are interested in partnering with us, we’d love to hear from you! Please reach out to us through this [Yeeldx Partners form](https://Yeeldxfinance.typeform.com/to/uP7xOJUN).
 
 # Eligibility
 
-Yeeldx's Partnership Program is aimed at protocols that want to build on top of Yeeldx's products. We firmly believe that the value a protocol brings to the community, and the ecosystem, is more than just funds parked in a vault. To this end, we work closely with our partners to integrate and form a mutually beneficial relationship to add value to both protocols. Please note that becoming a Yeeldx Partner doesn’t mean we’ll be reviewing your code. Users who deposit into Yeeldx through one of our Partners, rely on their codebase and team.
+Yeeldx's Partnership Program is aimed at protocols that want to build on top of Yeeldx's products. We firmly believe that the value a protocol brings to the community, and the ecosystem, is more than just funds parked in a YeeldBox. To this end, we work closely with our partners to integrate and form a mutually beneficial relationship to add value to both protocols. Please note that becoming a Yeeldx Partner doesn’t mean we’ll be reviewing your code. Users who deposit into Yeeldx through one of our Partners, rely on their codebase and team.
 
 
 # Profit Share Model
 
-We offer profit shares based on yield generated across all vaults. We are currently paying out profit shares manually and retroactively, but plan to move payments on-chain in the near future.
+We offer profit shares based on yield generated across all YeeldBoxes. We are currently paying out profit shares manually and retroactively, but plan to move payments on-chain in the near future.
 
-Profit-sharing is paid out in the native token of the vaults that partners are utilizing.
+Profit-sharing is paid out in the native token of the YeeldBoxes that partners are utilizing.
 
 Yeeldx partner's profit works like this:
-* Yeeldx fees for a vault can be checked at [Yeeldx.watch](https://Yeeldx.watch).
-    * Management fee (if applied) is charged yearly from the vault's TVL
-    * Performance fee is charged from the vault's strategies harvest profits
-    * For example, checking DAI vault fees at Yeeldx watch: ![](https://i.imgur.com/Ok6hfVJ.png)
+* Yeeldx fees for a YeeldBox can be checked at [Yeeldx.watch](https://Yeeldx.watch).
+    * Management fee (if applied) is charged yearly from the YeeldBox's TVL
+    * Performance fee is charged from the YeeldBox's strategies harvest profits
+    * For example, checking DAI YeeldBox fees at Yeeldx watch: ![](https://i.imgur.com/Ok6hfVJ.png)
 * **45% of the fees generated** by both fees are set aside for operational expenses (salaries, infrastructure gas, etc)
 * **55% of the fees generated** are split between the partner and Yeeldx based on the Profit-Sharing Tier Table below
 
-Tiers are what determine the percentage of profit-sharing with the partner. They are calculated based on the total TVL provided across all vaults:
+Tiers are what determine the percentage of profit-sharing with the partner. They are calculated based on the total TVL provided across all YeeldBoxes:
 
 # Profit-Sharing Tier Table
 
@@ -47,7 +47,7 @@ Tiers are what determine the percentage of profit-sharing with the partner. They
 
 Here is an example of how Yeeldx would share profits with a partner (please note the values listed do not match what is in production. These values are meant to help partners understand the process):
 
-Let's say a partner protocol contributes to Yeeldx DAI vault during a year with:
+Let's say a partner protocol contributes to Yeeldx DAI YeeldBox during a year with:
 
 **$10,000,000 Total Locked Value**
 
