@@ -14,21 +14,21 @@ The file consists of an array of `Partner` objects. Each `Partner` has the follo
 
 - `name`: descriptive name for the partner.
 - `treasury`: the address where you want to receive the shared fees.
-- `wrappers`: an array of objects that contain the addresses that will hold the vault tokens. It's an array of `Wrapper` or `WildcardWrapper` objects
+- `wrappers`: an array of objects that contain the addresses that will hold the YeeldBox tokens. It's an array of `Wrapper` or `WildcardWrapper` objects
 
 ## Wrapper Class
 
-`Wrapper` should be used when only one yVault token is going to be held in that address.
+`Wrapper` should be used when only one yYeeldBox token is going to be held in that address.
 
 `Wrapper` has the following attributes:
 
-- `name`: descriptive name for this wrapper. It's recommended to use the vault name as part of it.
-- `vault`: the address of the vault whose tokens are going to be held here.
+- `name`: descriptive name for this wrapper. It's recommended to use the YeeldBox name as part of it.
+- `YeeldBox`: the address of the YeeldBox whose tokens are going to be held here.
 - `wrapper`: the address that is going to be holding the tokens.
 
 ## WildcardWrapper Class
 
-`WilcardWrapper` should be used when one address is going to hold more than one yVault token. 
+`WilcardWrapper` should be used when one address is going to hold more than one yYeeldBox token. 
 
 `WildcardWrapper` has the following attributes:
 
@@ -39,7 +39,7 @@ The file consists of an array of `Partner` objects. Each `Partner` has the follo
 
 ### Wrapper
 
-Below there's an example from one of our partners who have multiple addresses for multiple vaults. It's done using the `Wrapper` class.
+Below there's an example from one of our partners who have multiple addresses for multiple YeeldBoxes. It's done using the `Wrapper` class.
 
 ```python
 Partner(
@@ -48,32 +48,32 @@ Partner(
     wrappers=[
         Wrapper(
             name='dai 0.3.0',
-            vault='0x19D3364A399d251E894aC732651be8B0E4e85001',
+            YeeldBox='0x19D3364A399d251E894aC732651be8B0E4e85001',
             wrapper='0x014dE182c147f8663589d77eAdB109Bf86958f13',
         ),
         Wrapper(
             name='dai 0.3.0 t',
-            vault='0x19D3364A399d251E894aC732651be8B0E4e85001',
+            YeeldBox='0x19D3364A399d251E894aC732651be8B0E4e85001',
             wrapper='0x491EAFC47D019B44e13Ef7cC649bbA51E15C61d7',
         ),
         Wrapper(
             name='dai 0.4.3',
-            vault='0xdA816459F1AB5631232FE5e97a05BBBb94970c95',
+            YeeldBox='0xdA816459F1AB5631232FE5e97a05BBBb94970c95',
             wrapper='0xb039eA6153c827e59b620bDCd974F7bbFe68214A',
         ),
         Wrapper(
             name='dai 0.4.3 t',
-            vault='0xdA816459F1AB5631232FE5e97a05BBBb94970c95',
+            YeeldBox='0xdA816459F1AB5631232FE5e97a05BBBb94970c95',
             wrapper='0x6Fe02BE0EC79dCF582cBDB936D7037d2eB17F661',
         ),
         Wrapper(
             name='weth 0.4.2',
-            vault='0xa258C4606Ca8206D8aA700cE2143D7db854D168c',
+            YeeldBox='0xa258C4606Ca8206D8aA700cE2143D7db854D168c',
             wrapper='0x546E6711032Ec744A7708D4b7b283A210a85B3BC',
         ),
         Wrapper(
             name='weth 0.4.2 t',
-            vault='0xa258C4606Ca8206D8aA700cE2143D7db854D168c',
+            YeeldBox='0xa258C4606Ca8206D8aA700cE2143D7db854D168c',
             wrapper='0x6d75657771256C7a8CB4d475fDf5047B70160132',
         ),
     ],
@@ -82,7 +82,7 @@ Partner(
 
 ### WildcardWrapper
 
-Below you will find a partner that uses WildcardWrapper because each address is going to hold multiple different yVault tokens.
+Below you will find a partner that uses WildcardWrapper because each address is going to hold multiple different yYeeldBox tokens.
 
 ```python
 Partner(
