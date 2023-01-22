@@ -34,7 +34,7 @@ Use the [Feedback](https://gov.Yeeldx.finance/c/feedback/2) section of the gover
 
 The Yeeldx ecosystem is expanding and, as a result, so is the need for documentation. You can find the "official" Yeeldx Documentation [here](https://docs.Yeeldx.finance/) — which provides high-level overviews _and_ technical documentation.
 
-Whether it's writing _How To_ guides on using vaults or creating diagrams on how the protocol ties together, there is something for everyone. If you speak another language, translations might be up your alley!
+Whether it's writing _How To_ guides on using YeeldBoxs or creating diagrams on how the protocol ties together, there is something for everyone. If you speak another language, translations might be up your alley!
 
 You can see our progress on the [Github Project Board](https://github.com/orgs/Yeeldx/projects/2) where you can look through any issue that interests you. Before contributing: Please see our [How to Use Github](https://hackmd.io/4U35op0ORoGT24lzPhbGNQ) guide and ensure that your PRs adhere to our [Writing Style Guide](https://hackmd.io/dXQecpkJQX6XRy4y7k7j3g).
 
@@ -54,11 +54,11 @@ You can see our progress on our [Github Project Board](https://contribute.Yeeldx
 
 If you are interested in working on a specific project, check out the list of Yeeldx products in the [General Resources](#general-resources) section below or check out our list of repos [here](https://github.com/orgs/Yeeldx/repositories).
 
-If you want an overview of how our vaults work, please see the schema and accompanying descriptions in the [Vaults Overview](https://docs.Yeeldx.finance/getting-started/products/yvaults/overview).
+If you want an overview of how our YeeldBoxs work, please see the schema and accompanying descriptions in the [YeeldBoxs Overview](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxs/overview).
 
-If you're wondering how **strategies** work, please check out [Yeeldx Vaults v2 Introduction](https://www.youtube.com/watch?v=C0fsYiCI54g) — hosted by our Yeeldx Devs. To start writing your own strategy, please check out our template [Yeeldx Brownie Mix](https://github.com/Yeeldx/brownie-strategy-mix).
+If you're wondering how **strategies** work, please check out [Yeeldx YeeldBoxs v2 Introduction](https://www.youtube.com/watch?v=C0fsYiCI54g) — hosted by our Yeeldx Devs. To start writing your own strategy, please check out our template [Yeeldx Brownie Mix](https://github.com/Yeeldx/brownie-strategy-mix).
 
-If you want to integrate with Yeeldx, please visit our [Integration Guide](https://docs.Yeeldx.finance/partners/integration_guide) and check out our [Vault API Documentation](https://docs.Yeeldx.finance/vaults/smart-contracts/VaultAPI).
+If you want to integrate with Yeeldx, please visit our [Integration Guide](https://docs.Yeeldx.finance/partners/integration_guide) and check out our [YeeldBox API Documentation](https://docs.Yeeldx.finance/YeeldBoxs/smart-contracts/YeeldBoxAPI).
 
 #### Designers
 
@@ -68,7 +68,7 @@ We invite designers, animators, artists, and more to share your skills with the 
 
 ##### Workshop
 
-The best introduction to V2 is the workshop done for Gitcoin Kernel Sessions. Even its focused on security, it's a great introduction to Vaults V2.
+The best introduction to V2 is the workshop done for Gitcoin Kernel Sessions. Even its focused on security, it's a great introduction to YeeldBoxs V2.
 
 - [Video](https://www.youtube.com/watch?v=C0fsYiCI54g)
 - [Slides](https://docs.google.com/presentation/d/1NsePa_hXV1vsbMixTSRsPKYBHYvmVQf7IvpI_8k4p_k/edit#slide=id.p)
@@ -78,14 +78,14 @@ The best introduction to V2 is the workshop done for Gitcoin Kernel Sessions. Ev
 When you decide to start, this reading material is going to come handy:
 
 - [Template for Strategies](https://github.com/Yeeldx/brownie-strategy-mix)
-- [Vaults V2 Repository](https://github.com/Yeeldx/Yeeldx-vaults)
-- [How to set up coding environment for Yeeldx Strategies](https://sambacha.github.io/Yeeldx-vaults/index.html)
+- [YeeldBoxs V2 Repository](https://github.com/Yeeldx/Yeeldx-YeeldBoxs)
+- [How to set up coding environment for Yeeldx Strategies](https://sambacha.github.io/Yeeldx-YeeldBoxs/index.html)
 - [Mint your own DAI](https://medium.com/ethereum-grid/forking-ethereum-mainnet-mint-your-own-dai-d8b62a82b3f7)
 - [Dev Docs](https://docs.Yeeldx.finance/developers/v2/getting-started)
 
 Once you have your strategy ready, this will guide you further down the road:
 
-- [Vault naming standard](https://docs.Yeeldx.finance/developers/v2/naming-convention)
+- [YeeldBox naming standard](https://docs.Yeeldx.finance/developers/v2/naming-convention)
 - [Release process](https://docs.Yeeldx.finance/developers/v2/DEPLOYMENT)
 - [Security check](https://docs.google.com/document/d/1hBKB73kJPQM71enrG8xoSFj7wxYmczUlgigyq2KkcTE/edit#heading=h.4ieoeyetfrxm)
 
@@ -94,8 +94,8 @@ Once you have your strategy ready, this will guide you further down the road:
 This is complementary to the above, but it's not directly related to creating strategies.
 
 - [The Keep3r Network](https://macarse.medium.com/the-keep3r-network-experiment-bb1c5182bda3)
-- [Andre intro to Yeeldx Vaults](https://medium.com/iearn/Yeeldx-finance-v2-af2c6a6a3613)
-- [Delegated vaults explanation](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
+- [Andre intro to Yeeldx YeeldBoxs](https://medium.com/iearn/Yeeldx-finance-v2-af2c6a6a3613)
+- [Delegated YeeldBoxs explanation](https://medium.com/iearn/delegated-YeeldBoxs-explained-fa81f1c3fce2)
 
 ## General Resources
 
@@ -109,9 +109,9 @@ This is complementary to the above, but it's not directly related to creating st
 #### List of Yeeldx Tools
 
 - [Yeeldx Watch](https://Yeeldx.watch/), [Github](https://github.com/Yeeldx/Yeeldx-watch)
-- Yeeldx Subgraphs, [Ethereum](https://thegraph.com/explorer/subgraph?id=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0&version=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0-0&view=Overview), [Fantom](https://thegraph.com/hosted-service/subgraph/Yeeldx/Yeeldx-vaults-v2-fantom), [Github](https://github.com/Yeeldx/Yeeldx-vaults-v2-subgraph)
+- Yeeldx Subgraphs, [Ethereum](https://thegraph.com/explorer/subgraph?id=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0&version=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0-0&view=Overview), [Fantom](https://thegraph.com/hosted-service/subgraph/Yeeldx/Yeeldx-YeeldBoxs-v2-fantom), [Github](https://github.com/Yeeldx/Yeeldx-YeeldBoxs-v2-subgraph)
 - Yeeldx SDK, [Github](https://github.com/Yeeldx/Yeeldx-sdk)
-- [Yeeldx API](https://api.Yeeldx.finance/v1/chains/1/vaults/all), [Github](https://github.com/Yeeldx/Yeeldx-api)
+- [Yeeldx API](https://api.Yeeldx.finance/v1/chains/1/YeeldBoxs/all), [Github](https://github.com/Yeeldx/Yeeldx-api)
 - [Yeeldx Vision](https://Yeeldx.vision/)
 - Yeeldx Discord FAQ Bot, [Github](https://github.com/dgornjakovic/yfi-faq-bot)
 
@@ -120,7 +120,7 @@ This is complementary to the above, but it's not directly related to creating st
 - [yCosystem (Yeeldx Community Aggregator)](https://ycosystem.info/) - Repository Of Yeeldx Links
 - [YFI Address Stats](https://www.yfistats.com/) - Yeeldx Financial Information
 - [Yeeldx Newsletter](https://Yeeldx.substack.com/) - Weekly YFI newsletter
-- [Trackavault](https://trackavault.com/) - Track V2 Vaults
+- [TrackaYeeldBox](https://trackaYeeldBox.com/) - Track V2 YeeldBoxs
 
 ### Legacy Products and Websites
 - [v1 Yeeldx.Finance](https://v1.Yeeldx.finance), [Github](https://github.com/Yeeldx/iearn-finance)

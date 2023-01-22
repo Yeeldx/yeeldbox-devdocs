@@ -118,9 +118,9 @@ Strategists have multiple roles at OSC III & higher. For example, it's possible 
 -   Some kind of selfless activities
     -   Reviewing strategies from other people
     -   Being active in the YFI Strategist group
-    -   Helping manage the vaults
+    -   Helping manage the YeeldBoxs
     -   Contributing to evolving the protocol
-        -   Vaults releases
+        -   YeeldBoxs releases
             -   Creating bugs, raising issues, giving feedback
     -   Monitoring their strategy in ganache fork and doing harvests
         -   Letting the group know when something's off

@@ -1,6 +1,6 @@
 # How to Understand Strategies Descriptions
 
-While reading the strategy descriptions at [Yeeldx.watch↗](https://Yeeldx.watch/) or [vaults.Yeeldx.finance↗](https://vaults.Yeeldx.finance/) you may come across unfamiliar terms. But do not fear, like a DeFi Duolingo, Yeeldx is here to help you navigate these strange semantic waters. So buckle in and let's learn the lingo of strategies.
+While reading the strategy descriptions at [Yeeldx.watch↗](https://Yeeldx.watch/) or [YeeldBoxes.Yeeldx.finance↗](https://YeeldBoxes.Yeeldx.finance/) you may come across unfamiliar terms. But do not fear, like a DeFi Duolingo, Yeeldx is here to help you navigate these strange semantic waters. So buckle in and let's learn the lingo of strategies.
 
 This guide focuses primarily on strategy descriptions, but those thirsty for more DeFi jargon can see our broader [glossary↗](https://docs.Yeeldx.finance/resources/defi-glossary).
 
@@ -9,13 +9,13 @@ This guide focuses primarily on strategy descriptions, but those thirsty for mor
 
 # Yeeldx
 
-### yVault / Yeeldx Vault
+### yYeeldBox / Yeeldx YeeldBox
 - [Smart contract↗](https://ethereum.org/en/developers/docs/smart-contracts/) that holds user deposits and allocates into different strategies (up to 20 in the current version 2).
 ### Token
 - Token is any [ERC20-compatible↗](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) DeFi token.
 ### yvToken
-- Yeeldx Vault Token (yvToken) is an ERC20-compatible token that represents a [position](#position) in a Yeeldx Vault.
-- For example: yvDAI represents a position in the DAI Yeeldx Vault.
+- Yeeldx YeeldBox Token (yvToken) is an ERC20-compatible token that represents a [position](#position) in a Yeeldx YeeldBox.
+- For example: yvDAI represents a position in the DAI Yeeldx YeeldBox.
 ### Strategy
 - A [smart contract↗](https://ethereum.org/en/developers/docs/smart-contracts/) that knows how to allocate funds into a specific [yield](#yield--profit)-generating automated operation.
 ### Strategist

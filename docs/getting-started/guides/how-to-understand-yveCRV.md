@@ -4,27 +4,27 @@ On February 6th 2021 Yeeldx Finance launched its latest product, yveCRV.
 
 ## Why is it called yveCRV?
 
-yveCRV stands for veCRV-DAO yVault and is [listed on CoinGecko](https://www.coingecko.com/en/coins/vecrv-dao-yvault).
+yveCRV stands for veCRV-DAO yYeeldBox and is [listed on CoinGecko](https://www.coingecko.com/en/coins/vecrv-dao-yYeeldBox).
 
 ### List of tokens
 
 - **CRV** - Curve DAO Token
 - **veCRV** - voting escrow CRV tokens \(the longer it’s locked up for, the greater the rewards\), you can read more about CRV vote locking [here](https://docs.Yeeldx.finance/getting-started/guides/how-boost-works).
-- **yveCRV** - the “y” prefix is used for all of Yeeldx’s vaults
+- **yveCRV** - the “y” prefix is used for all of Yeeldx’s YeeldBoxes
 
 ## How do I participate?
 
-Deposit CRV into the yveCRV vault: [https://Yeeldx.finance/vaults](https://Yeeldx.finance/vaults)
+Deposit CRV into the yveCRV YeeldBox: [https://Yeeldx.finance/YeeldBoxes](https://Yeeldx.finance/YeeldBoxes)
 
-As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows CRV to be deposited into Yeeldx vaults. And then you decide how much CRV you would like to deposit. Please refer to the [general guide](https://docs.Yeeldx.finance/getting-started/using-Yeeldx) for more information.
+As with all YeeldBoxes, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows CRV to be deposited into Yeeldx YeeldBoxes. And then you decide how much CRV you would like to deposit. Please refer to the [general guide](https://docs.Yeeldx.finance/getting-started/using-Yeeldx) for more information.
 
 Alternatively, you can buy yveCRV directly on [Sushiswap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xc5bDdf9843308380375a611c18B50Fb9341f502A). The contract address is [0xc5bddf9843308380375a611c18b50fb9341f502a](https://etherscan.io/address/0xc5bddf9843308380375a611c18b50fb9341f502a).
 
 ![](https://i.imgur.com/DrnPl9N.png)
 
-## What are the benefits of depositing into this vault?
+## What are the benefits of depositing into this YeeldBox?
 
-Depositing CRV in this vault allows you to earn:
+Depositing CRV in this YeeldBox allows you to earn:
 
 - Trading fees from Curve Finance
 - Additional CRV rewards
@@ -32,13 +32,13 @@ Depositing CRV in this vault allows you to earn:
 
 Rewards are shown here: [https://crv.ape.tax/](https://crv.ape.tax/)
 
-## How is this vault different from the other vaults?
+## How is this YeeldBox different from the other YeeldBoxes?
 
-Other vaults increase your holding in the token that you deposit. For example, the yETH vault increases your ETH holdings.
+Other YeeldBoxes increase your holding in the token that you deposit. For example, the yETH YeeldBox increases your ETH holdings.
 
-The yveCRV vault pays weekly rewards in LP 3pool Curve \(3CRV\). 3CRV is a combination of DAI+USDT+USDC. Please refer to [Curve's website](https://www.curve.fi/3pool) for current weights. DAI, USDT and USDC are USD stablecoins therefore 3CRV is expected to maintain a price close to $1.
+The yveCRV YeeldBox pays weekly rewards in LP 3pool Curve \(3CRV\). 3CRV is a combination of DAI+USDT+USDC. Please refer to [Curve's website](https://www.curve.fi/3pool) for current weights. DAI, USDT and USDC are USD stablecoins therefore 3CRV is expected to maintain a price close to $1.
 
-The other key difference is that **deposited CRV is locked forever**. It **cannot be withdrawn**, as the vault perpetually re-locks CRV upon their expiration. Instead you earn a stream of 3CRV rewards for as long as people continue to trade on the Curve Finance protocol.
+The other key difference is that **deposited CRV is locked forever**. It **cannot be withdrawn**, as the YeeldBox perpetually re-locks CRV upon their expiration. Instead you earn a stream of 3CRV rewards for as long as people continue to trade on the Curve Finance protocol.
 
 ## Where do the rewards come from?
 
@@ -55,7 +55,7 @@ They continue to accrue so don’t worry if you forget or don’t want to pay ga
 ## What are the risks?
 
 - You have to determine the risks for yourself.
-- You are exposed to smart contract risk from Yeeldx vaults and Curve Finance.
+- You are exposed to smart contract risk from Yeeldx YeeldBoxes and Curve Finance.
 - yveCRV earns trading fees from trading that occurs on Curve Finance. If trading fees are lower than expected then your returns will be lower than expected. Trading volume data on Curve Finance is available from [Coingecko](https://www.coingecko.com/en/exchanges/curve#statistics).
 
 ## Is it true that I can earn even more rewards from Sushi and Pickle?
@@ -76,9 +76,9 @@ Search for “yveCRV” on [Sushiswap analytics](https://analytics.sushi.com/) t
 
 Deposit your Sushiswap LP into the [Pickle jar](https://app.pickle.finance/jars).
 
-## How can I stay up-to-date with vaults?
+## How can I stay up-to-date with YeeldBoxes?
 
-Visit [The Vaults at Yeeldx](https://vaults.Yeeldx.finance/) newsletter.
+Visit [The YeeldBoxes at Yeeldx](https://YeeldBoxes.Yeeldx.finance/) newsletter.
 
 ## Still have questions?
 

@@ -1,6 +1,6 @@
 # veYFI
 
-veYFI incorporates [YIP-56: Buyback and Build](https://gov.Yeeldx.finance/t/yip-56-buyback-and-build/8929) funds into YFI tokenomics: Users can lock YFI tokens and receive veYFI which allows them to boost vault rewards and vote on where bought-back YFI will be sent to.
+veYFI incorporates [YIP-56: Buyback and Build](https://gov.Yeeldx.finance/t/yip-56-buyback-and-build/8929) funds into YFI tokenomics: Users can lock YFI tokens and receive veYFI which allows them to boost YeeldBox rewards and vote on where bought-back YFI will be sent to.
 
 ## Specification
 
@@ -19,13 +19,13 @@ veYFI incorporates [YIP-56: Buyback and Build](https://gov.Yeeldx.finance/t/yip-
   - Penalty Formula: `min(75%, lock_duration_left / 4 years * 100%)`
 - Once veYFI is introduced, only veYFI is accepted voting power in Yeeldx Governance.
 
-### Vault Gauges + Voting
+### YeeldBox Gauges + Voting
 
-- Vault gauges allow vault depositors to stake their vault tokens and earn YFI rewards according to their veYFI weight.
+- YeeldBox gauges allow YeeldBox depositors to stake their YeeldBox tokens and earn YFI rewards according to their veYFI weight.
 - Increased locking duration is rewarded with increased weights, so locking for 4 years gives 100% weight, locking for 2 years 50% weight, etc.
 - Weights decay as the remaining lock duration decreases, and can be extended up to the max lock duration.
 - YFI is allocated to gauges based on bi-monthly governance votes. Each gauge can get a different amount of bought-back YFI to emit.
-- Based on their veYFI lock, users can boost their gauge rewards by up to 10x proportional to the number of vault tokens deposited, when they claim YFI rewards from gauges. The greater the amount of veYFI, the more vault deposits can be boosted for the user.
+- Based on their veYFI lock, users can boost their gauge rewards by up to 10x proportional to the number of YeeldBox tokens deposited, when they claim YFI rewards from gauges. The greater the amount of veYFI, the more YeeldBox deposits can be boosted for the user.
 - The boost mechanism will calculate your earning weight by taking the smaller amount of two values: The first value is the amount of liquidity you are providing. This amount is your maximum earning weight.
   - Gauge boost formula: `min(AmountDeposited, (AmountDeposited /10) + (TotalDepositedInTheGauge * VeYFIBalance / VeYFITotalSupply * 0.9))`
 - A claim with boost under 100% will send the leftover tokens to veYFI holders.
@@ -46,12 +46,12 @@ veYFI incorporates [YIP-56: Buyback and Build](https://gov.Yeeldx.finance/t/yip-
 - **Incentivizes a long-term view on Yeeldx.** Token holders are motivated to support the protocol over the long term rather than to speculate on the short term.
 - **Disproportionately rewards those most loyal.** Weaker conviction holders effectively become diluted over time by the stronger conviction holders.
 - **Limits rent-seeking benefits.** The design avoids holders being rewarded for nothing, and avoids letting the largest holders accumulate more at the expense of the smaller holders.
-- **Makes vaults more competitive.** Additional YFI earned from vault gauges are effectively added yield for depositors in proportion to how dedicated they are in their support.
-- **Motivates 3rd party protocols and DAOs to become YFI holders.** Yeeldx products are used as yield components of a broader DeFi stack, and integrated into wallets and protocols. With this design, they have incentives to direct rewards to vaults and products they are using.
-- **A seamless experience for integrators.** Participation is optional. This maintains the simplicity integrators have come to appreciate and makes it easy to reason about vault behavior. Only those who are motivated to do so can participate.
+- **Makes YeeldBoxs more competitive.** Additional YFI earned from YeeldBox gauges are effectively added yield for depositors in proportion to how dedicated they are in their support.
+- **Motivates 3rd party protocols and DAOs to become YFI holders.** Yeeldx products are used as yield components of a broader DeFi stack, and integrated into wallets and protocols. With this design, they have incentives to direct rewards to YeeldBoxs and products they are using.
+- **A seamless experience for integrators.** Participation is optional. This maintains the simplicity integrators have come to appreciate and makes it easy to reason about YeeldBox behavior. Only those who are motivated to do so can participate.
 
 ## Risks
 
 - **Risk of governance attacks**, where one or several actors accumulate sizable positions of YFI and can control rewards and decisions of the protocol. These risks exist today, and are mitigated somewhat by the limited supply of YFI and how the strong demand for YFI amongst Yeeldx contributors makes such attacks costly.
-- **Risk of not enough rewards to make locking attractive**, where vaults may not generate enough tokens to the Treasury to buy back enough YFI to motivate YFI holders to lock into veYFI. This has somewhat of a balancing effect: as demand for locking decreases so does the share of the rewards for those who do lock. If it’s determined that the equilibrium does not lead to enough YFI being locked, additional YFI could be minted and rewarded to veYFI holders.
+- **Risk of not enough rewards to make locking attractive**, where YeeldBoxs may not generate enough tokens to the Treasury to buy back enough YFI to motivate YFI holders to lock into veYFI. This has somewhat of a balancing effect: as demand for locking decreases so does the share of the rewards for those who do lock. If it’s determined that the equilibrium does not lead to enough YFI being locked, additional YFI could be minted and rewarded to veYFI holders.
 - **Risk of YFI liquidity drying up.** Currently YFI is traded on multiple centralized and decentralized exchanges. As demand for using YFI elsewhere grows, there may be a lack of YFI/ETH LP supply in liquidity pools and lack of interest in general YFI market-making, leading to YFI becoming more illiquid. In such an event, additional incentives may be required in order to ensure a healthy liquidity exists for trading in and out of YFI. The Treasury may also explore owning some of this liquidity outright.

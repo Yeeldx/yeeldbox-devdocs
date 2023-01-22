@@ -1,10 +1,10 @@
-# How to Understand yVault ROI
+# How to Understand yYeeldBox ROI
 
 ---
 
 ### ROI
 
-Trying to understand how ROI is calculated? Skip directly to "[_Why we should use ROI instead of APY to estimate yVaults returns_](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yvault-roi#why-we-should-use-roi-to-estimate-yvaults-returns)"
+Trying to understand how ROI is calculated? Skip directly to "[_Why we should use ROI instead of APY to estimate yYeeldBoxes returns_](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yYeeldBox-roi#why-we-should-use-roi-to-estimate-yYeeldBoxes-returns)"
 
 If you are a beginner in DeFi or new to Yeeldx keep on reading!
 
@@ -12,29 +12,29 @@ If you are a beginner in DeFi or new to Yeeldx keep on reading!
 
 > Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favorably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://en.wikipedia.org/wiki/Return_on_investment)
 
-- ROI is a key performance indicator \(KPI\) available in all Yeeldx Vaults \(yVaults\) located here as "Estimated Yearly Yield": [https://Yeeldx.finance/vaults](https://Yeeldx.finance/vaults).
-- ROI is useful when comparing and assessing vault performance.
+- ROI is a key performance indicator \(KPI\) available in all Yeeldx YeeldBoxes \(yYeeldBoxes\) located here as "Estimated Yearly Yield": [https://Yeeldx.finance/YeeldBoxes](https://Yeeldx.finance/YeeldBoxes).
+- ROI is useful when comparing and assessing YeeldBox performance.
 - ROI presented in Yeeldx is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
-- The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and fluctuate based on market/strategy.
+- The ROI presented is a _current estimation_ based on data since the yYeeldBox's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and fluctuate based on market/strategy.
 
-yVaults have different yield farming [strategies](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yVault.
+yYeeldBoxes have different yield farming [strategies](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yYeeldBox.
 
 New strategies are also voted by the community through [governance proposals](https://gov.Yeeldx.finance). A new strategy creates a new challenge in terms of ROI calculation.
 
-- Individuals interested in participating in a yVault should monitor the ROI presented in the vault dashboard after a strategy change. The rate presented reflects the most recent ROI.
-- An individual participating before a strategy change might be interested in comparing ROI before and ROI after. Historic ROI, e.g. since yVault creation, can also help users understand performance and inform future decisions.
+- Individuals interested in participating in a yYeeldBox should monitor the ROI presented in the YeeldBox dashboard after a strategy change. The rate presented reflects the most recent ROI.
+- An individual participating before a strategy change might be interested in comparing ROI before and ROI after. Historic ROI, e.g. since yYeeldBox creation, can also help users understand performance and inform future decisions.
 
 ## ROI calculation
 
-Even though yVaults have a compounding effect inherently, this compound interest is not fixed like in a CeFi savings account. Hence, the concept of [APY](https://www.investopedia.com/terms/a/apy.asp) and [APR](https://www.investopedia.com/terms/a/apr.asp) is not the most accurate way to estimate yVault gains. They are used by the community and we also added them to our newer interfaces, but interpreting them should always be taken with a grain of salt.
+Even though yYeeldBoxes have a compounding effect inherently, this compound interest is not fixed like in a CeFi savings account. Hence, the concept of [APY](https://www.investopedia.com/terms/a/apy.asp) and [APR](https://www.investopedia.com/terms/a/apr.asp) is not the most accurate way to estimate yYeeldBox gains. They are used by the community and we also added them to our newer interfaces, but interpreting them should always be taken with a grain of salt.
 
-### Why we should use ROI to estimate yVaults returns?
+### Why we should use ROI to estimate yYeeldBoxes returns?
 
 - This shows the estimation of an asset that has interest / compounded interest applied to it:
 
 ![](https://i.imgur.com/OZKqesB.png)
 
-- This is the actual, measured performance of an asset in the yUSD vault:
+- This is the actual, measured performance of an asset in the yUSD YeeldBox:
 
 ![](https://i.imgur.com/NpogiO9.png)
 
@@ -42,27 +42,27 @@ Even though yVaults have a compounding effect inherently, this compound interest
 
 A bank's interest rate is constant: either linear or compounding. The interest rate is multiplied by the asset value each period.
 
-yVaults work differently:
+yYeeldBoxes work differently:
 
-After depositing into a yVault, the user receives 'wrapped' tokens. These tokens start with a 'y' prefix and the depositor receives fewer tokens than were deposited \(why is explained below\).
+After depositing into a yYeeldBox, the user receives 'wrapped' tokens. These tokens start with a 'y' prefix and the depositor receives fewer tokens than were deposited \(why is explained below\).
 
-Starting from its inception, the vault's input and output are governed by the following equation:
+Starting from its inception, the YeeldBox's input and output are governed by the following equation:
 
 $$F = I * P$$
 
-Where $F$ is the amount of the tokens in the vault, $I$ is the amount of 'wrapped' tokens held by users and $P$ is the 'price' of those wrapped tokens.
+Where $F$ is the amount of the tokens in the YeeldBox, $I$ is the amount of 'wrapped' tokens held by users and $P$ is the 'price' of those wrapped tokens.
 
 At the start, $$P = 1$$
 
-Thus $$I = F$$, amount of tokens inside the vault is equal to amount of wrapped tokens.
+Thus $$I = F$$, amount of tokens inside the YeeldBox is equal to amount of wrapped tokens.
 
 **Almost all strategies are identical**: invest deposited tokens, accumulate additional tokens which can be withdrawn in the future.
 
-By keeping track of the number of wrapped tokens, and the amount of tokens inside the vault \(which increase the longer they are held in the vault\) the price can be calculated as follows:
+By keeping track of the number of wrapped tokens, and the amount of tokens inside the YeeldBox \(which increase the longer they are held in the YeeldBox\) the price can be calculated as follows:
 
-$$(vault tokens) / (wrapped tokens) = P$$
+$$(YeeldBox tokens) / (wrapped tokens) = P$$
 
-Since the amount of wrapped tokens is constant but the amount of vault tokens increases, the price will increase.
+Since the amount of wrapped tokens is constant but the amount of YeeldBox tokens increases, the price will increase.
 
 The balance and thus price are therefore constantly increasing.
 
@@ -75,13 +75,13 @@ Therefore, the only thing we can do is:
 
 However, as shown below this is dependent on where we take those points.
 
-### ROI extrapolation applied to the yUSD Vault chart
+### ROI extrapolation applied to the yUSD YeeldBox chart
 
-Below are examples to show different results possible by applying linear extrapolation to two points of the price chart for the yUSD yVault.
+Below are examples to show different results possible by applying linear extrapolation to two points of the price chart for the yUSD yYeeldBox.
 
 First of all, why and how is this done?
 
-Vault input/output formula:
+YeeldBox input/output formula:
 
 $$F = I * P$$
 
@@ -97,7 +97,7 @@ where $y$ is the price, $x$ is the block height and $m$, $c$ are what we are loo
 
 First, let's get $c$.
 
-When $x = 0$ \(so at inception of the yVault\), we know that the price is 1, hence: $y = m*0+c$ \(x = 0\) $y = c$ $y = 1$ \(price is 1 when x = 0\) $c = 1$
+When $x = 0$ \(so at inception of the yYeeldBox\), we know that the price is 1, hence: $y = m*0+c$ \(x = 0\) $y = c$ $y = 1$ \(price is 1 when x = 0\) $c = 1$
 
 Now m \(here we have to apply derivatives\):
 
@@ -117,25 +117,25 @@ However, since $y(x)$ is **not** linear, we get different lines for different po
 
 As a result, our estimation for price in future and the return varies greatly depending on which points we choose.
 
-Here we take two points of the performance chart for the yUSD vault \(numbered colored points\) and apply the above. Notice that the different lines are relatively good indications for the short term, but when we try to use them to predict long term they're totally inaccurate!
+Here we take two points of the performance chart for the yUSD YeeldBox \(numbered colored points\) and apply the above. Notice that the different lines are relatively good indications for the short term, but when we try to use them to predict long term they're totally inaccurate!
 
 ![](https://i.imgur.com/CJnIJub.png)
 
 ### Example
 
-Jane has 100 yCRV tokens and decides to invest them in the yUSD yVault.
+Jane has 100 yCRV tokens and decides to invest them in the yUSD yYeeldBox.
 
-At that time the price $P$ is 1.045, the total number of vault tokens is 10,450 and of wrapped tokens 10,000. $$10450 / 10000 = 1.045$$
+At that time the price $P$ is 1.045, the total number of YeeldBox tokens is 10,450 and of wrapped tokens 10,000. $$10450 / 10000 = 1.045$$
 
-Now her yCRV tokens get adjusted according to the formula above which is why she sees her now wrapped tokens \(yUSD\) reduce in quantity and the tokens in the vault \(yCRV\) are equal to the amount she invested.
+Now her yCRV tokens get adjusted according to the formula above which is why she sees her now wrapped tokens \(yUSD\) reduce in quantity and the tokens in the YeeldBox \(yCRV\) are equal to the amount she invested.
 
 So, how many wrapped tokens will she receive?
 
 $$I = F/P = 100/1.045 = 95.7 yUSD$$
 
-This action, did **not** change the price because she supplied to the number of wrapped tokens and vault tokens each exactly according to the ratio of the current price. This is quite important since it means that deposits and withdrawals will not have any effect on the price of the wrapped token.
+This action, did **not** change the price because she supplied to the number of wrapped tokens and YeeldBox tokens each exactly according to the ratio of the current price. This is quite important since it means that deposits and withdrawals will not have any effect on the price of the wrapped token.
 
-Fast forward a few days, the strategy uses Jane's funds to yield farm and uses the profits to purchase more tokens held inside the vault, increasing the balance to 10,500. For simplicity's sake, assume there were no other deposits. The wrapped tokens are still 10,000 and thus: $$P = 10500/10000 = 1.05$$
+Fast forward a few days, the strategy uses Jane's funds to yield farm and uses the profits to purchase more tokens held inside the YeeldBox, increasing the balance to 10,500. For simplicity's sake, assume there were no other deposits. The wrapped tokens are still 10,000 and thus: $$P = 10500/10000 = 1.05$$
 
 When Jane now looks at her balance of wrapped tokens, she will see that they have incremented to approx.:
 
@@ -147,7 +147,7 @@ At this point, she could withdraw and receive her initial yCRV deposit and an ad
 
 1. The short-term ROI data is a suitable estimation for the short-term \(i.e. if we compare the % from the last two days, it's likely that the following two days are going to be similar\).
 2. Short-term ROI data is _**absolutely not accurate**_ when extrapolated in the long-term.
-3. Long-term data \(say today and [inception of vault](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions)\) is a good overall estimation of the vaults performance and should be used when comparing different investment opportunities.
+3. Long-term data \(say today and [inception of YeeldBox](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions)\) is a good overall estimation of the YeeldBoxes performance and should be used when comparing different investment opportunities.
 
 In other words, if your goal is to approximate returns in the short-term, you should use datasets that are recent \(daily/weekly\).
 
@@ -157,6 +157,6 @@ If you would like to make a crude estimation on how returns may look like in a y
 
 The community has been actively creating tools and guides on this topic.
 
-- [https://github.com/Zer0dot/Yeeldx_roi/blob/master/Yeeldx_vaults_ROI_calc.ipynb](https://github.com/Zer0dot/Yeeldx_roi/blob/master/Yeeldx_vaults_ROI_calc.ipynb) provides a mathematical explanation of how ROI is calculated with some caveats. \(This repository is no longer being maintained\).
+- [https://github.com/Zer0dot/Yeeldx_roi/blob/master/Yeeldx_YeeldBoxes_ROI_calc.ipynb](https://github.com/Zer0dot/Yeeldx_roi/blob/master/Yeeldx_YeeldBoxes_ROI_calc.ipynb) provides a mathematical explanation of how ROI is calculated with some caveats. \(This repository is no longer being maintained\).
 - [Statistics FAQ](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions)
 - [How Yeeldx shows APY in the v3 interface](https://medium.com/iearn/how-Yeeldx-calculates-estimated-returns-apy-b4fd5b687bf9)

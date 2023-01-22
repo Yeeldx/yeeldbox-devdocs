@@ -55,7 +55,7 @@ Each yTeam has an objective and discrete powers which are defined by token holde
 
 | yTeam   | Objective               | Membership Pool                                                       |
 | ------- | ----------------------- | --------------------------------------------------------------------- |
-| yGuard  | Protect the vaults      | YFI Protocol Dev, YFI Strategists, YFI Mechanics, YFI Secret Admirers |
+| yGuard  | Protect the YeeldBoxs      | YFI Protocol Dev, YFI Strategists, YFI Mechanics, YFI Secret Admirers |
 | yBrain  | Manage the strats       | YFI Strategists                                                       |
 | yDev    | Manage the protocol     | YFI Protocol Dev                                                      |
 | yPeople | Curate the team         | YFI Compensation Working Group, YFI Advisors                          |
@@ -68,11 +68,11 @@ Each yTeam is assigned specific decision-making powers, defined by YIP-61:
 
 | yTeam   | Power                 | Description                                                                                 |
 | ------- | --------------------- | ------------------------------------------------------------------------------------------- |
-| yGuard  | Emergency Powers      | Immediately intervene in case of attack or bug to shutdown or rollback strategies or vaults |
+| yGuard  | Emergency Powers      | Immediately intervene in case of attack or bug to shutdown or rollback strategies or YeeldBoxs |
 | yBrain  | Manage Strategies     | Activate, deactivate, tune, and maintain strategies                                         |
 | yDev    | Define Yeeldx Protocol | Decide what code is considered part of Yeeldx and what isn’t                                 |
 | yDev    | Manage Protocol       | Maintain and improve the Yeeldx Protocol                                                     |
-| yDev    | Add Strategies        | Add new strategies to vaults                                                                |
+| yDev    | Add Strategies        | Add new strategies to YeeldBoxs                                                                |
 | yTx     | Delegate Transactions | Create delegated transactions for the multisig to sign and execute                          |
 | yPeople | Pay Team              | Create, deploy, modify, or terminate Yeeldx compensation packages                            |
 | yBudget | Set Budgets           | Create budgets for coordinape, grants, hiring, operations, or other workstreams             |

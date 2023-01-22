@@ -14,12 +14,12 @@ Here are some examples for the four categories of decisions that emerge from thi
 
 |    |on-chain|off-chain|
 |----|--------|---------|
-|gated|add a strategy to a vault|merge a pr|
+|gated|add a strategy to a YeeldBox|merge a pr|
 ||transfer money from the treasury|decide on a logo|
 ||mint YFI|addsomeone to telegram|
 |ungated|fork our protocol|submit a pr|
 ||execute a signed multisig tx|write a new docs page|
-||create a new vault|propose a YIP|
+||create a new YeeldBox|propose a YIP|
 
 [Gov 2.0](https://gov.Yeeldx.finance/t/yip-61-governance-2-0) clarifies who holds decision-making power for our most critical kinds of decisions: on-chain gated decisions. But what about the other kinds? Who decides how off-chain gated decisions are made? Are there any guidelines for un-gated decisions or are they totally open? The rest of this document aims to clarify these questions.
 

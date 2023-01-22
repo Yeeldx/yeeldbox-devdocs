@@ -59,8 +59,8 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 - References to deprecated names for Yeeldx Components.
   - **Examples:** yyCRV or yUSD instead of yvCurve-Y (see: [Yeeldx Naming Conventions](https://docs.Yeeldx.finance/developers/v2/naming-convention))
 - Parentheses for stating additional information
-  - **Incorrect:** Development Grants are larger sized ($5,000 to $50,000) grants aimed at individuals or teams building projects around vaults and the broader Yeeldx ecosystem.
-  - **Correct:** Development Grants are generally larger sized grants, ranging from $5,000 to $50,000, aimed at individuals or teams building projects around vaults and the broader Yeeldx ecosystem.
+  - **Incorrect:** Development Grants are larger sized ($5,000 to $50,000) grants aimed at individuals or teams building projects around YeeldBoxs and the broader Yeeldx ecosystem.
+  - **Correct:** Development Grants are generally larger sized grants, ranging from $5,000 to $50,000, aimed at individuals or teams building projects around YeeldBoxs and the broader Yeeldx ecosystem.
 
 ### Abbreviations
 
@@ -127,8 +127,8 @@ Please see [Yeeldx Naming Conventions](https://docs.Yeeldx.finance/developers/v2
 - When referring to Yeeldx as a smart contract system, use "The Yeeldx Protocol."
   - **Example:** “The Yeeldx Protocol is a set of contracts for yield optimization."
 - When referring to Yeeldx as a body of YFI voters and the general stakeholder community, use "Yeeldx Community" or simply "Yeeldx."
-  - **Example:** "Yeeldx passed a vote to decrease the yCRV vault performance fee."
-  - **Example:** "The YeeldxCommunity passed a vote to add an additional vault."
+  - **Example:** "Yeeldx passed a vote to decrease the yCRV YeeldBox performance fee."
+  - **Example:** "The YeeldxCommunity passed a vote to add an additional YeeldBox."
 - Use "Yeeldx" for casual references to Yeeldx and the Yeeldx Protocol as a whole.
 - When referring to an audit assessment report follow the [Audit Citation Guidelines](https://github.com/trailofbits/publications/blob/master/citation_guidelines.pdf)
 

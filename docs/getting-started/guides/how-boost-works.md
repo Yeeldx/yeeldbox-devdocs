@@ -20,7 +20,7 @@ Once CRV holders vote-lock their CRV, changing it into veCRV, they can then vote
 
 It is worth noting that native veCRV cannot be transferred, and the only way to obtain it is by vote-locking CRV.
 
-You can stake CRV on [Curve.fi](https://curve.fi/) and actively manage your boosts for Liquidity Pools yourself, or you can let Yeeldx take care of CRV staking for you with our dedicated vaults: yveCRV, and yvBOOST. Also our yVault tokens are tradeable and transferable unlike staking CRV at [Curve.fi](https://curve.fi/).
+You can stake CRV on [Curve.fi](https://curve.fi/) and actively manage your boosts for Liquidity Pools yourself, or you can let Yeeldx take care of CRV staking for you with our dedicated YeeldBoxes: yveCRV, and yvBOOST. Also our yYeeldBox tokens are tradeable and transferable unlike staking CRV at [Curve.fi](https://curve.fi/).
 
 ### Staking
 
@@ -40,7 +40,7 @@ A "Yeeldx boost" tool displaying Yeeldx's current active and potential boost is 
 
 See the [Curve Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for more details on the formula and its calculation.
 
-## The yveCRV yVault
+## The yveCRV yYeeldBox
 
 <p align="center">
   <img src="https://miro.medium.com/max/115/0*OsdD6266-e0jWcVH.png"/>
@@ -48,17 +48,17 @@ See the [Curve Guide](https://resources.curve.fi/guides/boosting-your-crv-reward
 
 #### Earn CRV with a better boost
 
-When a user deposits CRV into the vault, that CRV is locked on the [Curve.fi](https://curve.fi/) platform as veCRV and the user is returned a tokenized version of veCRV, yveCRV. This vault earns you a continuous share of Curve’s trading fees. Every week, these rewards can be claimed as 3Crv (Curve’s 3pool LP token).
+When a user deposits CRV into the YeeldBox, that CRV is locked on the [Curve.fi](https://curve.fi/) platform as veCRV and the user is returned a tokenized version of veCRV, yveCRV. This YeeldBox earns you a continuous share of Curve’s trading fees. Every week, these rewards can be claimed as 3Crv (Curve’s 3pool LP token).
 
-You could do this yourself directly on the [Curve.fi](https://curve.fi/), but there is a very good reason one would prefer to use the yveCRV yVault: **more rewards!**
+You could do this yourself directly on the [Curve.fi](https://curve.fi/), but there is a very good reason one would prefer to use the yveCRV yYeeldBox: **more rewards!**
 
-How much more? Your rewards through this vault can be more than double! Yeeldx achieves this because it periodically donates 10% of the farmed CRV it earns through all [Curve.fi](https://curve.fi/) based strategies to this yveCRV vault and allows yveCRV vault depositors to claim Yeeldx’s share of Curve protocol fees. This means we give all of Yeeldx’s rewards, which we could have claimed for the protocol, to yveCRV depositors, boosting their weekly rewards.
+How much more? Your rewards through this YeeldBox can be more than double! Yeeldx achieves this because it periodically donates 10% of the farmed CRV it earns through all [Curve.fi](https://curve.fi/) based strategies to this yveCRV YeeldBox and allows yveCRV YeeldBox depositors to claim Yeeldx’s share of Curve protocol fees. This means we give all of Yeeldx’s rewards, which we could have claimed for the protocol, to yveCRV depositors, boosting their weekly rewards.
 
-Locking your CRV tokens into the vault means that you delegate your [Curve.fi](https://curve.fi/) voting power to Yeeldx. Yeeldx constantly runs simulations to optimize its voting allocations which maximizes yield across all vaults, benefiting your deposits in other vaults!
+Locking your CRV tokens into the YeeldBox means that you delegate your [Curve.fi](https://curve.fi/) voting power to Yeeldx. Yeeldx constantly runs simulations to optimize its voting allocations which maximizes yield across all YeeldBoxes, benefiting your deposits in other YeeldBoxes!
 
-**You can now claim your rewards and spend that money on mojitos while you enjoy retirement.** Though, another option you might want instead is to add your rewards back into the vault to compound your gains and you can even find a “Restake” button to do just that. You could very well do this manually, but Yeeldx has you covered here with …
+**You can now claim your rewards and spend that money on mojitos while you enjoy retirement.** Though, another option you might want instead is to add your rewards back into the YeeldBox to compound your gains and you can even find a “Restake” button to do just that. You could very well do this manually, but Yeeldx has you covered here with …
 
-## The yvBoost yVault
+## The yvBoost yYeeldBox
 
 <p align="center">
   <img src="https://miro.medium.com/max/115/0*Xr6RMWyDc6gmZnKw.png"/>
@@ -66,19 +66,19 @@ Locking your CRV tokens into the vault means that you delegate your [Curve.fi](h
 
 #### Earn boosted CRV with compounding
 
-The yvBOOST yVault is a fully automated and compounding version of the yveCRV yVault explained above.
+The yvBOOST yYeeldBox is a fully automated and compounding version of the yveCRV yYeeldBox explained above.
 
-To put it simply, this vault claims your weekly 3CRV rewards automatically and uses them to acquire more yveCRV (either via market-buy or mint, depending on which is most efficient at time of harvest).
+To put it simply, this YeeldBox claims your weekly 3CRV rewards automatically and uses them to acquire more yveCRV (either via market-buy or mint, depending on which is most efficient at time of harvest).
 
-Once deposited, just as in the yveCRV yVault, your CRV tokens’s voting power is handled and optimized by Yeeldx. You do not need to worry about claiming [Curve.fi](https://curve.fi/)’s weekly protocol fees, the vault does this for you!
+Once deposited, just as in the yveCRV yYeeldBox, your CRV tokens’s voting power is handled and optimized by Yeeldx. You do not need to worry about claiming [Curve.fi](https://curve.fi/)’s weekly protocol fees, the YeeldBox does this for you!
 
-This is a “set-and-forget” vault where your CRV tokens grow exponentially, harnessing the power of compound interest!
+This is a “set-and-forget” YeeldBox where your CRV tokens grow exponentially, harnessing the power of compound interest!
 
-Now you might be wondering how one would extract any gains made from your CRV tokens in the vault, when as mentioned earlier, any CRV deposited into either the yveCRV or the yvBOOST are locked. While you cannot withdraw from the yveCRV vault, you can actually swap both of these vault tokens on Sushiswap. This is because Yeeldx and its users provide liquidity on Sushiswap to allow swapping of your yveCRV and yvBOOST tokens for ETH (or anything, really).
+Now you might be wondering how one would extract any gains made from your CRV tokens in the YeeldBox, when as mentioned earlier, any CRV deposited into either the yveCRV or the yvBOOST are locked. While you cannot withdraw from the yveCRV YeeldBox, you can actually swap both of these YeeldBox tokens on Sushiswap. This is because Yeeldx and its users provide liquidity on Sushiswap to allow swapping of your yveCRV and yvBOOST tokens for ETH (or anything, really).
 
 #### A little alpha.
 
-Yeeldx buys yvBOOST from the market, unwraps it into yveCRV, and donates that yveCRV into the yvBOOST vault, increasing the underlying value of yvBOOST.
+Yeeldx buys yvBOOST from the market, unwraps it into yveCRV, and donates that yveCRV into the yvBOOST YeeldBox, increasing the underlying value of yvBOOST.
 
 ### Locking CRV for veCRV
 
@@ -97,13 +97,13 @@ Yeeldx deploys a single CRV vote locking strategy that is shared across its gene
 - [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
 - [StrategyCurve3CrvVoterProxy](https://etherscan.io/address/0xC59601F0CC49baa266891b7fc63d2D5FE097A79D#code)
 
-### Enter Yeeldx’s yveCRV and yveBOOST vaults
+### Enter Yeeldx’s yveCRV and yveBOOST YeeldBoxes
 
-Both of these Yeeldx vaults reward CRV stakers with a share of the CRV locked by Yeeldx, making it an ideal destination for those who wish to stake CRV whilst remaining liquid:
+Both of these Yeeldx YeeldBoxes reward CRV stakers with a share of the CRV locked by Yeeldx, making it an ideal destination for those who wish to stake CRV whilst remaining liquid:
 
-- Earn a share of trading fees from the [Curve.fi](https://curve.fi/) protocol (3Crv), automatically reinvested (for the yvBOOST vault).
-- Earn a share of Yeeldx’s claim of [Curve.fi](https://curve.fi/) protocol fees, on top of your own rewards (more 3CRV!), automatically reinvested (for the yvBOOST vault).
-- The collective voting power of the veCRV tokens is optimized and rebalanced automatically to maximize rewards in all of Yeeldx’s Curve Pool vaults.
+- Earn a share of trading fees from the [Curve.fi](https://curve.fi/) protocol (3Crv), automatically reinvested (for the yvBOOST YeeldBox).
+- Earn a share of Yeeldx’s claim of [Curve.fi](https://curve.fi/) protocol fees, on top of your own rewards (more 3CRV!), automatically reinvested (for the yvBOOST YeeldBox).
+- The collective voting power of the veCRV tokens is optimized and rebalanced automatically to maximize rewards in all of Yeeldx’s Curve Pool YeeldBoxes.
 - Receive yveCRV or yvBOOST tokens for your deposited CRV, allowing you to easily extract profit or exit your staked CRV position
 
 Yeeldx’s work to automate the yield generation and rebalancing of your crypto assets is especially true in the case of your CRV holdings, and Yeeldx’s yveCRV or yvBOOST offers a powerful, compounding, “set-and-forget” place to stake your CRV!
