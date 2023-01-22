@@ -1,14 +1,14 @@
 # Protocol Risks
 
-Yeeldx’s core products are the vaults. Each vault runs at least one strategy, and each strategy is exposed to at least one protocol. Strategy and protocol risks are described [here](https://docs.Yeeldx.finance/resources/risks/strategy-risks) and [here](https://docs.Yeeldx.finance/resources/risks/protocol-risks) respectively.
+Yeeldx’s core products are the YeeldBoxes. Each YeeldBox runs at least one strategy, and each strategy is exposed to at least one protocol. Strategy and protocol risks are described [here](https://docs.Yeeldx.finance/resources/risks/strategy-risks) and [here](https://docs.Yeeldx.finance/resources/risks/protocol-risks) respectively.
 
-The key protocols to which Yeeldx’s vaults are exposed are lending protocols, AMMs and protocols that enable leverage.
+The key protocols to which Yeeldx’s YeeldBoxes are exposed are lending protocols, AMMs and protocols that enable leverage.
 
 ## Lending Protocols
 
-One of the simplest strategies is collateralized lending which involves lending assets on lending protocols to earn a yield. For example, the optimized lending strategy used by the Dai vault lends Dai on the highest yielding lending protocol.
+One of the simplest strategies is collateralized lending which involves lending assets on lending protocols to earn a yield. For example, the optimized lending strategy used by the Dai YeeldBox lends Dai on the highest yielding lending protocol.
 
-Yeeldx’s vaults are exposed to the lending protocols Aave, Compound Finance, dYdX and Alpha Homora.
+Yeeldx’s YeeldBoxes are exposed to the lending protocols Aave, Compound Finance, dYdX and Alpha Homora.
 
 |Risk|Description|
 |----|-----------|
@@ -22,9 +22,9 @@ Yeeldx’s vaults are exposed to the lending protocols Aave, Compound Finance, d
 
 ## Automated Market Makers
 
-AMMs are used in Yeeldx’s vault strategies to earn trading fees (and liquidity mining rewards if available) and to exchange liquidity mined tokens for the Want token.
+AMMs are used in Yeeldx’s YeeldBox strategies to earn trading fees (and liquidity mining rewards if available) and to exchange liquidity mined tokens for the Want token.
 
-Examples of the AMMs to which Yeeldx’s vaults are exposed are Curve Finance, Sushiswap and Uniswap. Curve Finance is predominantly used to earn trading fees and farm CRV rewards, whereas Sushiswap and Uniswap are used to exchange liquidity mined tokens for the Want token.
+Examples of the AMMs to which Yeeldx’s YeeldBoxes are exposed are Curve Finance, Sushiswap and Uniswap. Curve Finance is predominantly used to earn trading fees and farm CRV rewards, whereas Sushiswap and Uniswap are used to exchange liquidity mined tokens for the Want token.
 
 
 |Risk|Description|
@@ -37,9 +37,9 @@ Examples of the AMMs to which Yeeldx’s vaults are exposed are Curve Finance, S
 
 ## Leverage-enabling protocols
 
-Leverage-enabling protocols are used in Yeeldx’s vault strategies to increase the yield. This is possible when a non-leveraged strategy earns a higher return than the cost of borrowing.
+Leverage-enabling protocols are used in Yeeldx’s YeeldBox strategies to increase the yield. This is possible when a non-leveraged strategy earns a higher return than the cost of borrowing.
 
-Examples of the leverage-enabling protocols to which Yeeldx’s vaults are exposed are Maker, Unit Protocol, Aave, dYdX and Cream.Finance.
+Examples of the leverage-enabling protocols to which Yeeldx’s YeeldBoxes are exposed are Maker, Unit Protocol, Aave, dYdX and Cream.Finance.
 
 Maker and Unit Protocol enable the minting of stablecoins against collateral. The stablecoins can then be invested in yield-bearing strategies.
 
@@ -61,9 +61,9 @@ Cream.Finance, in combination with Iron Bank, allows strategies to increase yiel
 ## Liquidity mining protocols
 
 
-A core strategy for Yeeldx’s vaults is to liquidity mine (or yield farm) protocols.
+A core strategy for Yeeldx’s YeeldBoxes is to liquidity mine (or yield farm) protocols.
 Liquidity mining involves interacting with a protocol to earn the protocol’s native tokens. The interaction can be as simple as staking an asset in a protocol’s staking contract, or it can be more complicated such as staking SNX to mint sUSD in Synthetix to earn SNX rewards.
-In most cases the liquidity mined token is exchanged for the Want token on an AMM. For example, in the Dai vault the COMP token is farmed by supplying Dai to Compound Finance to earn COMP rewards, which are exchanged for more Dai.
+In most cases the liquidity mined token is exchanged for the Want token on an AMM. For example, in the Dai YeeldBox the COMP token is farmed by supplying Dai to Compound Finance to earn COMP rewards, which are exchanged for more Dai.
 
 
 |Risk|Description|
