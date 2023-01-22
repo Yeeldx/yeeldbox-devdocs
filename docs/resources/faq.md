@@ -4,47 +4,47 @@
 
 ## Products
 
-### yVaults
+### yYeeldBoxes
 
-#### What is a Vault?
+#### What is a YeeldBox?
 
-- [yVaults](https://docs.Yeeldx.finance/getting-started/products/yvaults/overview#what-are-yvaults)
+- [yYeeldBoxes](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxes/overview#what-are-yYeeldBoxes)
 
-#### How is vault growth calculated?
+#### How is YeeldBox growth calculated?
 
-- [Vault Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yvault-roi#roi-calculation)
+- [YeeldBox Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yYeeldBox-roi#roi-calculation)
 
 #### How can I deposit?
 
-- [yVaults](https://docs.Yeeldx.finance/getting-started/using-Yeeldx)
+- [yYeeldBoxes](https://docs.Yeeldx.finance/getting-started/using-Yeeldx)
 
-#### What are the implications of depositing or withdrawing with an asset that isn't native to the vault?
+#### What are the implications of depositing or withdrawing with an asset that isn't native to the YeeldBox?
 
-- You can potentially [lose value](https://docs.Yeeldx.finance/getting-started/using-Yeeldx#if-you-dont-have-the-required-token-for-the-vault-that-you-would-like-to-deposit-in) to slippage.
+- You can potentially [lose value](https://docs.Yeeldx.finance/getting-started/using-Yeeldx#if-you-dont-have-the-required-token-for-the-YeeldBox-that-you-would-like-to-deposit-in) to slippage.
 
-#### Can I deposit any token into any vault?
+#### Can I deposit any token into any YeeldBox?
 
-- [Zap](https://docs.Yeeldx.finance/getting-started/products/yvaults/overview#zap-in-with-any-asset)
+- [Zap](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxes/overview#zap-in-with-any-asset)
 
 #### Where can I go to see how my deposit is performing?
 
 - [Tools to track your funds](https://docs.Yeeldx.finance/getting-started/using-Yeeldx#tools-to-track-your-funds)
 
-#### When do I realize profits from a vault?
+#### When do I realize profits from a YeeldBox?
 
-- Your profits [are compounded](https://docs.Yeeldx.finance/getting-started/using-Yeeldx#tools-to-track-your-funds) into the vault token overtime, which can be withdrawn for your principal plus profit.
+- Your profits [are compounded](https://docs.Yeeldx.finance/getting-started/using-Yeeldx#tools-to-track-your-funds) into the YeeldBox token overtime, which can be withdrawn for your principal plus profit.
 
-#### How is vault growth calculated?
+#### How is YeeldBox growth calculated?
 
-- [Vault Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yvault-roi#roi-calculation)
+- [YeeldBox Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yYeeldBox-roi#roi-calculation)
 
-#### How can I migrate vaults?
+#### How can I migrate YeeldBoxes?
 
-- When it is announced that you need to migrate vaults, there will be a popup on the user interface that gives you the option of withdrawing or migrating your funds.
+- When it is announced that you need to migrate YeeldBoxes, there will be a popup on the user interface that gives you the option of withdrawing or migrating your funds.
 
 #### What is the fee structure?
 
-- [Detailed description of fees](https://docs.Yeeldx.finance/getting-started/products/yvaults/overview#yvault-fee-structure)
+- [Detailed description of fees](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxes/overview#yYeeldBox-fee-structure)
 
 #### Why is gas so expensive?
 
@@ -54,15 +54,15 @@
 
 - [How to understand yveCRV](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yveCRV)
 
-### Vault Strategies
+### YeeldBox Strategies
 
-#### What is a Vault Strategy?
+#### What is a YeeldBox Strategy?
 
-- [Strategies](https://docs.Yeeldx.finance/getting-started/products/yvaults/vaults-and-strategies)
+- [Strategies](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxes/YeeldBoxes-and-strategies)
 
 #### Where can I find strategy descriptions?
 
-- [Yeeldx State of the Vaults](https://vaults.Yeeldx.finance/)
+- [Yeeldx State of the YeeldBoxes](https://YeeldBoxes.Yeeldx.finance/)
 
 #### Where can I find current strategy contracts?
 
@@ -70,7 +70,7 @@
 
 #### Does anyone monitor strategy performance?
 
-- [Strategists and Guardians](https://docs.Yeeldx.finance/getting-started/products/yvaults/vaults-and-strategies)
+- [Strategists and Guardians](https://docs.Yeeldx.finance/getting-started/products/yYeeldBoxes/YeeldBoxes-and-strategies)
 
 #### What is the process for getting my strategy onto Yeeldx?
 
@@ -82,7 +82,7 @@
 
 #### How do I check which strategy my funds are in?
 
-- On [Yeeldx.watch](https://Yeeldx.watch), find your vault and click on the name. Click on the 'Allocation' tab to see what strategies are being utilized by the vaults. The debt percent allocation reflects the percent of vault funds allocated to each strategy.
+- On [Yeeldx.watch](https://Yeeldx.watch), find your YeeldBox and click on the name. Click on the 'Allocation' tab to see what strategies are being utilized by the YeeldBoxes. The debt percent allocation reflects the percent of YeeldBox funds allocated to each strategy.
 
 ## Governance
 
@@ -114,14 +114,14 @@
 
 ## Support
 
-#### I deposited into a vault, but the vault token isn't showing in my wallet? How do I make it appear?
+#### I deposited into a YeeldBox, but the YeeldBox token isn't showing in my wallet? How do I make it appear?
 
-- On the [Yeeldx.finance](https://Yeeldx.finance) user interface, click the name of the vault that you deposited in. This will take you to to the Etherscan page for the vault. Click on the "Tracker" link in the "More Info" box to find the vault token page. Copy the address from there and follow your wallet's instructions on [adding a custom token](https://docs.Yeeldx.finance/getting-started/guides/how-to-add-a-custom-token-to-metamask)
-- Alternatively, most vault tokens are supported on [Zapper.fi](https://zapper.fi) shortly after their release.
+- On the [Yeeldx.finance](https://Yeeldx.finance) user interface, click the name of the YeeldBox that you deposited in. This will take you to to the Etherscan page for the YeeldBox. Click on the "Tracker" link in the "More Info" box to find the YeeldBox token page. Copy the address from there and follow your wallet's instructions on [adding a custom token](https://docs.Yeeldx.finance/getting-started/guides/how-to-add-a-custom-token-to-metamask)
+- Alternatively, most YeeldBox tokens are supported on [Zapper.fi](https://zapper.fi) shortly after their release.
 
 #### I'm getting an error that says "SafeERC20: low-level call failed". How do I resolve this?
 
-- This most often occurs when submitting a duplicate transaction. If you want to deposit $100 into a vault, you can submit that deposit as many times you want until one of those transactions is executed. Afterwards, the rest will show this error because you no longer have that $100 in your wallet.
+- This most often occurs when submitting a duplicate transaction. If you want to deposit $100 into a YeeldBox, you can submit that deposit as many times you want until one of those transactions is executed. Afterwards, the rest will show this error because you no longer have that $100 in your wallet.
 
 #### I'm getting an error that says "ALERT: Transaction Error. Exception thrown in contract code." What does that mean?
 
@@ -154,9 +154,9 @@
 
 ## Resources
 
-#### Lists of yVaults Deployed
+#### Lists of yYeeldBoxes Deployed
 
-- Use the [Registry](https://docs.Yeeldx.finance/vaults/smart-contracts/registry)
+- Use the [Registry](https://docs.Yeeldx.finance/YeeldBoxes/smart-contracts/registry)
 
 #### Statistics
 
