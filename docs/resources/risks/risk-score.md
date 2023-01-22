@@ -1,10 +1,10 @@
 # Risk Scores
 
-Yeeldx works with risk scores to quantify and assess the amount of risk of each strategy and vault, this document describes how we define risk vectors and work with them to reach a good balance between secure and innovative strategies
+Yeeldx works with risk scores to quantify and assess the amount of risk of each strategy and YeeldBox, this document describes how we define risk vectors and work with them to reach a good balance between secure and innovative strategies
 
 * [**Strategy Risk Score**](#strategy-risk-score) defines each dimension of risk for a strategy and how we quantify them
-* [**Vault Risk Score Proposal**](#vault-risk-score-proposal) aggregates all strategies scores for a vault averaging by TVL **(this is in draft stage)**
-* [**Overall Risk Score Proposal**](#overall-risk-score-proposal) aggregates strategy/vault scores into overall scores **(this is in draft stage)**
+* [**YeeldBox Risk Score Proposal**](#YeeldBox-risk-score-proposal) aggregates all strategies scores for a YeeldBox averaging by TVL **(this is in draft stage)**
+* [**Overall Risk Score Proposal**](#overall-risk-score-proposal) aggregates strategy/YeeldBox scores into overall scores **(this is in draft stage)**
 
 ## Strategy Risk Score
 
@@ -21,7 +21,7 @@ Risk for different strategies is measured using a point scoring system developed
 
 This risk framework is an ongoing process regarding the security of Yeeldx’s strategies. The security team realized that given Yeeldx’s unique approach to deploying strategies constantly, it couldn’t rely on a waterfall process (heavy analysis/design, testing, several audits before a release, etc.) to deploy contracts. The strategies are deployed and capped by their risk score, and as we mitigate each dimension and improve something in the scoring, the strategy can grow its TVL. Think of it as calculated bets based on our internal security process. This allows Yeeldx to compare the risk score of two strategies and prioritize mitigations/preventive actions like forming a committee to spread knowledge on the code, get more audits, migrate current code for improved versions of the strat, etc. 
  
-The current version works for Yeeldx’s current needs. Still, we are always looking to improve and extend this scoring system to the vaults to be able to get a weighted average risk score that makes reasonable assumptions. We want to help our users know what’s going on behind the scenes in the vaults. Vault risk scoring is still under development at the moment!
+The current version works for Yeeldx’s current needs. Still, we are always looking to improve and extend this scoring system to the YeeldBoxes to be able to get a weighted average risk score that makes reasonable assumptions. We want to help our users know what’s going on behind the scenes in the YeeldBoxes. YeeldBox risk scoring is still under development at the moment!
 
 ### Audit
 
@@ -279,14 +279,14 @@ The TVL (total value locked) impact is a figure between 1 and 5 as well, where 5
   </tr>
 </table>
 
-## Vault Risk Score Proposal
+## YeeldBox Risk Score Proposal
 
-A vault is a contract that holds funds for up to 20 strategies, the vault risk score is a TVL weighted average for each active strategy, for example:
+A YeeldBox is a contract that holds funds for up to 20 strategies, the YeeldBox risk score is a TVL weighted average for each active strategy, for example:
 
 **Strategy X** has **5000$** funds deposited  
 **Strategy Y** has **1000$** funds deposited
 
-This vault's risk score would be calculated like this:
+This YeeldBox's risk score would be calculated like this:
 
 ```
 (
