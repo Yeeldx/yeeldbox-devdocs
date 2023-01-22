@@ -103,13 +103,13 @@ ViewYeeldx.Finance with community-created themes or [create a custom theme](http
 
 ## Tools to track your funds
 
-If you would like to see how your USD balance changes while your assets are in a vault, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product. This is also the easiest way to tell how much profit the vault has made for you.
+If you would like to see how your USD balance changes while your assets are in a YeeldBox, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product. This is also the easiest way to tell how much profit the YeeldBox has made for you.
 
-Your balance WILL NOT increase continuously. Profit will be distributed to your share of the vault when the harvest() function is called, which happens on a fluctuating basis.
+Your balance WILL NOT increase continuously. Profit will be distributed to your share of the YeeldBox when the harvest() function is called, which happens on a fluctuating basis.
 
 Community resources to monitor your returns:
 
 - [Zapper](https://zapper.fi/)
 - [Zerion](https://app.zerion.io/)
-- [yVault ROI](https://yvault-roi.netlify.app/)
-- [Trackavault](https://trackavault.com/)
+- [yYeeldBox ROI](https://yYeeldBox-roi.netlify.app/)
+- [TrackaYeeldBox](https://trackaYeeldBox.com/)
