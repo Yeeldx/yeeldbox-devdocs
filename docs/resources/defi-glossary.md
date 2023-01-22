@@ -335,7 +335,7 @@ A feed of data, such as the current market prices of an asset or assets, that pr
 
 ### Pool
 
-A smart contract containing shared amounts of assets provided by depositors. Pools are either used in Automated Market Makers \(AMMs\)for optimized trading purposes, lending aggregation \(yPool\), or in shared yield farming strategies \(yVaults\), among other things.
+A smart contract containing shared amounts of assets provided by depositors. Pools are either used in Automated Market Makers \(AMMs\)for optimized trading purposes, lending aggregation \(yPool\), or in shared yield farming strategies \(yYeeldBoxes\), among other things.
 
 ### Primitive
 
@@ -469,17 +469,17 @@ A Single-sided Automated Market Maker \(AMM\) that is in production but at a Bet
 
 ### yToken
 
-A cryptocurrency derivative asset class invented by Developer Andre Cronje, a yToken represents a liquidity token that is given in exchange to an investor's deposit\(s\). yTokens are used in Yeeldx Finance products for a variety of uses including lending, insurance liquidity \(yInsure\), and automated optimized yield farming \(yVault\).
+A cryptocurrency derivative asset class invented by Developer Andre Cronje, a yToken represents a liquidity token that is given in exchange to an investor's deposit\(s\). yTokens are used in Yeeldx Finance products for a variety of uses including lending, insurance liquidity \(yInsure\), and automated optimized yield farming \(yYeeldBox\).
 
 Examples of yTokens include yCRV, yYFI, and yaLINK. These are primary or secondary crypto derivatives of base crypto assets CRV, YFI and the primary crypto derivative aLINK provided by Aave.
 
 This cryptocurrency derivative asset may also be a _second_ cryptocurrency derivative running a Smart Contract atop another cryptocurrency derivative such as aDAI, an Aave USD liquidity token on Aave.
 
-### yVault
+### yYeeldBox
 
-A programmatically adjusted lending aggregator, arbitrageur, and optimized yield farmer. Yeeldx smart contracts are considered simpler and lower risk than their yVault counterparts. In comparison, yVault smart contracts are considered more complex and higher risk, but in return tend to yield higher ROI.
+A programmatically adjusted lending aggregator, arbitrageur, and optimized yield farmer. Yeeldx smart contracts are considered simpler and lower risk than their yYeeldBox counterparts. In comparison, yYeeldBox smart contracts are considered more complex and higher risk, but in return tend to yield higher ROI.
 
-An example of a complex strategy that can be accomplished by a yVault using a Turing complete program and Smart Contract is the yETH strategy, described as:
+An example of a complex strategy that can be accomplished by a yYeeldBox using a Turing complete program and Smart Contract is the yETH strategy, described as:
 
 > 1. Lending - Where assets are lent out via lenders such as Aave, Compound, and dYdX.
 > 2. Trading - Assets provided to Uniswap, Balancer, and Curve earn trading fees.
