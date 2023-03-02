@@ -1,19 +1,19 @@
 # YeeldBox Tokens
 
-[yYeeldBox Tokens](https://docs.Yeeldx.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yYeeldBox that they are participating in.
+[Box Tokens](https://docs.Yeeldx.com/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the YeeldBox that they are participating in.
 
-**For example**, if you deposit YFI in a yYeeldBox you will receive yvYFI in return. yvYFI would be the yYeeldBox Token.
+**For example**, if you deposit YEELD in a YeeldBox you will receive BoxYeeld in return. BoxYeeld would be the YeeldBox Token.
 
-If your yYeeldBox generates profit, the share price of your yYeeldBox tokens will increase. This happens because there are more underlying tokens in the yYeeldBox to redeem upon withdrawal.
+If your YeeldBox generates profit, the share price of your YeeldBox tokens will increase. This happens because there are more underlying tokens in the YeeldBox to redeem upon withdrawal.
 
 ![](https://i.imgur.com/3zkSnoE.png)
 ![](https://i.imgur.com/yrGEVCr.png)
 
-_The yvYFI token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share._
+_The BoxYEELD token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share._
 
 Once a user's liquidity is withdrawn from the yYeeldBox, their yYeeldBox Token will be burned. yYeeldBox Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
 
-## V2 yYeeldBox Tokens
+## YeeldBox Tokens
 
 | YeeldBox | Input Token | Output Token | 
 | :--- | :--- | :--- | 
@@ -38,23 +38,3 @@ Once a user's liquidity is withdrawn from the yYeeldBox, their yYeeldBox Token w
 | crvSAAVE | [Curve sAave Pool](https://etherscan.io/token/0x02d341ccb60faaf662bc0554d13778015d1b285c) | [yvCurve-sAave](https://etherscan.io/token/0xb4D1Be44BfF40ad6e506edf43156577a3f8672eC) | 
 | crvBBTC | [Curve BBTC Pool](https://etherscan.io/token/0x410e3e86ef427e30b9235497143881f717d93c2a) | [yvCurve-BBTC](https://etherscan.io/token/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | 
 | yvBOOST | [Yeeldx Compounding veCRV](https://etherscan.io/token/0xc5bddf9843308380375a611c18b50fb9341f502a) | [yvBOOST](https://etherscan.io/token/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | 
-
-## V1 yYeeldBox Tokens
-
-| YeeldBox        | Input Token                                                                                              | Output Token                                                                                     |
-| :----------- | :------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
-| crvLINK      | [linkCRV](https://etherscan.io/token/0xcee60cfa923170e4f8204ae08b4fa6a3f5656f3a)                         | [yvlinkCRV](https://etherscan.io/token/0x96Ea6AF74Af09522fCB4c28C269C26F59a31ced6)               |
-| crvUSDP      | [usdp3CRV](https://etherscan.io/token/0x7Eb40E450b9655f4B3cC4259BCC731c63ff55ae6)                        | [yvusdp3CRV](https://etherscan.io/token/0x1B5eb1173D2Bf770e50F10410C9a96F7a8eB6e75)              |
-| crvANKR      | [ankrCRV](https://etherscan.io/token/0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf)                         | [yvankrCRV](https://etherscan.io/token/0xE625F5923303f1CE7A43ACFEFd11fd12f30DbcA4)               |
-| yCRV\(yUSD\) | [yDAI+yUSDC+yUSDT+yTUSD](https://etherscan.io/token/0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8)          | [yyDAI+yUSDC+yUSDT+yTUSD](https://etherscan.io/token/0x5dbcf33d8c2e976c6b560249878e6f1491bca25c) |
-| crvMUSD      | [musd3CRV](https://etherscan.io/token/0x1AEf73d49Dedc4b1778d0706583995958Dc862e6)                        | [yvmusd3CRV](https://etherscan.io/token/0x0FCDAeDFb8A7DfDa2e9838564c5A1665d856AFDF)              |
-| crvGUSD      | [gusd3CRV](https://etherscan.io/token/0xD2967f45c4f384DEEa880F807Be904762a3DeA07)                        | [yvgusd3CRV](https://etherscan.io/token/0xcC7E70A958917cCe67B4B87a8C30E6297451aE98)              |
-| crvDUSD      | [dusd3CRV](https://etherscan.io/token/0x3a664Ab939FD8482048609f652f9a0B0677337B9)                        | [yvdusd3CRV](https://etherscan.io/address/0x8e6741b456a074F0Bc45B8b82A755d4aF7E965dF#code)       |
-| crvUSDN      | [usdn3CRV](https://etherscan.io/token/0x4f3E8F405CF5aFC05D68142F3783bDfE13811522)                        | [yvusdn3CRV](https://etherscan.io/token/0xFe39Ce91437C76178665D64d7a2694B0f6f17fE3)              |
-| crvUSDT      | [ust3CRV](https://etherscan.io/token/0x94e131324b6054c0D789b190b2dAC504e4361b53)                         | [yvusdt3CRV](https://etherscan.io/token/0xF6C9E9AF314982A4b38366f4AbfAa00595C5A6fC)              |
-| crvHUSD      | [husd3CRV](https://etherscan.io/token/0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858)                        | [yvhusd3CRV](https://etherscan.io/token/0x39546945695DCb1c037C836925B355262f551f55)              |
-| crvBUSD      | [yDAI+yUSDC+yUSDT+yBUSD \(bCrv\)](https://etherscan.io/token/0x3B3Ac5386837Dc563660FB6a0937DFAa5924333B) | [yyDAI+yUSDC+yUSDT+yBUSD](https://etherscan.io/token/0x2994529C0652D127b7842094103715ec5299bBed) |
-| crvSUSD      | [crvPlain3andSUSD \(sCrv\)](https://etherscan.io/token/0xC25a3A3b969415c80451098fa907EC722572917F)       | [yvcrvPlain3andSUSD](https://etherscan.io/token/0x5533ed0a3b83F70c3c4a1f69Ef5546D3D4713E44)      |
-| 3Crv         | [3Crv](https://etherscan.io/token/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490)                            | [y3Crv](https://etherscan.io/token/0x9cA85572E6A3EbF24dEDd195623F188735A5179f)                   |
-| crvEURS      | [eursCRV](https://etherscan.io/token/0x194eBd173F6cDacE046C53eACcE9B953F28411d1)                         | [yveursCRV](https://etherscan.io/token/0x98B058b2CBacF5E99bC7012DF757ea7CFEbd35BC)               |
-| crvHBTC      | [hCRV](https://etherscan.io/token/0xb19059ebb43466C323583928285a49f558E572Fd)                            | [yvhCRV](https://etherscan.io/token/0x46AFc2dfBd1ea0c0760CAD8262A5838e803A37e5)                  |
