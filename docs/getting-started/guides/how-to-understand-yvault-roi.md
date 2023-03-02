@@ -1,10 +1,10 @@
-# How to Understand yYeeldBox ROI
+# How to Understand YeeldBox ROI
 
 ---
 
 ### ROI
 
-Trying to understand how ROI is calculated? Skip directly to "[_Why we should use ROI instead of APY to estimate yYeeldBoxes returns_](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yYeeldBox-roi#why-we-should-use-roi-to-estimate-yYeeldBoxes-returns)"
+Trying to understand how ROI is calculated? Skip directly to "[_Why we should use ROI instead of APY to estimate YeeldBoxes returns_](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-YeeldBox-roi#why-we-should-use-roi-to-estimate-YeeldBoxes-returns)"
 
 If you are a beginner in DeFi or new to Yeeldx keep on reading!
 
@@ -12,29 +12,29 @@ If you are a beginner in DeFi or new to Yeeldx keep on reading!
 
 > Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favorably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://en.wikipedia.org/wiki/Return_on_investment)
 
-- ROI is a key performance indicator \(KPI\) available in all Yeeldx YeeldBoxes \(yYeeldBoxes\) located here as "Estimated Yearly Yield": [https://Yeeldx.finance/YeeldBoxes](https://Yeeldx.finance/YeeldBoxes).
+- ROI is a key performance indicator \(KPI\) available in all Yeeldx YeeldBoxes \(YeeldBoxes\) located here as "Estimated Yearly Yield": [https://Yeeldx.com/YeeldBox](https://Yeeldx.com/YeeldBox).
 - ROI is useful when comparing and assessing YeeldBox performance.
 - ROI presented in Yeeldx is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
 - The ROI presented is a _current estimation_ based on data since the yYeeldBox's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and fluctuate based on market/strategy.
 
-yYeeldBoxes have different yield farming [strategies](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yYeeldBox.
+yYeeldBoxes have different yield farming [strategies](https://docs.Yeeldx.com/resources/faq#where-can-i-find-strategy-descriptions), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yYeeldBox.
 
-New strategies are also voted by the community through [governance proposals](https://gov.Yeeldx.finance). A new strategy creates a new challenge in terms of ROI calculation.
+New strategies are also voted by the community through [governance proposals](https://gov.Yeeldx.com). A new strategy creates a new challenge in terms of ROI calculation.
 
 - Individuals interested in participating in a yYeeldBox should monitor the ROI presented in the YeeldBox dashboard after a strategy change. The rate presented reflects the most recent ROI.
 - An individual participating before a strategy change might be interested in comparing ROI before and ROI after. Historic ROI, e.g. since yYeeldBox creation, can also help users understand performance and inform future decisions.
 
 ## ROI calculation
 
-Even though yYeeldBoxes have a compounding effect inherently, this compound interest is not fixed like in a CeFi savings account. Hence, the concept of [APY](https://www.investopedia.com/terms/a/apy.asp) and [APR](https://www.investopedia.com/terms/a/apr.asp) is not the most accurate way to estimate yYeeldBox gains. They are used by the community and we also added them to our newer interfaces, but interpreting them should always be taken with a grain of salt.
+Even though YeeldBoxes have a compounding effect inherently, this compound interest is not fixed like in a CeFi savings account. Hence, the concept of [APY](https://www.investopedia.com/terms/a/apy.asp) and [APR](https://www.investopedia.com/terms/a/apr.asp) is not the most accurate way to estimate yYeeldBox gains. They are used by the community and we also added them to our newer interfaces, but interpreting them should always be taken with a grain of salt.
 
-### Why we should use ROI to estimate yYeeldBoxes returns?
+### Why we should use ROI to estimate YeeldBoxes returns?
 
 - This shows the estimation of an asset that has interest / compounded interest applied to it:
 
 ![](https://i.imgur.com/OZKqesB.png)
 
-- This is the actual, measured performance of an asset in the yUSD YeeldBox:
+- This is the actual, measured performance of an asset in the BoxUSD YeeldBox:
 
 ![](https://i.imgur.com/NpogiO9.png)
 
@@ -42,9 +42,9 @@ Even though yYeeldBoxes have a compounding effect inherently, this compound inte
 
 A bank's interest rate is constant: either linear or compounding. The interest rate is multiplied by the asset value each period.
 
-yYeeldBoxes work differently:
+YeeldBoxes work differently:
 
-After depositing into a yYeeldBox, the user receives 'wrapped' tokens. These tokens start with a 'y' prefix and the depositor receives fewer tokens than were deposited \(why is explained below\).
+After depositing into a YeeldBox, the user receives 'wrapped' tokens. These tokens start with a 'Box' prefix and the depositor receives fewer tokens than were deposited \(why is explained below\).
 
 Starting from its inception, the YeeldBox's input and output are governed by the following equation:
 
@@ -123,11 +123,11 @@ Here we take two points of the performance chart for the yUSD YeeldBox \(numbere
 
 ### Example
 
-Jane has 100 yCRV tokens and decides to invest them in the yUSD yYeeldBox.
+Jane has 100 BoxCRV tokens and decides to invest them in the BoxUSD YeeldBox.
 
 At that time the price $P$ is 1.045, the total number of YeeldBox tokens is 10,450 and of wrapped tokens 10,000. $$10450 / 10000 = 1.045$$
 
-Now her yCRV tokens get adjusted according to the formula above which is why she sees her now wrapped tokens \(yUSD\) reduce in quantity and the tokens in the YeeldBox \(yCRV\) are equal to the amount she invested.
+Now her BoxCRV tokens get adjusted according to the formula above which is why she sees her now wrapped tokens \(BoxUSD\) reduce in quantity and the tokens in the YeeldBox \(BoxCRV\) are equal to the amount she invested.
 
 So, how many wrapped tokens will she receive?
 
@@ -141,7 +141,7 @@ When Jane now looks at her balance of wrapped tokens, she will see that they hav
 
 $$F = I * P = 95.7 * 1.05 = 100.5$$
 
-At this point, she could withdraw and receive her initial yCRV deposit and an additional amount of yCRV tokens, giving her a return of 0.5% on her initial investment (ignoring the 0.5% withdrawal fee).
+At this point, she could withdraw and receive her initial BoxCRV deposit and an additional amount of BoxCRV tokens, giving her a return of 0.5% on her initial investment (ignoring the 0.5% withdrawal fee).
 
 ### Conclusions
 
@@ -153,10 +153,6 @@ In other words, if your goal is to approximate returns in the short-term, you sh
 
 If you would like to make a crude estimation on how returns may look like in a year or longer, the longest possible historic timeframe should be taken.
 
-### Other references
-
-The community has been actively creating tools and guides on this topic.
-
-- [https://github.com/Zer0dot/Yeeldx_roi/blob/master/Yeeldx_YeeldBoxes_ROI_calc.ipynb](https://github.com/Zer0dot/Yeeldx_roi/blob/master/Yeeldx_YeeldBoxes_ROI_calc.ipynb) provides a mathematical explanation of how ROI is calculated with some caveats. \(This repository is no longer being maintained\).
+Other Resources:
 - [Statistics FAQ](https://docs.Yeeldx.finance/resources/faq#where-can-i-find-strategy-descriptions)
-- [How Yeeldx shows APY in the v3 interface](https://medium.com/iearn/how-Yeeldx-calculates-estimated-returns-apy-b4fd5b687bf9)
+- [How Yeeldx shows APY in the v3 interface](https://medium.com/Yeeldx/how-Yeeldx-calculates-estimated-returns-apy)
