@@ -9,7 +9,7 @@ If your YeeldBox generates profit, the share price of your YeeldBox tokens will 
 ![]([https://postimg.cc/06pbcQmM])
 ![](https://postimg.cc/SY95zwHh)
 
-_The BoxYEELD token at [Etherscan](https://arbiscan.io/token/0xded8b4ac5a4a1d70d633a87a22d9a7a8851bea1b#readContract), showing its name, total assets and price per share._
+_The BoxYEELD token at [Arbiscan](https://arbiscan.io/token/0xded8b4ac5a4a1d70d633a87a22d9a7a8851bea1b#readContract), showing its name, total assets and price per share._
 
 Once a user's liquidity is withdrawn from the YeeldBox, their BoxYeeld Token will be burned. BoxYeeld Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
 
