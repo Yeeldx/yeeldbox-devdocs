@@ -6,12 +6,12 @@
 
 If your YeeldBox generates profit, the share price of your YeeldBox tokens will increase. This happens because there are more underlying tokens in the YeeldBox to redeem upon withdrawal.
 
-![](https://i.imgur.com/3zkSnoE.png)
-![](https://i.imgur.com/yrGEVCr.png)
+![]([https://postimg.cc/06pbcQmM])
+![](https://postimg.cc/SY95zwHh)
 
-_The BoxYEELD token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share._
+_The BoxYEELD token at [Etherscan](https://arbiscan.io/token/0xded8b4ac5a4a1d70d633a87a22d9a7a8851bea1b#readContract), showing its name, total assets and price per share._
 
-Once a user's liquidity is withdrawn from the yYeeldBox, their yYeeldBox Token will be burned. yYeeldBox Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
+Once a user's liquidity is withdrawn from the YeeldBox, their BoxYeeld Token will be burned. BoxYeeld Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
 
 ## YeeldBox Tokens
 
