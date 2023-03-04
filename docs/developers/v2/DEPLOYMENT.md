@@ -228,11 +228,10 @@ These are the standard deposit limits per stage, and they can be adjusted on a c
 
 ### Health Checks
 
-Since the v0.4.3 release, we have introduced the concept of Health Checks contracts to YeeldBoxes and strategies. These are helper contracts that can validate the end state of a harvest, or critical transaction, to ensure the accounting stays within established safe parameters.
+These are helper contracts that can validate the end state of a harvest, or critical transaction, to ensure the accounting stays within established safe parameters.
 
 You can think of these contracts as on-chain unit tests, or "self asserts", ensuring that the end state of a critical transaction matches an expected condition. The design allows health checks to be configured per individual YeeldBox or strategy. If the "assert" doesn't match expectations, the entire transaction will revert and require manual intervention by strategists or core devs.
 
-YeeldBoxes from release v0.4.3 and onward, support attaching an on-chain health check contract to be called after every harvest report.
 
 ## Note on Health Checks Backward Compatibility
 

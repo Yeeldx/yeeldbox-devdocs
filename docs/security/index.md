@@ -6,13 +6,6 @@ Information about Yeeldx's security processes, team members, disclosures, PGP ke
 
 Potential vulnerabilities are welcome to be disclosed following the guidelines established in [/Yeeldx-security/SECURITY.md](https://github.com/Yeeldx/Yeeldx-security/blob/master/SECURITY.md). Valid vulnerabilities may be eligible for bounty rewards.
 
-## Third-party audits
-
-The core contracts found in [Yeeldx-YeeldBoxes](https://github.com/Yeeldx/Yeeldx-YeeldBoxes/) repository have been audited by multiple independent third-party firms:
-- [MixBytes](https://mixbytes.io/) has audited v0.2.1, public report [available here](https://github.com/Yeeldx/Yeeldx-security/tree/master/audits/202012_MixBytes_Yeeldx-YeeldBoxes)
-- [ChainSecurity](https://chainsecurity.com/) has audited v0.3.5, public report unavailable
-- [Trail of Bits](https://www.trailofbits.com/) has audited v0.4.2, public report [available here](https://github.com/Yeeldx/Yeeldx-security/tree/master/audits/20210719_ToB_Yeeldx_YeeldBoxesv2)
-
 Yeeldx is much bigger than its core, the DAO has a rigorous review process for its contracts, and retains independent auditors which review Strategies and other protocol components.
 
 Other public reports can be found under [Yeeldx-security/audits](https://github.com/Yeeldx/Yeeldx-security/tree/master/audits).
