@@ -14,26 +14,7 @@ module.exports = {
             'products/yvaults/vaults-and-strategies',
             'products/yvaults/vault-tokens',
           ],
-        },
-        {
-          type: 'category',
-          label: 'yCRV',
-          items: [
-            'products/ycrv/overview',
-            'products/ycrv/guide',
-            'products/ycrv/faq',
-          ],
-        },
-         {
-          type: 'category',
-          label: 'yBribe',
-          items: [
-            'products/ybribe/overview',
-            'products/ybribe/guide',
-            'products/ybribe/faq',
-          ],
-        },
-        'products/woofy',
+        }
       ],
     },
     {
@@ -43,7 +24,7 @@ module.exports = {
         'guides/how-boost-works',
         'guides/how-to-add-a-custom-token-to-metamask',
         'guides/how-to-understand-yeeldbox-roi',
-        'guides/how-apy-works',
+        // 'guides/how-apy-works',
         'guides/how-to-understand-strategies-descriptions',
       ],
     },
