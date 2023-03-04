@@ -12,7 +12,7 @@
 
 #### How is YeeldBox growth calculated?
 
-- [YeeldBox Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yYeeldBox-roi#roi-calculation)
+- [YeeldBox Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yeeldbox-roi#roi-calculation)
 
 #### How can I deposit?
 
@@ -36,7 +36,7 @@
 
 #### How is YeeldBox growth calculated?
 
-- [YeeldBox Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yYeeldBox-roi#roi-calculation)
+- [YeeldBox Returns](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yeeldbox-roi#roi-calculation)
 
 #### How can I migrate YeeldBoxes?
 

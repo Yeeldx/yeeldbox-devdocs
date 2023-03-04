@@ -42,7 +42,7 @@ module.exports = {
       items: [
         'guides/how-boost-works',
         'guides/how-to-add-a-custom-token-to-metamask',
-        'guides/how-to-understand-yvault-roi',
+        'guides/how-to-understand-yeeldbox-roi',
         'guides/how-apy-works',
         'guides/how-to-understand-strategies-descriptions',
       ],

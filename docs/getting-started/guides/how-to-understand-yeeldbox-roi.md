@@ -4,7 +4,7 @@
 
 ### ROI
 
-Trying to understand how ROI is calculated? Skip directly to "[_Why we should use ROI instead of APY to estimate YeeldBoxes returns_](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-YeeldBox-roi#why-we-should-use-roi-to-estimate-YeeldBoxes-returns)"
+Trying to understand how ROI is calculated? Skip directly to "[_Why we should use ROI instead of APY to estimate YeeldBoxes returns_](https://docs.Yeeldx.finance/getting-started/guides/how-to-understand-yeeldbox-roi#why-we-should-use-roi-to-estimate-YeeldBoxes-returns)"
 
 If you are a beginner in DeFi or new to Yeeldx keep on reading!
 

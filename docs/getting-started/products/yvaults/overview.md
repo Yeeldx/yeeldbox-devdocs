@@ -23,7 +23,7 @@ YeeldBoxes have a dynamic fee structure. Single asset YeeldBoxes have no managem
 | Management Fee  | 0%  |
 | Performance Fee | 10% |
 
-On the [Yeeldx.com](https://Yeeldx.com/) user interface, yield is displayed as net APY. This means that both fees and compounding returns are taken into consideration in the rates presented. Since harvests don't occur on a set basis, yield is estimated based on historical data. For more information, see [How to Understand YeeldBox ROI](https://docs.Yeeldx.com/getting-started/guides/how-to-understand-YeeldBox-roi)
+On the [Yeeldx.com](https://Yeeldx.com/) user interface, yield is displayed as net APY. This means that both fees and compounding returns are taken into consideration in the rates presented. Since harvests don't occur on a set basis, yield is estimated based on historical data. For more information, see [How to Understand YeeldBox ROI](https://docs.Yeeldx.com/getting-started/guides/how-to-understand-yeeldbox-roi)
 
 - Up to 20 strategies per YeeldBox: This will increase the flexibility to manage capital efficiently during different market scenarios. Each strategy has a capital cap. This is useful to avoid over-allocating funds to a strategy that cannot increase APY anymore.
 - Strategist and Governance: The Governance and the Strategy creator \(strategist\). These 2 actors oversee strategy performance and are empowered to take action to improve capital management or act on critical situations.
