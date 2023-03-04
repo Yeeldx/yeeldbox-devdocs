@@ -28,11 +28,6 @@ export default [
         to: './developers/v2/getting-started',
       },
       {
-        title: 'Yeeldx SDK',
-        description: 'Learn about the Yeeldx stack and how to use the SDK as an aggregator of many data sources.',
-        to: './vaults/yearn-sdk/yearn-stack',
-      },
-      {
         title: 'Smart Contracts',
         description: 'Find references to our smart contracts and several utilities part of the Yeeldx architecture',
         to: './vaults/smart-contracts/vault',

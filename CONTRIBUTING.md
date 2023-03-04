@@ -1,16 +1,13 @@
-# Contributing to Yearn Dev Docs
+# Contributing to Yeeldx Dev Docs
 
-Thanks for taking the time to contribute to the Yearn Dev Docs!
+Thanks for taking the time to contribute to the Yeeldx Dev Docs!
 
-The following is a set of guidelines for contributing to Yearn's Dev Docs, which are hosted on [GitHub](https://github.com/yearn/yearn-devdocs).
+The following is a set of guidelines for contributing to Yeeldx's Dev Docs, which are hosted on [GitHub](https://github.com/Yeeldx/yeeldbox-devdocs).
 
 ## Links
 
-- [Yearn Dev Docs Website](https://yearn.github.io/yearn-devdocs/)
-- [Yearn Finance on GitHub](https://github.com/yearn/)
-- [Twitter](https://twitter.com/iearnfinance)
-- [Discord](https://discord.gg/yearn/)
-- [Discourse](https://gov.yearn.finance/)
+- [Yeeldx Dev Docs Website](https://github.com/Yeeldx/yeeldbox-devdocs)
+- [Yeeldx Finance on GitHub](https://github.com/Yeeldx/yeeld-box)
 
 ## High Level Contributing Workflow
 
@@ -18,10 +15,10 @@ _Adapted and condensed from [GitHub-Forking by Chaser324](https://gist.github.co
 
 ### Create a Fork
 
-Go to the [Yearn Dev Docs GitHub page](https://github.com/yearn/yearn-devdocs) and click the "Fork" button. Then clone your fork to your local machine.
+Go to the [Yeeldx Dev Docs GitHub page](https://github.com/Yeeldx/yeeldbox-devdocs) and click the "Fork" button. Then clone your fork to your local machine.
 
 ```shell
-$ git clone git@github.com:USERNAME/yearn-devdocs.git
+$ git clone git@github.com:USERNAME/Yeeldx/yeeld-box.git
 ```
 
 ### Keep Your Fork Up to Date
@@ -29,7 +26,7 @@ $ git clone git@github.com:USERNAME/yearn-devdocs.git
 If you plan to be an active, regular contributor please keep your fork up to date. The easiest way to do so is to add the original repo as a remote and merge in changes from `master`.
 
 ```shell
-$ git remote add upstream https://github.com/yearn/yearn-devdocs
+$ git remote add upstream https://github.com/Yeeldx/yeeldbox-devdocs
 ```
 
 To update your fork with the latest upstream changes, fetch the upstream repo's branches and latest commits to bring them into your repository:
@@ -60,7 +57,7 @@ $ git checkout master
 $ git checkout -b newdocedit
 ```
 
-Now make all those great additions and edits to your copy of Yearn's Dev Docs.
+Now make all those great additions and edits to your copy of Yeeldx's Dev Docs.
 
 ### Submitting a Pull Request
 

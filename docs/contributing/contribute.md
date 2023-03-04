@@ -101,29 +101,8 @@ This is complementary to the above, but it's not directly related to creating st
 
 ### Yeeldx Products
 
-- [Yeeldx.Finance](https://Yeeldx.finance/), [Github](https://github.com/Yeeldx/Yeeldx-finance-v3)
-- Yeeldx Documentation](https://docs.Yeeldx.finance/), [Github](https://github.com/Yeeldx/Yeeldx-docs)
-- [YeeldxGovernance Forum](https://gov.Yeeldx.finance/)
-- [Yeeldx Snapshot Governance Voting](https://snapshot.org/#/ybaby.eth)
+- [Yeeldbox](https://vaults.yeeldx.com), [Github](https://github.com/Yeeldx/yeeld-box)
+- [Yeeldx Documentation](https://docs.yeeldx.com/), [Github](https://github.com/Yeeldx/yeeldbox-devdocs)
 
-#### List of Yeeldx Tools
 
-- [Yeeldx Watch](https://Yeeldx.watch/), [Github](https://github.com/Yeeldx/Yeeldx-watch)
-- Yeeldx Subgraphs, [Ethereum](https://thegraph.com/explorer/subgraph?id=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0&version=0xf50b705e4eaba269dfe954f10c65bd34e6351e0c-0-0&view=Overview), [Fantom](https://thegraph.com/hosted-service/subgraph/Yeeldx/Yeeldx-YeeldBoxs-v2-fantom), [Github](https://github.com/Yeeldx/Yeeldx-YeeldBoxs-v2-subgraph)
-- Yeeldx SDK, [Github](https://github.com/Yeeldx/Yeeldx-sdk)
-- [Yeeldx API](https://api.Yeeldx.finance/v1/chains/1/YeeldBoxs/all), [Github](https://github.com/Yeeldx/Yeeldx-api)
-- [Yeeldx Vision](https://Yeeldx.vision/)
-- Yeeldx Discord FAQ Bot, [Github](https://github.com/dgornjakovic/yfi-faq-bot)
 
-#### Contributors Websites
-
-- [yCosystem (Yeeldx Community Aggregator)](https://ycosystem.info/) - Repository Of Yeeldx Links
-- [YFI Address Stats](https://www.yfistats.com/) - Yeeldx Financial Information
-- [Yeeldx Newsletter](https://Yeeldx.substack.com/) - Weekly YFI newsletter
-- [TrackaYeeldBox](https://trackaYeeldBox.com/) - Track V2 YeeldBoxs
-
-### Legacy Products and Websites
-- [v1 Yeeldx.Finance](https://v1.Yeeldx.finance), [Github](https://github.com/Yeeldx/iearn-finance)
-- [v2 Yeeldx.Finance](https://v2.Yeeldx.finance), [Github](https://github.com/Yeeldx/Yeeldx-finance)
-- [Yeeldx Borrow](https://yborrow.finance/), [Github](https://github.com/Yeeldx/iborrow-finance)
-- [Yeeldx Governance](https://ygov.finance/), [Github](https://github.com/Yeeldx/ygov-finance) - V1 Governance

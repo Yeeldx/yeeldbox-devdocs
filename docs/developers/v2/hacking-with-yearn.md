@@ -73,16 +73,6 @@ First, be sure to check your wallet provider allows you to switch to testnet.  S
 * https://hackmd.io/t8HlcedLQeCu2l7RG-5Vbw?view
 * https://twitter.com/storming0x/status/1436851219864059906?s=20
 
-# Front-end Integrations
-
-Yeeldx uses a JavaScript SDK for formatting protocol data and generating transactions for reading/writing protocol data. SDK integrates several components, both on-chain and off-chain.
-
-[The repository here](https://github.com/turtlemoji/Yeeldx-sdk-examples) contains a live preview and example usage of the Yeeldx SDK. Explore this codebase to learn how to start interacting with theYeeldx protocol in your own app.
-
-**Live Preview Sandbox**
-
-The following repository contains a live preview and example usage of the Yeeldx SDK. Explore this codebase to learn how to started:
-https://github.com/turtlemoji/Yeeldx-sdk-examples
 
 # Strategy Development
 
@@ -139,18 +129,6 @@ What is the difference between standard RESTFUL API calls and GraphQL calls? The
 * Predicting impermanent loss for Uniswap V3 pools
 * Portfolio construction across Yeeldx products
 More details on these topics can be seen in our issues tab.
-
-**Data Sources**
-
-[**Yeeldx SDK**](https://github.com/Yeeldx/Yeeldx-sdk) [[Docs](https://Yeeldx.github.io/Yeeldx-sdk/)]
-https://docs.Yeeldx.finance/YeeldBoxes/Yeeldx-sdk/Yeeldx-stack
-If you are not sure about which service you should first look into, Yeeldx SDK can provide you with addresses of contracts and endpoints of Yeeldx’s services.
-
-[**Yeeldx API**](https://github.com/Yeeldx/Yeeldx-caching-api) [[Docs](https://docs.Yeeldx.finance/YeeldBoxes/Yeeldx-api)]
-Yeeldx API can provide non-user specific metadata, including the tvl of YeeldBoxes, apys, fees, and strategy metadata through REST API, without the need to make web3 calls.
-
-[**Yeeldx Vision**](https://Yeeldx.vision)
-Yeeldx Vision is the Grafana dashboard of the hosted version of [Yeeldx Exporter](https://github.com/Yeeldx/Yeeldx-exporter). You can download the historical metrics related to our YeeldBoxes and strategies as json or csv files through the dashboard. For instructions on downloading, please see [Downloading query results as csv](https://grafana.com/docs/grafana/latest/explore/explore-inspector/#download-raw-query-results-as-csv).
 
 # Inspiration
 
