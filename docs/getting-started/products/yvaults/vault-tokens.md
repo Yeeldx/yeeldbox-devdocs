@@ -6,7 +6,7 @@
 
 If your YeeldBox generates profit, the share price of your YeeldBox tokens will increase. This happens because there are more underlying tokens in the YeeldBox to redeem upon withdrawal.
 
-![]([https://postimg.cc/06pbcQmM])
+![](https://postimg.cc/06pbcQmM)
 ![](https://postimg.cc/SY95zwHh)
 
 _The BoxYEELD token at [Arbiscan](https://arbiscan.io/token/0xded8b4ac5a4a1d70d633a87a22d9a7a8851bea1b#readContract), showing its name, total assets and price per share._
